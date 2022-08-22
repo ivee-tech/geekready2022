@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rose-app-dep
+spec:
+  selector:
+    matchLabels:
+      app: rose-app
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: rose-app
+    spec:
+      containers:
+        - name: rose-app
+          image: zzacr.azurecr.io/geekready2022/hello-geekready-2022:0.0.1
+          ports:
+            - containerPort: 2999
+              protocol: TCP
+          tty: true
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m

@@ -1,0 +1,511 @@
+{
+  "fileName": "Dan R's Story.txt",
+    "originalLocation":  {"latitude":44.46041488647461,"longitude":26.146804809570312,"altitude":0,"altitudeReference":-1,"name":"Colentina, Romania"},
+    "updatedLocation":  {"latitude":44.46065044769362,"longitude":26.14665508270263,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Hi, I am Dan Radu, born in Bucharest, Romania and this is my story.\r\nMy parents' house was at the outskirts of the ciy, nearby a beautiful forest, called Andronache in Colentina.\r\nWhen I was a child, in Winter, we used to play a lot in the snow.\r\nThe snow was beautiful back then, it used to last for the entire season.\r\nWe used to make snowmen, fight with snow balls, build forts and so on.\r\nThere were huge slides and we were using our sleds to go for tens of metres.\r\nSometimes someone got injured, but it wasn't a big drama, they cried a little, went back home, then they returned the next day even more eager to play.\r\nIt was the time of our life and we enjoyed every bit of it.\r\nUnfortunately, the snow these days doesn't last any more. A couple of days tops, then it turns into a big dusty mush.\r\nAlthough there are still cold days in Winter, the temperature is not good enough to keep the snow.\r\nClimate change has transformed the seasons and Winter is no longer the season I used to enjoy as a child.\r\nOn top of that Summer season is way too hot, with much higher temperatures than I am used to.\r\nClimate change must be taken seriously, otherwise the entire planet will melt.\r\n",
+  "storyUpdatedText": "Hi, I am Dan Radu, born in Bucharest, Romania and this is my story.\r\nMy parents' house was at the outskirts of the ciy, nearby a beautiful forest, called Andronache in Colentina.\r\nWhen I was a child, in Winter, we used to play a lot in the snow.\r\nThe snow was beautiful back then, it used to last for the entire season.\r\nWe used to make snowmen, fight with snow balls, build forts and so on.\r\nThere were huge slides and we were using our sleds to go for tens of metres.\r\nSometimes someone got injured, but it wasn't a big drama, they cried a little, went back home, then they returned the next day even more eager to play.\r\nIt was the time of our life and we enjoyed every bit of it.\r\nUnfortunately, the snow these days doesn't last any more. A couple of days tops, then it turns into a big dusty mush.\r\nAlthough there are still cold days in Winter, the temperature is not good enough to keep the snow.\r\nClimate change has transformed the seasons and Winter is no longer the season I used to enjoy as a child.\r\nOn top of that Summer season is way too hot, with much higher temperatures than I am used to.\r\nClimate change must be taken seriously, otherwise the entire planet will melt.\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.39,
+        "neutral": 0.01,
+        "negative": 0.6
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.18,
+            "neutral": 0.8,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "Hi, I am Dan Radu, born in Bucharest, Romania and this is my story.",
+          "offset": 0,
+          "length": 67,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.95,
+            "neutral": 0.04,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "My parents' house was at the outskirts of the ciy, nearby a beautiful forest, called Andronache in Colentina.",
+          "offset": 69,
+          "length": 109,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.96,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "When I was a child, in Winter, we used to play a lot in the snow.",
+          "offset": 180,
+          "length": 65,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "The snow was beautiful back then, it used to last for the entire season.",
+          "offset": 247,
+          "length": 72,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.02,
+            "negative": 0.98
+          },
+          "sentiment": "negative",
+          "text": "We used to make snowmen, fight with snow balls, build forts and so on.",
+          "offset": 321,
+          "length": 70,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.06,
+            "neutral": 0.92,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "There were huge slides and we were using our sleds to go for tens of metres.",
+          "offset": 393,
+          "length": 76,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Sometimes someone got injured, but it wasn't a big drama, they cried a little, went back home, then they returned the next day even more eager to play.",
+          "offset": 471,
+          "length": 151,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "It was the time of our life and we enjoyed every bit of it.",
+          "offset": 624,
+          "length": 59,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Unfortunately, the snow these days doesn't last any more.",
+          "offset": 685,
+          "length": 57,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "A couple of days tops, then it turns into a big dusty mush.",
+          "offset": 743,
+          "length": 59,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Although there are still cold days in Winter, the temperature is not good enough to keep the snow.",
+          "offset": 804,
+          "length": 98,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.96,
+            "neutral": 0.03,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "Climate change has transformed the seasons and Winter is no longer the season I used to enjoy as a child.",
+          "offset": 904,
+          "length": 105,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.03,
+            "negative": 0.97
+          },
+          "sentiment": "negative",
+          "text": "On top of that Summer season is way too hot, with much higher temperatures than I am used to.",
+          "offset": 1011,
+          "length": 93,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.69,
+            "negative": 0.29
+          },
+          "sentiment": "neutral",
+          "text": "Climate change must be taken seriously, otherwise the entire planet will melt.",
+          "offset": 1106,
+          "length": 78,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "big dusty mush",
+        "big drama",
+        "Dan Radu",
+        "parents' house",
+        "beautiful forest",
+        "huge slides",
+        "days tops",
+        "cold days",
+        "Climate change",
+        "higher temperatures",
+        "entire planet",
+        "entire season",
+        "Summer season",
+        "snow balls",
+        "Bucharest",
+        "Romania",
+        "story",
+        "outskirts",
+        "ciy",
+        "Colentina",
+        "child",
+        "Winter",
+        "lot",
+        "snowmen",
+        "forts",
+        "sleds",
+        "tens",
+        "metres",
+        "someone",
+        "time",
+        "life",
+        "bit",
+        "seasons"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Dan Radu",
+          "category": "Person",
+          "offset": 9,
+          "length": 8,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Bucharest",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 27,
+          "length": 9,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Romania",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 38,
+          "length": 7,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 72,
+          "length": 7,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 81,
+          "length": 5,
+          "confidenceScore": 0.83
+        },
+        {
+          "text": "ciy",
+          "category": "Location",
+          "offset": 115,
+          "length": 3,
+          "confidenceScore": 0.7
+        },
+        {
+          "text": "forest",
+          "category": "Location",
+          "offset": 139,
+          "length": 6,
+          "confidenceScore": 0.77
+        },
+        {
+          "text": "Andronache in",
+          "category": "Location",
+          "offset": 154,
+          "length": 13,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "Colentina",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 168,
+          "length": 9,
+          "confidenceScore": 0.39
+        },
+        {
+          "text": "Winter",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 203,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "snowmen",
+          "category": "PersonType",
+          "offset": 337,
+          "length": 7,
+          "confidenceScore": 0.74
+        },
+        {
+          "text": "fight",
+          "category": "Skill",
+          "offset": 346,
+          "length": 5,
+          "confidenceScore": 0.57
+        },
+        {
+          "text": "snow balls",
+          "category": "Product",
+          "offset": 357,
+          "length": 10,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "forts",
+          "category": "Product",
+          "offset": 375,
+          "length": 5,
+          "confidenceScore": 0.49
+        },
+        {
+          "text": "sleds",
+          "category": "Product",
+          "offset": 438,
+          "length": 5,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "metres",
+          "category": "Quantity",
+          "subCategory": "Dimension",
+          "offset": 462,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "home",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 560,
+          "length": 4,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "the next day",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 585,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "bit",
+          "category": "Quantity",
+          "subCategory": "Dimension",
+          "offset": 673,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "A couple of days",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 743,
+          "length": 16,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Winter",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 842,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Winter",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 951,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Summer",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 1026,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Climate change",
+          "category": "Event",
+          "offset": 1106,
+          "length": 14,
+          "confidenceScore": 0.7
+        },
+        {
+          "text": "change",
+          "category": "Skill",
+          "offset": 1114,
+          "length": 6,
+          "confidenceScore": 0.77
+        },
+        {
+          "text": "planet",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 1167,
+          "length": 6,
+          "confidenceScore": 0.71
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Dan Radu",
+          "category": "Person",
+          "offset": 9,
+          "length": 8,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 72,
+          "length": 7,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "Winter",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 203,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "snowmen",
+          "category": "PersonType",
+          "offset": 337,
+          "length": 7,
+          "confidenceScore": 0.74
+        },
+        {
+          "text": "the next day",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 585,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "A couple of days",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 743,
+          "length": 16,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Winter",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 842,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Winter",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 951,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Summer",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 1026,
+          "length": 6,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "Hi, I am ********, born in Bucharest, Romania and this is my story.\r\nMy *******' house was at the outskirts of the ciy, nearby a beautiful forest, called Andronache in Colentina.\r\nWhen I was a child, in ******, we used to play a lot in the snow.\r\nThe snow was beautiful back then, it used to last for the entire season.\r\nWe used to make *******, fight with snow balls, build forts and so on.\r\nThere were huge slides and we were using our sleds to go for tens of metres.\r\nSometimes someone got injured, but it wasn't a big drama, they cried a little, went back home, then they returned ************ even more eager to play.\r\nIt was the time of our life and we enjoyed every bit of it.\r\nUnfortunately, the snow these days doesn't last any more. **************** tops, then it turns into a big dusty mush.\r\nAlthough there are still cold days in ******, the temperature is not good enough to keep the snow.\r\nClimate change has transformed the seasons and ****** is no longer the season I used to enjoy as a child.\r\nOn top of that ****** season is way too hot, with much higher temperatures than I am used to.\r\nClimate change must be taken seriously, otherwise the entire planet will melt.\r\n"
+    }
+  ]
+}

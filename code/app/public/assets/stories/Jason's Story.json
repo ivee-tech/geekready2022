@@ -1,0 +1,970 @@
+{
+  "fileName": "Jason's Story.txt",
+  "originalLocation": {"latitude": -37.951760, "longitude": 176.995400},
+  "updatedLocation": {"latitiude": -37.951760, "longitude": 176.995400},
+  "storyOriginalText": "Jason Paul Mika\r\nI was born in Whakatāne in 1971 and raised mainly in Rotorua by Tūhoe kuia and Ngātikahu Ki Whangaroa koro under the maru of the Te Arawa people. On my mother’s side I whakapapa to the Mataatua waka, primarily Tūhoe, Ngāti Awa, Whakatōhea but also to the Tākitimu waka, Ngāti Kahungunu ki te Wairoa. On my dad’s side I have French and Scottish whakapapa. We lived for a time when I was aged 7-10 years on some whenua Māori in council owned houses on Te Ngae Road, just across the road from the Arawa Racecourse. Our house must have been 70-80 years old by the time we moved in around 1978, same with the neighbours house where the Dormans lived. Our houses were surrounded by big gum trees and ngāhwā—hot water springs, with a working foundary nearby that closed not long after we arrived. As a kid my older sisters and I would venture through the bush must to our parents displeasure because we’d invaribly come back covered in mud, same with our bikes. We knew where the ngāwhā were. When mum’s brother visited from Rūātoki I took him out the back and he couldn’t believe the ngāwhā were just right there. He climbed into one of them and had a good kaukau. I used to cut through the bush to get to town. You could say it was a dangerous place. I probably wouldn’t let my kids roam around there now because its changed so much. The old houses are long gone, same with the foundary. Te Ngae Road too changed when Pack n Save was built so the stretch of Te Ngae where our house was became less used. The town’s waste treatment plant was just down the street from our house and is now needing replacement. It used to pump treated waste into Lake Rotorua, but this was diverted to the Whaka forest. So it was not advisable to go swimming down the back of the house or by the old Tutor Towers (now the Bath House), but we did. Apparently water quality has much improved, but there is a continuing stigma attached to the lake because of the waste, farm runoff, and development of the area. I would say the house used to be located at about 50 Te Ngāe Road.\r\n\r\n",
+  "storyUpdatedText": "Jason Paul Mika\r\nI was born in Whakatāne in 1971 and raised mainly in Rotorua by Tūhoe kuia and Ngātikahu Ki Whangaroa koro under the maru of the Te Arawa people. On my mother’s side I whakapapa to the Mataatua waka, primarily Tūhoe, Ngāti Awa, Whakatōhea but also to the Tākitimu waka, Ngāti Kahungunu ki te Wairoa. On my dad’s side I have French and Scottish whakapapa. We lived for a time when I was aged 7-10 years on some whenua Māori in council owned houses on Te Ngae Road, just across the road from the Arawa Racecourse. Our house must have been 70-80 years old by the time we moved in around 1978, same with the neighbours house where the Dormans lived. Our houses were surrounded by big gum trees and ngāhwā—hot water springs, with a working foundary nearby that closed not long after we arrived. As a kid my older sisters and I would venture through the bush must to our parents displeasure because we’d invaribly come back covered in mud, same with our bikes. We knew where the ngāwhā were. When mum’s brother visited from Rūātoki I took him out the back and he couldn’t believe the ngāwhā were just right there. He climbed into one of them and had a good kaukau. I used to cut through the bush to get to town. You could say it was a dangerous place. I probably wouldn’t let my kids roam around there now because its changed so much. The old houses are long gone, same with the foundary. Te Ngae Road too changed when Pack n Save was built so the stretch of Te Ngae where our house was became less used. The town’s waste treatment plant was just down the street from our house and is now needing replacement. It used to pump treated waste into Lake Rotorua, but this was diverted to the Whaka forest. So it was not advisable to go swimming down the back of the house or by the old Tutor Towers (now the Bath House), but we did. Apparently water quality has much improved, but there is a continuing stigma attached to the lake because of the waste, farm runoff, and development of the area. I would say the house used to be located at about 50 Te Ngāe Road.\r\n\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.25,
+        "neutral": 0.04,
+        "negative": 0.71
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.95,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Jason Paul Mika\r\nI was born in Whakatāne in 1971 and raised mainly in Rotorua by Tūhoe kuia and Ngātikahu Ki Whangaroa koro under the maru of the Te Arawa people.",
+          "offset": 0,
+          "length": 162,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.24,
+            "neutral": 0.65,
+            "negative": 0.11
+          },
+          "sentiment": "neutral",
+          "text": "On my mother’s side I whakapapa to the Mataatua waka, primarily Tūhoe, Ngāti Awa, Whakatōhea but also to the Tākitimu waka, Ngāti Kahungunu ki te Wairoa.",
+          "offset": 163,
+          "length": 153,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.09,
+            "neutral": 0.9,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "On my dad’s side I have French and Scottish whakapapa.",
+          "offset": 317,
+          "length": 54,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "We lived for a time when I was aged 7-10 years on some whenua Māori in council owned houses on Te Ngae Road, just across the road from the Arawa Racecourse.",
+          "offset": 372,
+          "length": 156,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.25,
+            "neutral": 0.74,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Our house must have been 70-80 years old by the time we moved in around 1978, same with the neighbours house where the Dormans lived.",
+          "offset": 529,
+          "length": 133,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.04,
+            "neutral": 0.84,
+            "negative": 0.12
+          },
+          "sentiment": "neutral",
+          "text": "Our houses were surrounded by big gum trees and ngāhwā—hot water springs, with a working foundary nearby that closed not long after we arrived.",
+          "offset": 663,
+          "length": 143,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.06,
+            "negative": 0.93
+          },
+          "sentiment": "negative",
+          "text": "As a kid my older sisters and I would venture through the bush must to our parents displeasure because we’d invaribly come back covered in mud, same with our bikes.",
+          "offset": 807,
+          "length": 164,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.04,
+            "neutral": 0.93,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "We knew where the ngāwhā were.",
+          "offset": 972,
+          "length": 30,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.87,
+            "negative": 0.1
+          },
+          "sentiment": "neutral",
+          "text": "When mum’s brother visited from Rūātoki I took him out the back and he couldn’t believe the ngāwhā were just right there.",
+          "offset": 1003,
+          "length": 121,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "He climbed into one of them and had a good kaukau.",
+          "offset": 1125,
+          "length": 50,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.05,
+            "neutral": 0.94,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "I used to cut through the bush to get to town.",
+          "offset": 1176,
+          "length": 46,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.01,
+            "negative": 0.99
+          },
+          "sentiment": "negative",
+          "text": "You could say it was a dangerous place.",
+          "offset": 1223,
+          "length": 39,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.9,
+            "negative": 0.08
+          },
+          "sentiment": "neutral",
+          "text": "I probably wouldn’t let my kids roam around there now because its changed so much.",
+          "offset": 1263,
+          "length": 82,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.98,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "The old houses are long gone, same with the foundary.",
+          "offset": 1346,
+          "length": 53,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.72,
+            "neutral": 0.23,
+            "negative": 0.05
+          },
+          "sentiment": "positive",
+          "text": "Te Ngae Road too changed when Pack n Save was built so the stretch of Te Ngae where our house was became less used.",
+          "offset": 1400,
+          "length": 115,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "The town’s waste treatment plant was just down the street from our house and is now needing replacement.",
+          "offset": 1516,
+          "length": 104,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.01,
+            "negative": 0.99
+          },
+          "sentiment": "negative",
+          "text": "It used to pump treated waste into Lake Rotorua, but this was diverted to the Whaka forest.",
+          "offset": 1621,
+          "length": 91,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.94,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "So it was not advisable to go swimming down the back of the house or by the old Tutor Towers (now the Bath House), but we did.",
+          "offset": 1713,
+          "length": 126,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Apparently water quality has much improved, but there is a continuing stigma attached to the lake because of the waste, farm runoff, and development of the area.",
+          "offset": 1840,
+          "length": 161,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "I would say the house used to be located at about 50 Te Ngāe Road.",
+          "offset": 2002,
+          "length": 66,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "Ngātikahu Ki Whangaroa koro",
+        "ngāhwā—hot water springs",
+        "Ngāti Kahungunu ki",
+        "50 Te Ngāe Road",
+        "Ngāti Awa",
+        "Jason Paul Mika",
+        "whenua Māori",
+        "big gum trees",
+        "Pack n Save",
+        "Te Arawa people",
+        "old Tutor Towers",
+        "Te Ngae Road",
+        "Tūhoe kuia",
+        "Tākitimu waka",
+        "waste treatment plant",
+        "ngāwhā",
+        "water quality",
+        "Mataatua waka",
+        "Arawa Racecourse",
+        "Whakatāne",
+        "Whakatōhea",
+        "Scottish whakapapa",
+        "older sisters",
+        "Rūātoki",
+        "good kaukau",
+        "dangerous place",
+        "Whaka forest",
+        "continuing stigma",
+        "farm runoff",
+        "old houses",
+        "working foundary",
+        "neighbours house",
+        "Bath House",
+        "Lake Rotorua",
+        "maru",
+        "mother",
+        "side",
+        "Wairoa",
+        "dad",
+        "French",
+        "time",
+        "council",
+        "Dormans",
+        "kid",
+        "bush",
+        "parents",
+        "mud",
+        "bikes",
+        "mum",
+        "brother",
+        "back",
+        "town",
+        "stretch",
+        "street",
+        "replacement",
+        "development",
+        "area"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Jason Paul Mika",
+          "category": "Person",
+          "offset": 0,
+          "length": 15,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Whakatāne",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 31,
+          "length": 9,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "1971",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 44,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Rotorua",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 70,
+          "length": 7,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "Tūhoe kuia",
+          "category": "Person",
+          "offset": 81,
+          "length": 10,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "Ngātikahu Ki Whangaroa koro",
+          "category": "Person",
+          "offset": 96,
+          "length": 27,
+          "confidenceScore": 0.93
+        },
+        {
+          "text": "Te Arawa",
+          "category": "PersonType",
+          "offset": 146,
+          "length": 8,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "mother",
+          "category": "PersonType",
+          "offset": 169,
+          "length": 6,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "dad",
+          "category": "PersonType",
+          "offset": 323,
+          "length": 3,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "whakapapa",
+          "category": "Product",
+          "offset": 361,
+          "length": 9,
+          "confidenceScore": 0.77
+        },
+        {
+          "text": "7",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 408,
+          "length": 1,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "10 years",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 410,
+          "length": 8,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "whenua Māori",
+          "category": "PersonType",
+          "offset": 427,
+          "length": 12,
+          "confidenceScore": 0.65
+        },
+        {
+          "text": "houses",
+          "category": "Location",
+          "offset": 457,
+          "length": 6,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "Te Ngae Road",
+          "category": "Address",
+          "offset": 467,
+          "length": 12,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "Arawa Racecourse",
+          "category": "Location",
+          "offset": 511,
+          "length": 16,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 533,
+          "length": 5,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "70",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 554,
+          "length": 2,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "80 years old",
+          "category": "Quantity",
+          "subCategory": "Age",
+          "offset": 557,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "around 1978",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 594,
+          "length": 11,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "neighbours",
+          "category": "PersonType",
+          "offset": 621,
+          "length": 10,
+          "confidenceScore": 0.52
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 632,
+          "length": 5,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "Dormans",
+          "category": "Person",
+          "offset": 648,
+          "length": 7,
+          "confidenceScore": 0.88
+        },
+        {
+          "text": "houses",
+          "category": "Location",
+          "offset": 667,
+          "length": 6,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "foundary",
+          "category": "Location",
+          "offset": 752,
+          "length": 8,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "sisters",
+          "category": "PersonType",
+          "offset": 825,
+          "length": 7,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "bush",
+          "category": "Location",
+          "offset": 865,
+          "length": 4,
+          "confidenceScore": 0.61
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 882,
+          "length": 7,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "bikes",
+          "category": "Product",
+          "offset": 965,
+          "length": 5,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "ngāwhā",
+          "category": "Location",
+          "offset": 990,
+          "length": 6,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "mum",
+          "category": "PersonType",
+          "offset": 1008,
+          "length": 3,
+          "confidenceScore": 0.88
+        },
+        {
+          "text": "brother",
+          "category": "PersonType",
+          "offset": 1014,
+          "length": 7,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Rūātoki",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 1035,
+          "length": 7,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "ngāwhā",
+          "category": "PersonType",
+          "offset": 1095,
+          "length": 6,
+          "confidenceScore": 0.59
+        },
+        {
+          "text": "one",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 1141,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "bush",
+          "category": "Location",
+          "offset": 1202,
+          "length": 4,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "town",
+          "category": "Location",
+          "offset": 1217,
+          "length": 4,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1313,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "houses",
+          "category": "Location",
+          "offset": 1354,
+          "length": 6,
+          "confidenceScore": 0.64
+        },
+        {
+          "text": "foundary",
+          "category": "Location",
+          "offset": 1390,
+          "length": 8,
+          "confidenceScore": 0.36
+        },
+        {
+          "text": "Te Ngae Road",
+          "category": "Address",
+          "offset": 1400,
+          "length": 12,
+          "confidenceScore": 0.94
+        },
+        {
+          "text": "Pack n Save",
+          "category": "Location",
+          "offset": 1430,
+          "length": 11,
+          "confidenceScore": 0.79
+        },
+        {
+          "text": "Te Ngae",
+          "category": "Location",
+          "offset": 1470,
+          "length": 7,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 1488,
+          "length": 5,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "waste treatment plant",
+          "category": "Location",
+          "offset": 1527,
+          "length": 21,
+          "confidenceScore": 0.61
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 1583,
+          "length": 5,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1596,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Lake Rotorua",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1656,
+          "length": 12,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Whaka forest",
+          "category": "Location",
+          "offset": 1699,
+          "length": 12,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 1773,
+          "length": 5,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "Tutor Towers",
+          "category": "Location",
+          "offset": 1793,
+          "length": 12,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1807,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Bath House",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 1815,
+          "length": 10,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "lake",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1933,
+          "length": 4,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "development",
+          "category": "Skill",
+          "offset": 1977,
+          "length": 11,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "house",
+          "category": "Location",
+          "offset": 2018,
+          "length": 5,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "50 Te Ngāe Road",
+          "category": "Address",
+          "offset": 2052,
+          "length": 15,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "50",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 2052,
+          "length": 2,
+          "confidenceScore": 0.8
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Jason Paul Mika",
+          "category": "Person",
+          "offset": 0,
+          "length": 15,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "1971",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 44,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Tūhoe kuia",
+          "category": "Person",
+          "offset": 81,
+          "length": 10,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "Ngātikahu Ki Whangaroa",
+          "category": "Person",
+          "offset": 96,
+          "length": 22,
+          "confidenceScore": 0.52
+        },
+        {
+          "text": "maru",
+          "category": "PersonType",
+          "offset": 134,
+          "length": 4,
+          "confidenceScore": 0.47
+        },
+        {
+          "text": "Te Arawa",
+          "category": "PersonType",
+          "offset": 146,
+          "length": 8,
+          "confidenceScore": 0.5
+        },
+        {
+          "text": "mother",
+          "category": "PersonType",
+          "offset": 169,
+          "length": 6,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "hoe",
+          "category": "Person",
+          "offset": 229,
+          "length": 3,
+          "confidenceScore": 0.3
+        },
+        {
+          "text": "Ng",
+          "category": "Person",
+          "offset": 234,
+          "length": 2,
+          "confidenceScore": 0.29
+        },
+        {
+          "text": "Whakat",
+          "category": "Person",
+          "offset": 245,
+          "length": 6,
+          "confidenceScore": 0.27
+        },
+        {
+          "text": "dad",
+          "category": "PersonType",
+          "offset": 323,
+          "length": 3,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "10 years",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 410,
+          "length": 8,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Māori",
+          "category": "PersonType",
+          "offset": 434,
+          "length": 5,
+          "confidenceScore": 0.7
+        },
+        {
+          "text": "Te Ngae Road",
+          "category": "Address",
+          "offset": 467,
+          "length": 12,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "80 years old",
+          "category": "Quantity",
+          "subCategory": "Age",
+          "offset": 557,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "around 1978",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 594,
+          "length": 11,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Dormans",
+          "category": "Person",
+          "offset": 648,
+          "length": 7,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "sisters",
+          "category": "PersonType",
+          "offset": 825,
+          "length": 7,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 882,
+          "length": 7,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "mum",
+          "category": "PersonType",
+          "offset": 1008,
+          "length": 3,
+          "confidenceScore": 0.65
+        },
+        {
+          "text": "brother",
+          "category": "PersonType",
+          "offset": 1014,
+          "length": 7,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "Rūātoki",
+          "category": "Person",
+          "offset": 1035,
+          "length": 7,
+          "confidenceScore": 0.64
+        },
+        {
+          "text": "kids",
+          "category": "PersonType",
+          "offset": 1290,
+          "length": 4,
+          "confidenceScore": 0.63
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1313,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "foundary",
+          "category": "PersonType",
+          "offset": 1390,
+          "length": 8,
+          "confidenceScore": 0.72
+        },
+        {
+          "text": "Te Ngae Road",
+          "category": "Address",
+          "offset": 1400,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1596,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1807,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "50 Te Ngāe Road",
+          "category": "Address",
+          "offset": 2052,
+          "length": 15,
+          "confidenceScore": 0.95
+        }
+      ],
+      "redactedText": "***************\r\nI was born in Whakatāne in **** and raised mainly in Rotorua by ********** and ********************** koro under the **** of the ******** people. On my ******’s side I whakapapa to the Mataatua waka, primarily Tū***, **āti Awa, ******ōhea but also to the Tākitimu waka, Ngāti Kahungunu ki te Wairoa. On my ***’s side I have French and Scottish whakapapa. We lived for a time when I was aged 7-******** on some whenua ***** in council owned houses on ************, just across the road from the Arawa Racecourse. Our house must have been 70-************ by the time we moved in ***********, same with the neighbours house where the ******* lived. Our houses were surrounded by big gum trees and ngāhwā—hot water springs, with a working foundary nearby that closed not long after we arrived. As a kid my older ******* and I would venture through the bush must to our ******* displeasure because we’d invaribly come back covered in mud, same with our bikes. We knew where the ngāwhā were. When ***’s ******* visited from ******* I took him out the back and he couldn’t believe the ngāwhā were just right there. He climbed into one of them and had a good kaukau. I used to cut through the bush to get to town. You could say it was a dangerous place. I probably wouldn’t let my **** roam around there *** because its changed so much. The old houses are long gone, same with the ********. ************ too changed when Pack n Save was built so the stretch of Te Ngae where our house was became less used. The town’s waste treatment plant was just down the street from our house and is *** needing replacement. It used to pump treated waste into Lake Rotorua, but this was diverted to the Whaka forest. So it was not advisable to go swimming down the back of the house or by the old Tutor Towers (*** the Bath House), but we did. Apparently water quality has much improved, but there is a continuing stigma attached to the lake because of the waste, farm runoff, and development of the area. I would say the house used to be located at about ***************.\r\n\r\n"
+    }
+  ]
+}

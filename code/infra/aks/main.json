@@ -1,0 +1,395 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.4.613.9944",
+      "templateHash": "4884013557735247426"
+    }
+  },
+  "parameters": {
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "vnetPrefix": {
+      "type": "string",
+      "defaultValue": "10.0.0.0/16"
+    },
+    "k8sVersion": {
+      "type": "string",
+      "defaultValue": "1.19.7"
+    },
+    "adminUsername": {
+      "type": "string",
+      "defaultValue": "azureuser"
+    },
+    "adminPublicKey": {
+      "type": "string"
+    },
+    "adminGroupObjectIDs": {
+      "type": "array",
+      "defaultValue": []
+    },
+    "vnetName": {
+      "type": "string"
+    },
+    "deployAcr": {
+      "type": "bool",
+      "defaultValue": false
+    },
+    "acrSku": {
+      "type": "string",
+      "defaultValue": "Basic",
+      "allowedValues": [
+        "Basic",
+        "Standard",
+        "Premium"
+      ]
+    },
+    "acrAdminUserEnabled": {
+      "type": "bool",
+      "defaultValue": true
+    },
+    "acrRole": {
+      "type": "string"
+    },
+    "aksSkuTier": {
+      "type": "string",
+      "defaultValue": "Free",
+      "allowedValues": [
+        "Free",
+        "Paid"
+      ]
+    },
+    "aksVmSize": {
+      "type": "string",
+      "defaultValue": "Standard_D2s_v3"
+    },
+    "aksSubnets": {
+      "type": "array",
+      "defaultValue": []
+    },
+    "aksSubnetName": {
+      "type": "string",
+      "defaultValue": "snet-aks"
+    },
+    "aksNodes": {
+      "type": "int"
+    },
+    "aksNetworkPolicy": {
+      "type": "string",
+      "defaultValue": "calico",
+      "allowedValues": [
+        "azure",
+        "calico"
+      ]
+    },
+    "aksUserVmSize": {
+      "type": "string",
+      "defaultValue": "Standard_D2s_v3"
+    },
+    "aksUserNodes": {
+      "type": "int"
+    },
+    "aksUserSubnetName": {
+      "type": "string",
+      "defaultValue": "user-snet-aks"
+    }
+  },
+  "functions": [],
+  "resources": [
+    {
+      "type": "Microsoft.Network/virtualNetworks",
+      "apiVersion": "2020-08-01",
+      "name": "[if(equals(parameters('vnetName'), ''), format('{0}-{1}-vnet', parameters('prefix'), parameters('suffix')), parameters('vnetName'))]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "[parameters('vnetPrefix')]"
+          ]
+        },
+        "subnets": "[parameters('aksSubnets')]"
+      }
+    },
+    {
+      "condition": "[parameters('deployAcr')]",
+      "type": "Microsoft.ContainerRegistry/registries",
+      "apiVersion": "2020-11-01-preview",
+      "name": "[format('{0}{1}', parameters('prefix'), parameters('suffix'))]",
+      "location": "[resourceGroup().location]",
+      "sku": {
+        "name": "[parameters('acrSku')]"
+      },
+      "properties": {
+        "adminUserEnabled": "[parameters('acrAdminUserEnabled')]"
+      }
+    },
+    {
+      "condition": "[parameters('deployAcr')]",
+      "type": "Microsoft.Authorization/roleAssignments",
+      "apiVersion": "2020-04-01-preview",
+      "scope": "[format('Microsoft.ContainerRegistry/registries/{0}', format('{0}{1}', parameters('prefix'), parameters('suffix')))]",
+      "name": "[guid(resourceGroup().id)]",
+      "properties": {
+        "principalId": "[reference(resourceId('Microsoft.Resources/deployments', 'AksCluster'), '2019-10-01').outputs.identity.value]",
+        "roleDefinitionId": "[parameters('acrRole')]"
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.ContainerRegistry/registries', format('{0}{1}', parameters('prefix'), parameters('suffix')))]",
+        "[resourceId('Microsoft.Resources/deployments', 'AksCluster')]"
+      ]
+    },
+    {
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2019-10-01",
+      "name": "AksCluster",
+      "properties": {
+        "expressionEvaluationOptions": {
+          "scope": "inner"
+        },
+        "mode": "Incremental",
+        "parameters": {
+          "prefix": {
+            "value": "[parameters('prefix')]"
+          },
+          "suffix": {
+            "value": "[parameters('suffix')]"
+          },
+          "subnetId": {
+            "value": "[format('{0}/subnets/{1}', resourceId('Microsoft.Network/virtualNetworks', if(equals(parameters('vnetName'), ''), format('{0}-{1}-vnet', parameters('prefix'), parameters('suffix')), parameters('vnetName'))), parameters('aksSubnetName'))]"
+          },
+          "adminPublicKey": {
+            "value": "[parameters('adminPublicKey')]"
+          },
+          "userSubnetId": {
+            "value": "[format('{0}/subnets/{1}', resourceId('Microsoft.Network/virtualNetworks', if(equals(parameters('vnetName'), ''), format('{0}-{1}-vnet', parameters('prefix'), parameters('suffix')), parameters('vnetName'))), parameters('aksUserSubnetName'))]"
+          },
+          "aksSettings": {
+            "value": {
+              "clusterName": "[format('{0}-{1}-aks', parameters('prefix'), parameters('suffix'))]",
+              "identity": "SystemAssigned",
+              "kubernetesVersion": "[parameters('k8sVersion')]",
+              "networkPlugin": "azure",
+              "networkPolicy": "[parameters('aksNetworkPolicy')]",
+              "serviceCidr": "172.16.0.0/22",
+              "dnsServiceIP": "172.16.0.10",
+              "dockerBridgeCidr": "172.16.4.1/22",
+              "outboundType": "loadBalancer",
+              "loadBalancerSku": "standard",
+              "sku_tier": "[parameters('aksSkuTier')]",
+              "enableRBAC": true,
+              "aadProfileManaged": true,
+              "adminGroupObjectIDs": "[parameters('adminGroupObjectIDs')]"
+            }
+          },
+          "defaultNodePool": {
+            "value": {
+              "name": "pool01",
+              "count": "[parameters('aksNodes')]",
+              "vmSize": "[parameters('aksVmSize')]",
+              "osDiskSizeGB": 50,
+              "osDiskType": "Ephemeral",
+              "vnetSubnetID": "[format('{0}/subnets/{1}', resourceId('Microsoft.Network/virtualNetworks', if(equals(parameters('vnetName'), ''), format('{0}-{1}-vnet', parameters('prefix'), parameters('suffix')), parameters('vnetName'))), parameters('aksSubnetName'))]",
+              "osType": "Linux",
+              "type": "VirtualMachineScaleSets",
+              "mode": "System"
+            }
+          },
+          "userNodePool": {
+            "value": {
+              "name": "userpool01",
+              "count": "[parameters('aksUserNodes')]",
+              "vmSize": "[parameters('aksUserVmSize')]",
+              "osDiskSizeGB": 50,
+              "osDiskType": "Ephemeral",
+              "vnetSubnetID": "[format('{0}/subnets/{1}', resourceId('Microsoft.Network/virtualNetworks', if(equals(parameters('vnetName'), ''), format('{0}-{1}-vnet', parameters('prefix'), parameters('suffix')), parameters('vnetName'))), parameters('aksUserSubnetName'))]",
+              "osType": "Linux",
+              "type": "VirtualMachineScaleSets",
+              "mode": "User"
+            }
+          }
+        },
+        "template": {
+          "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+          "contentVersion": "1.0.0.0",
+          "metadata": {
+            "_generator": {
+              "name": "bicep",
+              "version": "0.4.613.9944",
+              "templateHash": "11873679698303219854"
+            }
+          },
+          "parameters": {
+            "prefix": {
+              "type": "string"
+            },
+            "suffix": {
+              "type": "string"
+            },
+            "subnetId": {
+              "type": "string"
+            },
+            "adminUsername": {
+              "type": "string",
+              "defaultValue": "azureuser"
+            },
+            "adminPublicKey": {
+              "type": "string"
+            },
+            "userSubnetId": {
+              "type": "string"
+            },
+            "aksSettings": {
+              "type": "object",
+              "defaultValue": {
+                "kubernetesVersion": null,
+                "identity": "SystemAssigned",
+                "networkPlugin": "azure",
+                "networkPolicy": "calico",
+                "serviceCidr": "172.16.0.0/22",
+                "dnsServiceIP": "172.16.0.10",
+                "dockerBridgeCidr": "172.16.4.1/22",
+                "outboundType": "loadBalancer",
+                "loadBalancerSku": "standard",
+                "sku_tier": "Paid",
+                "enableRBAC": true,
+                "aadProfileManaged": true,
+                "adminGroupObjectIDs": []
+              }
+            },
+            "defaultNodePool": {
+              "type": "object",
+              "defaultValue": {
+                "name": "systempool01",
+                "count": 3,
+                "vmSize": "Standard_D2s_v3",
+                "osDiskSizeGB": 50,
+                "osDiskType": "Ephemeral",
+                "vnetSubnetID": "[parameters('subnetId')]",
+                "osType": "Linux",
+                "maxCount": 6,
+                "minCount": 2,
+                "enableAutoScaling": true,
+                "type": "VirtualMachineScaleSets",
+                "mode": "System",
+                "orchestratorVersion": null
+              }
+            },
+            "userNodePool": {
+              "type": "object",
+              "defaultValue": {
+                "name": "userpool01",
+                "count": 3,
+                "vmSize": "Standard_D2s_v3",
+                "osDiskSizeGB": 50,
+                "osDiskType": "Ephemeral",
+                "vnetSubnetID": "[parameters('userSubnetId')]",
+                "osType": "Linux",
+                "maxCount": 6,
+                "minCount": 2,
+                "enableAutoScaling": true,
+                "type": "VirtualMachineScaleSets",
+                "mode": "User",
+                "orchestratorVersion": null
+              }
+            }
+          },
+          "functions": [],
+          "resources": [
+            {
+              "type": "Microsoft.OperationalInsights/workspaces",
+              "apiVersion": "2020-03-01-preview",
+              "name": "[format('{0}-{1}-logA', parameters('prefix'), parameters('suffix'))]",
+              "tags": {},
+              "location": "[resourceGroup().location]",
+              "properties": {
+                "sku": {
+                  "name": "PerGB2018"
+                },
+                "retentionInDays": 30,
+                "workspaceCapping": {
+                  "dailyQuotaGb": 30
+                }
+              }
+            },
+            {
+              "type": "Microsoft.ContainerService/managedClusters",
+              "apiVersion": "2021-02-01",
+              "name": "[parameters('aksSettings').clusterName]",
+              "location": "[resourceGroup().location]",
+              "identity": {
+                "type": "[parameters('aksSettings').identity]"
+              },
+              "sku": {
+                "name": "Basic",
+                "tier": "[parameters('aksSettings').sku_tier]"
+              },
+              "properties": {
+                "kubernetesVersion": "[parameters('aksSettings').kubernetesVersion]",
+                "dnsPrefix": "[parameters('aksSettings').clusterName]",
+                "linuxProfile": {
+                  "adminUsername": "[parameters('adminUsername')]",
+                  "ssh": {
+                    "publicKeys": [
+                      {
+                        "keyData": "[parameters('adminPublicKey')]"
+                      }
+                    ]
+                  }
+                },
+                "addonProfiles": {
+                  "omsagent": {
+                    "enabled": true,
+                    "config": {
+                      "logAnalyticsWorkspaceResourceID": "[resourceId('Microsoft.OperationalInsights/workspaces', format('{0}-{1}-logA', parameters('prefix'), parameters('suffix')))]"
+                    }
+                  }
+                },
+                "enableRBAC": "[parameters('aksSettings').enableRBAC]",
+                "enablePodSecurityPolicy": false,
+                "networkProfile": {
+                  "networkPlugin": "[parameters('aksSettings').networkPlugin]",
+                  "networkPolicy": "[parameters('aksSettings').networkPolicy]",
+                  "serviceCidr": "[parameters('aksSettings').serviceCidr]",
+                  "dnsServiceIP": "[parameters('aksSettings').dnsServiceIP]",
+                  "dockerBridgeCidr": "[parameters('aksSettings').dockerBridgeCidr]",
+                  "outboundType": "[parameters('aksSettings').outboundType]",
+                  "loadBalancerSku": "[parameters('aksSettings').loadBalancerSku]"
+                },
+                "aadProfile": {
+                  "managed": "[parameters('aksSettings').aadProfileManaged]",
+                  "enableAzureRBAC": true,
+                  "adminGroupObjectIDs": "[parameters('aksSettings').adminGroupObjectIDs]"
+                },
+                "apiServerAccessProfile": {
+                  "enablePrivateCluster": false
+                },
+                "agentPoolProfiles": [
+                  "[parameters('defaultNodePool')]",
+                  "[parameters('userNodePool')]"
+                ]
+              },
+              "dependsOn": [
+                "[resourceId('Microsoft.OperationalInsights/workspaces', format('{0}-{1}-logA', parameters('prefix'), parameters('suffix')))]"
+              ]
+            }
+          ],
+          "outputs": {
+            "identity": {
+              "type": "string",
+              "value": "[reference(resourceId('Microsoft.ContainerService/managedClusters', parameters('aksSettings').clusterName), '2021-02-01', 'full').identity.principalId]"
+            }
+          }
+        }
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.Network/virtualNetworks', if(equals(parameters('vnetName'), ''), format('{0}-{1}-vnet', parameters('prefix'), parameters('suffix')), parameters('vnetName')))]"
+      ]
+    }
+  ]
+}

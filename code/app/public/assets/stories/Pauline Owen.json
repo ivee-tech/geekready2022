@@ -1,0 +1,1252 @@
+{
+  "fileName": "Pauline Owen.wav",
+  "videoFileName": "Pauline Owen.mp4",
+  "originalLocation": { "latitude": -41.225874, "longitude": 174.925944 },
+  "updatedLocation": { "latitude": -41.225874, "longitude": 174.925944 },
+  "storyOriginalText": "Morena. My name is Pauline writer Owen and I was born in 1953 and why feature? I am Chihuahua. Ecoa, Maui. I grew up and wife eat you. In those days we had no cars. So we would catch. Buses, trams and trains. But in Wi-Fi two we had plenty of streams. And abundance of CHI we would go there to get our water Chris to get worms so we could catch eels to swim. We would picnic on our river. It was so beautiful and clean that we could just. Swim all day up and down the river. Playing with our families, we would go up to the bushes and get passion. Fruit, blackberries, puhar. We will put our corn in the river so that it would. I would ferment 'cause that's the way we ate it and now flex grew. There was abundance of everything. We would get our cover color and firm roots also. Our parents would take us on the train and then the tram and to go round the bays of Wellington so that we could go fishing and learn where to go, where all the best places were we all the chi was there was no diving and now these days food were so abundant that it the water only came up to your knees. And the water was so clear, our river was beautiful and clear. And he was always things happening. We would have output mix on the river, but we had no cars, so that was our picnic area, the park. And the River Wye, free to stream at his court today. And it's only small today, but in the old days it was wider. I remember swimming and diving off the trees that went across the river swing down to Griffins. Stewie Griffins was with the biscuits were and the old man Griffins would give a sky and biscuits to bring home. It was such a lovely type. I miss all those types. Consider we can't swim in our river. We can't get water. Chris, our Eels are slowly coming back. But I don't know whether I would eat it out of that river 'cause it is so proud of. I miss my old days. I miss the times when we would go camping out at the beach. For sharing with our families. Here. And it was in the 50s, right up to. The Seawind teeth. 80s but now. It is so petty that I wouldn't want to eat out of our river only if I really had to. And going to the beach these days, going out to them? Wanna you have to dive? You can't just bend down what we used to and just gather things cockles, mussels, Boo boos. Google. So say that we need to save what we have before we have nothing. Killed. ",
+  "storyUpdatedText": "Morena. My name is Pauline writer Owen and I was born in 1953 and Waiwhetu. I am Chihuahua. Ecoa, Maui. I grew up in Waiwhetu. In those days we had no cars. So we would catch. Buses, trams and trains. But in Waiwhetu we had plenty of streams. And abundance of CHI we would go there to get our watercresss to get worms so we could catch eels to swim. We would picnic on our river. It was so beautiful and clean that we could just. Swim all day up and down the river. Playing with our families, we would go up to the bushes and get passion. Fruit, blackberries, puhar. We will put our corn in the river so that it would. I would ferment 'cause that's the way we ate it and now flex grew. There was abundance of everything. We would get our cover color and firm roots also. Our parents would take us on the train and then the tram and to go round the bays of Wellington so that we could go fishing and learn where to go, where all the best places were we all the chi was there was no diving and now these days food were so abundant that it the water only came up to your knees. And the water was so clear, our river was beautiful and clear. And he was always things happening. We would have output mix on the river, but we had no cars, so that was our picnic area, the park. And the River Wye, free to stream at his court today. And it's only small today, but in the old days it was wider. I remember swimming and diving off the trees that went across the river swing down to Griffins. Stewie Griffins was with the biscuits were and the old man Griffins would give a sky and biscuits to bring home. It was such a lovely type. I miss all those types. Consider we can't swim in our river. We can't get watercress, our Eels are slowly coming back. But I don't know whether I would eat it out of that river 'cause it is so proud of. I miss my old days. I miss the times when we would go camping out at the beach. For sharing with our families. Here. And it was in the 50s, right up to. The Seawind teeth. 80s but now. It is so petty that I wouldn't want to eat out of our river only if I really had to. And going to the beach these days, going out to them? Wanna you have to dive? You can't just bend down what we used to and just gather things cockles, mussels, Boo boos. Google. So say that we need to save what we have before we have nothing. Killed. ",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.76,
+        "neutral": 0.08,
+        "negative": 0.16
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.16,
+            "neutral": 0.79,
+            "negative": 0.05
+          },
+          "sentiment": "neutral",
+          "text": "Morena.",
+          "offset": 0,
+          "length": 7,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "My name is Pauline writer Owen and I was born in 1953 and Waiwhetu.",
+          "offset": 8,
+          "length": 67,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.96,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "I am Chihuahua.",
+          "offset": 76,
+          "length": 15,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.1,
+            "neutral": 0.89,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Ecoa, Maui.",
+          "offset": 92,
+          "length": 11,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.12,
+            "neutral": 0.81,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "I grew up in Waiwhetu.",
+          "offset": 104,
+          "length": 22,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.99,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "In those days we had no cars.",
+          "offset": 127,
+          "length": 29,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.06,
+            "neutral": 0.93,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "So we would catch.",
+          "offset": 157,
+          "length": 18,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.1,
+            "neutral": 0.89,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Buses, trams and trains.",
+          "offset": 176,
+          "length": 24,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.99,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "But in Waiwhetu we had plenty of streams.",
+          "offset": 201,
+          "length": 41,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "And abundance of CHI we would go there to get our watercresss to get worms so we could catch eels to swim.",
+          "offset": 243,
+          "length": 106,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.09,
+            "neutral": 0.9,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "We would picnic on our river.",
+          "offset": 350,
+          "length": 29,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "It was so beautiful and clean that we could just.",
+          "offset": 380,
+          "length": 49,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.15,
+            "neutral": 0.79,
+            "negative": 0.06
+          },
+          "sentiment": "neutral",
+          "text": "Swim all day up and down the river.",
+          "offset": 430,
+          "length": 35,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.98,
+            "neutral": 0.02,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "Playing with our families, we would go up to the bushes and get passion.",
+          "offset": 466,
+          "length": 72,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.96,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "Fruit, blackberries, puhar.",
+          "offset": 539,
+          "length": 27,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.98,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "We will put our corn in the river so that it would.",
+          "offset": 567,
+          "length": 51,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.94,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "I would ferment 'cause that's the way we ate it and now flex grew.",
+          "offset": 619,
+          "length": 66,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.23,
+            "neutral": 0.71,
+            "negative": 0.06
+          },
+          "sentiment": "neutral",
+          "text": "There was abundance of everything.",
+          "offset": 686,
+          "length": 34,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "We would get our cover color and firm roots also.",
+          "offset": 721,
+          "length": 49,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.89,
+            "neutral": 0.1,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "Our parents would take us on the train and then the tram and to go round the bays of Wellington so that we could go fishing and learn where to go, where all the best places were we all the chi was there was no diving and now these days food were so abundant that it the water only came up to your knees.",
+          "offset": 771,
+          "length": 303,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "And the water was so clear, our river was beautiful and clear.",
+          "offset": 1075,
+          "length": 62,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.23,
+            "neutral": 0.72,
+            "negative": 0.05
+          },
+          "sentiment": "neutral",
+          "text": "And he was always things happening.",
+          "offset": 1138,
+          "length": 35,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "We would have output mix on the river, but we had no cars, so that was our picnic area, the park.",
+          "offset": 1174,
+          "length": 97,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.99,
+            "neutral": 0.01,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "And the River Wye, free to stream at his court today.",
+          "offset": 1272,
+          "length": 53,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.95,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "And it's only small today, but in the old days it was wider.",
+          "offset": 1326,
+          "length": 60,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "I remember swimming and diving off the trees that went across the river swing down to Griffins.",
+          "offset": 1387,
+          "length": 95,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.05,
+            "neutral": 0.92,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Stewie Griffins was with the biscuits were and the old man Griffins would give a sky and biscuits to bring home.",
+          "offset": 1483,
+          "length": 112,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "It was such a lovely type.",
+          "offset": 1596,
+          "length": 26,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.9,
+            "neutral": 0.07,
+            "negative": 0.03
+          },
+          "sentiment": "positive",
+          "text": "I miss all those types.",
+          "offset": 1623,
+          "length": 23,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Consider we can't swim in our river.",
+          "offset": 1647,
+          "length": 36,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.66,
+            "negative": 0.33
+          },
+          "sentiment": "neutral",
+          "text": "We can't get watercress, our Eels are slowly coming back.",
+          "offset": 1684,
+          "length": 57,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.91,
+            "neutral": 0.08,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "But I don't know whether I would eat it out of that river 'cause it is so proud of.",
+          "offset": 1742,
+          "length": 83,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.64,
+            "neutral": 0.27,
+            "negative": 0.09
+          },
+          "sentiment": "positive",
+          "text": "I miss my old days.",
+          "offset": 1826,
+          "length": 19,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.3,
+            "neutral": 0.66,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "I miss the times when we would go camping out at the beach.",
+          "offset": 1846,
+          "length": 59,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.97,
+            "neutral": 0.03,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "For sharing with our families.",
+          "offset": 1906,
+          "length": 30,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.11,
+            "neutral": 0.85,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "Here.",
+          "offset": 1937,
+          "length": 5,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "And it was in the 50s, right up to.",
+          "offset": 1943,
+          "length": 35,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.96,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "The Seawind teeth.",
+          "offset": 1979,
+          "length": 18,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.45,
+            "neutral": 0.37,
+            "negative": 0.18
+          },
+          "sentiment": "positive",
+          "text": "80s but now.",
+          "offset": 1998,
+          "length": 12,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.12,
+            "negative": 0.87
+          },
+          "sentiment": "negative",
+          "text": "It is so petty that I wouldn't want to eat out of our river only if I really had to.",
+          "offset": 2011,
+          "length": 84,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.96,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "And going to the beach these days, going out to them?",
+          "offset": 2096,
+          "length": 53,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.26,
+            "neutral": 0.67,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "Wanna you have to dive?",
+          "offset": 2150,
+          "length": 23,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.16,
+            "neutral": 0.65,
+            "negative": 0.19
+          },
+          "sentiment": "neutral",
+          "text": "You can't just bend down what we used to and just gather things cockles, mussels, Boo boos.",
+          "offset": 2174,
+          "length": 91,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Google.",
+          "offset": 2266,
+          "length": 7,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.99,
+            "neutral": 0,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "So say that we need to save what we have before we have nothing.",
+          "offset": 2274,
+          "length": 64,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Killed.",
+          "offset": 2339,
+          "length": 7,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "Pauline writer Owen",
+        "The Seawind teeth",
+        "old man Griffins",
+        "cover color",
+        "firm roots",
+        "best places",
+        "picnic area",
+        "Stewie Griffins",
+        "lovely type",
+        "Boo boos",
+        "old days",
+        "River Wye",
+        "Morena",
+        "name",
+        "Waiwhetu",
+        "Chihuahua",
+        "Ecoa",
+        "Maui",
+        "cars",
+        "Buses",
+        "trams",
+        "trains",
+        "plenty",
+        "streams",
+        "abundance",
+        "watercresss",
+        "worms",
+        "eels",
+        "families",
+        "bushes",
+        "passion",
+        "Fruit",
+        "blackberries",
+        "puhar",
+        "corn",
+        "everything",
+        "parents",
+        "bays",
+        "Wellington",
+        "fishing",
+        "diving",
+        "food",
+        "knees",
+        "things",
+        "output",
+        "mix",
+        "park",
+        "court",
+        "trees",
+        "biscuits",
+        "sky",
+        "types",
+        "times",
+        "beach",
+        "50s",
+        "80s",
+        "cockles",
+        "mussels",
+        "Google"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Morena",
+          "category": "Organization",
+          "offset": 0,
+          "length": 6,
+          "confidenceScore": 0.63
+        },
+        {
+          "text": "Pauline",
+          "category": "Person",
+          "offset": 19,
+          "length": 7,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "writer",
+          "category": "PersonType",
+          "offset": 27,
+          "length": 6,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "Owen",
+          "category": "Person",
+          "offset": 34,
+          "length": 4,
+          "confidenceScore": 1
+        },
+        {
+          "text": "1953",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 57,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Waiwhetu",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 66,
+          "length": 8,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "Chihuahua",
+          "category": "PersonType",
+          "offset": 81,
+          "length": 9,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "Ecoa",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 92,
+          "length": 4,
+          "confidenceScore": 0.55
+        },
+        {
+          "text": "Maui",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 98,
+          "length": 4,
+          "confidenceScore": 0.64
+        },
+        {
+          "text": "Waiwhetu",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 117,
+          "length": 8,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "cars",
+          "category": "Product",
+          "offset": 151,
+          "length": 4,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Buses",
+          "category": "Product",
+          "offset": 176,
+          "length": 5,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "trams",
+          "category": "Product",
+          "offset": 183,
+          "length": 5,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "trains",
+          "category": "Product",
+          "offset": 193,
+          "length": 6,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "Waiwhetu",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 208,
+          "length": 8,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "watercresss",
+          "category": "Product",
+          "offset": 293,
+          "length": 11,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 373,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "all day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 435,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 459,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "bushes",
+          "category": "Location",
+          "offset": 515,
+          "length": 6,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "Fruit",
+          "category": "Product",
+          "offset": 539,
+          "length": 5,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "blackberries",
+          "category": "Product",
+          "offset": 546,
+          "length": 12,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "puhar",
+          "category": "Product",
+          "offset": 560,
+          "length": 5,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "corn",
+          "category": "Product",
+          "offset": 583,
+          "length": 4,
+          "confidenceScore": 0.52
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 595,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "ferment",
+          "category": "Skill",
+          "offset": 627,
+          "length": 7,
+          "confidenceScore": 0.67
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 671,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 775,
+          "length": 7,
+          "confidenceScore": 0.94
+        },
+        {
+          "text": "train",
+          "category": "Product",
+          "offset": 804,
+          "length": 5,
+          "confidenceScore": 0.57
+        },
+        {
+          "text": "tram",
+          "category": "Product",
+          "offset": 823,
+          "length": 4,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "bays",
+          "category": "Location",
+          "offset": 848,
+          "length": 4,
+          "confidenceScore": 0.58
+        },
+        {
+          "text": "Wellington",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 856,
+          "length": 10,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "fishing",
+          "category": "Skill",
+          "offset": 887,
+          "length": 7,
+          "confidenceScore": 0.69
+        },
+        {
+          "text": "diving",
+          "category": "Skill",
+          "offset": 981,
+          "length": 6,
+          "confidenceScore": 0.56
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 992,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1107,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1206,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "cars",
+          "category": "Product",
+          "offset": 1227,
+          "length": 4,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "picnic area",
+          "category": "Location",
+          "offset": 1249,
+          "length": 11,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "park",
+          "category": "Location",
+          "offset": 1266,
+          "length": 4,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "River Wye",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1280,
+          "length": 9,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "court",
+          "category": "Location",
+          "offset": 1313,
+          "length": 5,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "today",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 1319,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "today",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 1346,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "diving",
+          "category": "Skill",
+          "offset": 1411,
+          "length": 6,
+          "confidenceScore": 0.55
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1453,
+          "length": 5,
+          "confidenceScore": 0.88
+        },
+        {
+          "text": "Griffins",
+          "category": "Location",
+          "offset": 1473,
+          "length": 8,
+          "confidenceScore": 0.54
+        },
+        {
+          "text": "Stewie Griffins",
+          "category": "Person",
+          "offset": 1483,
+          "length": 15,
+          "confidenceScore": 1
+        },
+        {
+          "text": "biscuits",
+          "category": "Product",
+          "offset": 1512,
+          "length": 8,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Griffins",
+          "category": "Person",
+          "offset": 1542,
+          "length": 8,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "biscuits",
+          "category": "Product",
+          "offset": 1572,
+          "length": 8,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "home",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 1590,
+          "length": 4,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1677,
+          "length": 5,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "watercress",
+          "category": "Product",
+          "offset": 1697,
+          "length": 10,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1794,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "beach",
+          "category": "Location",
+          "offset": 1899,
+          "length": 5,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "the 50s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 1957,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "80s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 1998,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 2006,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 2065,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "beach",
+          "category": "Location",
+          "offset": 2113,
+          "length": 5,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "dive",
+          "category": "Skill",
+          "offset": 2168,
+          "length": 4,
+          "confidenceScore": 0.65
+        },
+        {
+          "text": "cockles",
+          "category": "Product",
+          "offset": 2238,
+          "length": 7,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "mussels",
+          "category": "Product",
+          "offset": 2247,
+          "length": 7,
+          "confidenceScore": 0.88
+        },
+        {
+          "text": "Google",
+          "category": "Organization",
+          "offset": 2266,
+          "length": 6,
+          "confidenceScore": 0.99
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Pauline",
+          "category": "Person",
+          "offset": 19,
+          "length": 7,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "writer",
+          "category": "PersonType",
+          "offset": 27,
+          "length": 6,
+          "confidenceScore": 0.44
+        },
+        {
+          "text": "Owen",
+          "category": "Person",
+          "offset": 34,
+          "length": 4,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "1953",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 57,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Chihuahua",
+          "category": "Person",
+          "offset": 81,
+          "length": 9,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "all day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 435,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 671,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 775,
+          "length": 7,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 992,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "today",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 1319,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "today",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 1346,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Stewie Griffins",
+          "category": "Person",
+          "offset": 1483,
+          "length": 15,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Griffins",
+          "category": "Person",
+          "offset": 1542,
+          "length": 8,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "the 50s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 1957,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "80s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 1998,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 2006,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Google",
+          "category": "Organization",
+          "offset": 2266,
+          "length": 6,
+          "confidenceScore": 0.93
+        }
+      ],
+      "redactedText": "Morena. My name is ******* ****** **** and I was born in **** and Waiwhetu. I am *********. Ecoa, Maui. I grew up in Waiwhetu. In those days we had no cars. So we would catch. Buses, trams and trains. But in Waiwhetu we had plenty of streams. And abundance of CHI we would go there to get our watercresss to get worms so we could catch eels to swim. We would picnic on our river. It was so beautiful and clean that we could just. Swim ******* up and down the river. Playing with our families, we would go up to the bushes and get passion. Fruit, blackberries, puhar. We will put our corn in the river so that it would. I would ferment 'cause that's the way we ate it and *** flex grew. There was abundance of everything. We would get our cover color and firm roots also. Our ******* would take us on the train and then the tram and to go round the bays of Wellington so that we could go fishing and learn where to go, where all the best places were we all the chi was there was no diving and *** these days food were so abundant that it the water only came up to your knees. And the water was so clear, our river was beautiful and clear. And he was always things happening. We would have output mix on the river, but we had no cars, so that was our picnic area, the park. And the River Wye, free to stream at his court *****. And it's only small *****, but in the old days it was wider. I remember swimming and diving off the trees that went across the river swing down to Griffins. *************** was with the biscuits were and the old man ******** would give a sky and biscuits to bring home. It was such a lovely type. I miss all those types. Consider we can't swim in our river. We can't get watercress, our Eels are slowly coming back. But I don't know whether I would eat it out of that river 'cause it is so proud of. I miss my old days. I miss the times when we would go camping out at the beach. For sharing with our families. Here. And it was in *******, right up to. The Seawind teeth. *** but ***. It is so petty that I wouldn't want to eat out of our river only if I really had to. And going to the beach these days, going out to them? Wanna you have to dive? You can't just bend down what we used to and just gather things cockles, mussels, Boo boos. ******. So say that we need to save what we have before we have nothing. Killed. "
+    }
+  ]
+}

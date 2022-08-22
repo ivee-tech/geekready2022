@@ -1,0 +1,1961 @@
+{
+  "container": {
+    "name": "mainGroup",
+    "uuid": "",
+    "meshType": "group",
+    "objectProps": [ ],
+    "geometryProps": [ ],
+    "materialProps": [ ],
+    "cfgProps": [ ],
+    "children": [
+      {
+        "name": "",
+        "uuid": "DCD7B477-30CD-4726-A3EB-9CFDCC698F60",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": "",
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": "",
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "DCD7B477-30CD-4726-A3EB-9CFDCC698F60",
+            "readOnly": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": -257.3186264218318,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 151.91546389372354,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 235.68183371006862,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [ "LineBasicMaterial", "LineDashedMaterial", "MeshBasicMaterial", "MeshDepthMaterial", "MeshLambertMaterial", "MeshPhongMaterial", "MeshStandardMaterial", "MeshToonMaterial", "PointsMaterial" ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#ffffff"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": true
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "MapTexture",
+            "value": "images/762448949414527671.jpg"
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select"
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh"
+          }
+        ],
+        "cfgProps": [ ],
+        "children": [ ]
+      },
+      {
+        "name": "",
+        "uuid": "5B40EDE2-5B20-451E-B03E-2EBB96C58DD1",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": "",
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": "",
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "5B40EDE2-5B20-451E-B03E-2EBB96C58DD1",
+            "readOnly": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": -192.89693380467304,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": -35.79277900412406,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 246.11720114870832,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [ "LineBasicMaterial", "LineDashedMaterial", "MeshBasicMaterial", "MeshDepthMaterial", "MeshLambertMaterial", "MeshPhongMaterial", "MeshStandardMaterial", "MeshToonMaterial", "PointsMaterial" ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#f5f5f5"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "MapTexture",
+            "value": "images\\297059590527186712.jpg"
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select"
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh"
+          }
+        ],
+        "cfgProps": [ ],
+        "children": [ ]
+      },
+      {
+        "name": "",
+        "uuid": "C7165920-C191-488F-B4F4-FF3F44D3D33E",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": "",
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": "",
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "C7165920-C191-488F-B4F4-FF3F44D3D33E",
+            "readOnly": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": -173.64490098951262,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 188.98776047996733,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -15.342867229588819,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [ "LineBasicMaterial", "LineDashedMaterial", "MeshBasicMaterial", "MeshDepthMaterial", "MeshLambertMaterial", "MeshPhongMaterial", "MeshStandardMaterial", "MeshToonMaterial", "PointsMaterial" ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#ffffff"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "MapTexture",
+            "value": "images\\315801616781727696.jpg"
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select"
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh"
+          }
+        ],
+        "cfgProps": [ ],
+        "children": [ ]
+      },
+      {
+        "name": "",
+        "uuid": "F4A75802-4238-45B9-A8FA-2A2F12DFF61E",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": "",
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": "",
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "F4A75802-4238-45B9-A8FA-2A2F12DFF61E",
+            "readOnly": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 87.99316979121448,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 88.2975627207997,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -176.29073441697312,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [ "LineBasicMaterial", "LineDashedMaterial", "MeshBasicMaterial", "MeshDepthMaterial", "MeshLambertMaterial", "MeshPhongMaterial", "MeshStandardMaterial", "MeshToonMaterial", "PointsMaterial" ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#ffffff"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "MapTexture",
+            "value": "images\\473783789819363831.jpg"
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select"
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh"
+          }
+        ],
+        "cfgProps": [ ],
+        "children": [ ]
+      },
+      {
+        "name": "",
+        "uuid": "8CEB4C38-0DE9-451D-BDCA-1AB7DCCC54DC",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": "",
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": "",
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "8CEB4C38-0DE9-451D-BDCA-1AB7DCCC54DC",
+            "readOnly": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 210.2160638785968,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": -97.45990560702012,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -120.95645743345182,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [ "LineBasicMaterial", "LineDashedMaterial", "MeshBasicMaterial", "MeshDepthMaterial", "MeshLambertMaterial", "MeshPhongMaterial", "MeshStandardMaterial", "MeshToonMaterial", "PointsMaterial" ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#ffffff"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "MapTexture",
+            "value": "images\\482157442593162109.jpg"
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select"
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          }
+        ],
+        "cfgProps": [ ],
+        "children": [ ]
+      },
+      {
+        "name": "",
+        "uuid": "0A3ABC92-C893-413C-AE57-CA89D7F804E3",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": "",
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": "",
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "0A3ABC92-C893-413C-AE57-CA89D7F804E3",
+            "readOnly": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 86.06459417660744,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": -139.0139873282003,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 89.51349668354723,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [ "LineBasicMaterial", "LineDashedMaterial", "MeshBasicMaterial", "MeshDepthMaterial", "MeshLambertMaterial", "MeshPhongMaterial", "MeshStandardMaterial", "MeshToonMaterial", "PointsMaterial" ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#ffffff"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "MapTexture",
+            "value": "images\\518495894375745730.jpg"
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select"
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          }
+        ],
+        "cfgProps": [ ],
+        "children": [ ]
+      }
+    ]
+  },
+  "timelines": [
+    {
+      "name": "New timeline",
+      "cameraPositionDisplacement": {
+        "displacement": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "min": {
+          "x": -3000,
+          "y": -3000,
+          "z": -3000
+        },
+        "max": {
+          "x": 3000,
+          "y": 3000,
+          "z": 3000
+        },
+        "enabled": true
+      },
+      "enabled": true,
+      "meshes": [
+        {
+          "positionDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "rotationDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "scaleDisplacement": {
+            "displacement": {
+              "x": 0.1,
+              "y": 0.1,
+              "z": 0.1
+            },
+            "min": {
+              "x": -10,
+              "y": -10,
+              "z": -10
+            },
+            "max": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "enabled": true
+          },
+          "uuid": "C7165920-C191-488F-B4F4-FF3F44D3D33E"
+        },
+        {
+          "positionDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "rotationDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "scaleDisplacement": {
+            "displacement": {
+              "x": 0.1,
+              "y": 0.1,
+              "z": 0.1
+            },
+            "min": {
+              "x": -10,
+              "y": -10,
+              "z": -10
+            },
+            "max": {
+              "x": 10,
+              "y": 10,
+              "z": 10
+            },
+            "enabled": true
+          },
+          "uuid": "5B40EDE2-5B20-451E-B03E-2EBB96C58DD1"
+        },
+        {
+          "positionDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "rotationDisplacement": {
+            "displacement": {
+              "x": 0.1,
+              "y": 0.1,
+              "z": 0.1
+            },
+            "min": {
+              "x": -360,
+              "y": -360,
+              "z": -360
+            },
+            "max": {
+              "x": 360,
+              "y": 360,
+              "z": 360
+            },
+            "enabled": true
+          },
+          "scaleDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "uuid": "F4A75802-4238-45B9-A8FA-2A2F12DFF61E"
+        },
+        {
+          "positionDisplacement": {
+            "displacement": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "min": {
+              "x": -1000,
+              "y": -1000,
+              "z": -1000
+            },
+            "max": {
+              "x": 1000,
+              "y": 1000,
+              "z": 1000
+            },
+            "enabled": true
+          },
+          "rotationDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "scaleDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true
+          },
+          "uuid": "0A3ABC92-C893-413C-AE57-CA89D7F804E3"
+        }
+      ]
+    }
+  ],
+  "lights": [ ],
+  "cameraProps": [
+    {
+      "prop1": null,
+      "prop2": "fov",
+      "type": "number",
+      "label": "FOV",
+      "value": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": null,
+      "prop2": "aspect",
+      "type": "number",
+      "label": "Aspect",
+      "value": 2.0210526315789474,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "prop1": null,
+      "prop2": "near",
+      "type": "number",
+      "label": "Near",
+      "value": 0.1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1
+    },
+    {
+      "prop1": null,
+      "prop2": "far",
+      "type": "number",
+      "label": "Far",
+      "value": 10000,
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "prop1": "position",
+      "prop2": "x",
+      "type": "number",
+      "label": "Position X",
+      "min": -1000,
+      "max": 1000,
+      "value": 610,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "y",
+      "type": "number",
+      "label": "Position Y",
+      "min": -1000,
+      "max": 1000,
+      "value": 240,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "z",
+      "type": "number",
+      "label": "Position Z",
+      "min": -1000,
+      "max": 1000,
+      "value": 520,
+      "step": 10
+    }
+  ],
+  "sceneProps": [
+    {
+      "prop1": "scene",
+      "prop2": "useFog",
+      "type": "bool",
+      "label": "Use Fog",
+      "value": false
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogColor",
+      "type": "color",
+      "label": "Fog Color",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogMistDensity",
+      "type": "number",
+      "label": "Fog Mist Density",
+      "value": 0.015,
+      "min": 0,
+      "max": 1,
+      "step": 0.001
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxis",
+      "type": "bool",
+      "label": "Show Axis",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxisRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisSize",
+      "type": "number",
+      "label": "Axis Size",
+      "value": 1000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "axis",
+      "prop2": "useAxisArrows",
+      "type": "bool",
+      "label": "Axis Arrows",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisArrowHeadLength",
+      "type": "number",
+      "label": "Axis Arrow Head Length",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGrid",
+      "type": "bool",
+      "label": "Show Grid",
+      "value": true
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGridRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": true
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridSize",
+      "type": "number",
+      "label": "Grid Size",
+      "value": 2000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridDivisions",
+      "type": "number",
+      "label": "Grid Divisions",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColor",
+      "type": "color",
+      "label": "Grid Color",
+      "value": "#808080"
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColorCenterLine",
+      "type": "color",
+      "label": "Grid Color Center Line",
+      "value": "#FFFFFF"
+    }
+  ]
+}

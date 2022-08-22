@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "00000000-0000-0000-0000-000000000000"
+        },
+        "name": {
+            "value": "hello-capp"
+        },
+        "location": {
+            "value": "australiaeast"
+        },
+        "environmentId": {
+            "value": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/zz-aca/providers/Microsoft.App/managedEnvironments/hello-capp-env"
+        },
+        "containers": {
+            "value": [
+                {
+                    "name": "hello-capp-sample",
+                    "image": "zzacr.azurecr.io/zzacr.azurecr.io/microsoft/dotnet/samples:aspnetapp",
+                    "command": [],
+                    "resources": {
+                        "cpu": "1",
+                        "memory": "2Gi"
+                    }
+                }
+            ]
+        },
+        "registries": {
+            "value": [
+                {
+                    "server": "zzacr.azurecr.io",
+                    "username": "zzacr",
+                    "passwordSecretRef": "reg-pswd-28457dc9-bc0b"
+                }
+            ]
+        },
+        "secrets": {
+            "value": [
+                {
+                    "name": "reg-pswd-28457dc9-bc0b",
+                    "value": "***"
+                }
+            ]
+        },
+        "environmentName": {
+            "value": "hello-capp-env"
+        },
+        "workspaceName": {
+            "value": "hello-capp-env-logs"
+        },
+        "workspaceLocation": {
+            "value": "australiaeast"
+        }
+    }
+}

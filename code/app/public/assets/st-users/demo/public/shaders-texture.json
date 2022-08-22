@@ -1,0 +1,2091 @@
+{
+  "container": {
+    "name": "mainGroup",
+    "uuid": "",
+    "url": "",
+    "meshType": "group",
+    "objectProps": [],
+    "geometryProps": [],
+    "materialProps": [],
+    "cfgProps": [],
+    "children": [
+      {
+        "name": "",
+        "uuid": "97931F24-33A6-494B-ABC4-791CBF895E6B",
+        "url": "",
+        "meshType": "sphere",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "97931F24-33A6-494B-ABC4-791CBF895E6B",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "script",
+            "type": "string",
+            "label": "Script"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 60.069407477849253,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": -21.329810621218485,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -33.00882905501166,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "SphereGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "radius",
+            "type": "number",
+            "label": "Radius",
+            "min": 1,
+            "max": 1000,
+            "value": 50,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 3,
+            "max": 360,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 2,
+            "max": 360,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "phiStart",
+            "type": "number",
+            "label": "Phi Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "phiLength",
+            "type": "number",
+            "label": "Phi Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaStart",
+            "type": "number",
+            "label": "Theta Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaLength",
+            "type": "number",
+            "label": "Theta Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#7c5a97"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader1"
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "contentPanels": "",
+        "visibleRuntime": true,
+        "sVisibleRuntime": "true"
+      },
+      {
+        "name": "",
+        "uuid": "AF06CEB0-6526-4217-9B30-54DF1034AB57",
+        "url": "",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "AF06CEB0-6526-4217-9B30-54DF1034AB57",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "script",
+            "type": "string",
+            "label": "Script"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 26.779810621549018,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 88.574265765347619,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 122.24419452091188,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#70e32e"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader2"
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "contentPanels": "",
+        "visibleRuntime": true,
+        "sVisibleRuntime": "true"
+      },
+      {
+        "name": "",
+        "uuid": "1A24D3D6-A5BF-426D-81FF-12CDB2B06554",
+        "url": "",
+        "meshType": "sphere",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "1A24D3D6-A5BF-426D-81FF-12CDB2B06554",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "script",
+            "type": "string",
+            "label": "Script"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 40.4665167147231,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 126.88365482238947,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -170.71886976802415,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "SphereGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "radius",
+            "type": "number",
+            "label": "Radius",
+            "min": 1,
+            "max": 1000,
+            "value": 50,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 3,
+            "max": 360,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 2,
+            "max": 360,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "phiStart",
+            "type": "number",
+            "label": "Phi Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "phiLength",
+            "type": "number",
+            "label": "Phi Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaStart",
+            "type": "number",
+            "label": "Theta Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaLength",
+            "type": "number",
+            "label": "Theta Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#c074c4"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader3"
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "contentPanels": "",
+        "visibleRuntime": true,
+        "sVisibleRuntime": "true"
+      },
+      {
+        "name": "",
+        "uuid": "2E3B7C8D-3627-4894-9446-A0F870EA7EA9",
+        "url": "",
+        "meshType": "cylinder",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "2E3B7C8D-3627-4894-9446-A0F870EA7EA9",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "script",
+            "type": "string",
+            "label": "Script"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": -50.106373690904263,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 132.32212975860145,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -55.726202810479577,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "CylinderGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "radiusTop",
+            "type": "number",
+            "label": "Radius Top",
+            "value": 25,
+            "min": 1,
+            "max": 1000,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "radiusBottom",
+            "type": "number",
+            "label": "Radius Bottom",
+            "value": 25,
+            "min": 1,
+            "max": 1000,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "value": 100,
+            "min": 1,
+            "max": 1000,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "radiusSegments",
+            "type": "number",
+            "label": "Radius Segments",
+            "value": 36,
+            "min": 1,
+            "max": 360,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "value": 1,
+            "min": 1,
+            "max": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "openEnded",
+            "type": "bool",
+            "label": "Open Ended",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaStart",
+            "type": "number",
+            "label": "Theta Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaLength",
+            "type": "number",
+            "label": "Theta Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#000000"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader4"
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "contentPanels": "",
+        "visibleRuntime": true,
+        "sVisibleRuntime": "true"
+      }
+    ],
+    "contentPanels": "",
+    "visibleRuntime": true,
+    "sVisibleRuntime": "true"
+  },
+  "timelines": [],
+  "lights": [],
+  "cameraProps": [
+    {
+      "prop1": null,
+      "prop2": "fov",
+      "type": "number",
+      "label": "FOV",
+      "value": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": null,
+      "prop2": "aspect",
+      "type": "number",
+      "label": "Aspect",
+      "value": 2.1309655937846839,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "prop1": null,
+      "prop2": "near",
+      "type": "number",
+      "label": "Near",
+      "value": 0.1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1
+    },
+    {
+      "prop1": null,
+      "prop2": "far",
+      "type": "number",
+      "label": "Far",
+      "value": 10000,
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "prop1": "position",
+      "prop2": "x",
+      "type": "number",
+      "label": "Position X",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "y",
+      "type": "number",
+      "label": "Position Y",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "z",
+      "type": "number",
+      "label": "Position Z",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    }
+  ],
+  "sceneProps": [
+    {
+      "prop1": "scene",
+      "prop2": "useFog",
+      "type": "bool",
+      "label": "Use Fog",
+      "value": false
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogColor",
+      "type": "color",
+      "label": "Fog Color",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogMistDensity",
+      "type": "number",
+      "label": "Fog Mist Density",
+      "value": 0.015,
+      "min": 0,
+      "max": 1,
+      "step": 0.001
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxis",
+      "type": "bool",
+      "label": "Show Axis",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxisRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisSize",
+      "type": "number",
+      "label": "Axis Size",
+      "value": 1000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "axis",
+      "prop2": "useAxisArrows",
+      "type": "bool",
+      "label": "Axis Arrows",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisArrowHeadLength",
+      "type": "number",
+      "label": "Axis Arrow Head Length",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGrid",
+      "type": "bool",
+      "label": "Show Grid",
+      "value": true
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGridRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": true
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridSize",
+      "type": "number",
+      "label": "Grid Size",
+      "value": 2000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridDivisions",
+      "type": "number",
+      "label": "Grid Divisions",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColor",
+      "type": "color",
+      "label": "Grid Color",
+      "value": "#808080"
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColorCenterLine",
+      "type": "color",
+      "label": "Grid Color Center Line",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "backgroundColor",
+      "type": "cssColor",
+      "label": "Background Color",
+      "value": "#1E1E1E"
+    }
+  ],
+  "audioProps": [
+    {
+      "prop1": null,
+      "prop2": "fileName",
+      "type": "string",
+      "label": "Audio File Name",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "select",
+      "type": "function",
+      "label": "Select",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "play",
+      "type": "function",
+      "label": "Play",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "pause",
+      "type": "function",
+      "label": "Pause",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "autoPlay",
+      "type": "bool",
+      "label": "Auto Play",
+      "value": false
+    },
+    {
+      "prop1": null,
+      "prop2": "loop",
+      "type": "bool",
+      "label": "Loop",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "controls",
+      "type": "bool",
+      "label": "Controls",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "position",
+      "type": "string",
+      "label": "Position",
+      "value": "absolute",
+      "values": [
+        "static",
+        "relative",
+        "absolute"
+      ]
+    },
+    {
+      "prop1": null,
+      "prop2": "left",
+      "type": "string",
+      "label": "Left",
+      "value": "10px"
+    },
+    {
+      "prop1": null,
+      "prop2": "top",
+      "type": "string",
+      "label": "Top",
+      "value": "10px"
+    }
+  ],
+  "additionalContents": [],
+  "shaders": [
+    {
+      "id": "shader1",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        },
+        {
+          "name": "texture1",
+          "type": "t",
+          "value": "images\\cloud.png"
+        },
+        {
+          "name": "fogDensity",
+          "type": "f",
+          "value": 0
+        },
+        {
+          "name": "texture2",
+          "type": "t",
+          "value": "images\\lavatile.jpg"
+        },
+        {
+          "name": "fogColor",
+          "type": "v3",
+          "value": 0
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "\n\t\t\tuniform float time;\n\t\t\tuniform vec2 resolution;\n\n\t\t\tuniform float fogDensity;\n\t\t\tuniform vec3 fogColor;\n\n\t\t\tuniform sampler2D texture1;\n\t\t\tuniform sampler2D texture2;\n\n\t\t\tvarying vec2 vUv;\n\n\t\t\tvoid main( void ) {\n\n\t\t\t\tvec2 position = -1.0 + 2.0 * vUv;\n\n\t\t\t\tvec4 noise = texture2D( texture1, vUv );\n\t\t\t\tvec2 T1 = vUv + vec2( 1.5, -1.5 ) * time * 0.02;\n\t\t\t\tvec2 T2 = vUv + vec2( -0.5, 2.0 ) * time * 0.01;\n\n\t\t\t\tT1.x += noise.x * 2.0;\n\t\t\t\tT1.y += noise.y * 2.0;\n\t\t\t\tT2.x -= noise.y * 0.2;\n\t\t\t\tT2.y += noise.z * 0.2;\n\n\t\t\t\tfloat p = texture2D( texture1, T1 * 2.0 ).a;\n\n\t\t\t\tvec4 color = texture2D( texture2, T2 * 2.0 );\n\t\t\t\tvec4 temp = color * ( vec4( p, p, p, p ) * 2.0 ) + ( color * color - 0.1 );\n\n\t\t\t\tif( temp.r > 1.0 ){ temp.bg += clamp( temp.r - 2.0, 0.0, 100.0 ); }\n\t\t\t\tif( temp.g > 1.0 ){ temp.rb += temp.g - 1.0; }\n\t\t\t\tif( temp.b > 1.0 ){ temp.rg += temp.b - 1.0; }\n\n\t\t\t\tgl_FragColor = temp;\n\n\t\t\t\tfloat depth = gl_FragCoord.z / gl_FragCoord.w;\n\t\t\t\tconst float LOG2 = 1.442695;\n\t\t\t\tfloat fogFactor = exp2( - fogDensity * fogDensity * depth * depth * LOG2 );\n\t\t\t\tfogFactor = 1.0 - clamp( fogFactor, 0.0, 1.0 );\n\n\t\t\t\tgl_FragColor = mix( gl_FragColor, vec4( fogColor, gl_FragColor.w ), fogFactor );\n\n\t\t\t}\n\n",
+      "timeExpr": {
+        "expression": "d * 500",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 500
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    },
+    {
+      "id": "shader2",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        },
+        {
+          "name": "iChannel0",
+          "type": "t",
+          "value": "images\\abstract1.jpg"
+        },
+        {
+          "name": "iChannel1",
+          "type": "t",
+          "value": "images\\stars.jpg"
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "precision highp float;\nprecision highp int;\nuniform sampler2D iChannel0;\nuniform sampler2D iChannel1;\nuniform vec2 resolution;\nuniform float time;\nvarying vec2 vUv;\nvoid main() \n{\n    //vec2 p = vUv.xy / resolution.xy;\n    vec2 p = -1.0 + 2.0 *vUv;\n    vec2 q = p - vec2(0.5, 0.5);\n    q.x += sin(time * 0.6) * 0.2;\n    q.y += cos(time * 0.4) * 0.3;\n    float len = length(q);\n    float a = atan(q.y, q.x) + time * 0.3;\n    float b = atan(q.y, q.x) + time * 0.3;\n    float r1 = 0.3 / len + time * 0.5;\n    float r2 = 0.2 / len + time * 0.5;\n    float m = (1.0 + sin(time * 0.5)) / 2.0;\n    vec4 tex1 = texture2D(iChannel0, vec2(a + 0.1 / len, r1));\n    vec4 tex2 = texture2D(iChannel1, vec2(b + 0.1 / len, r2));\n    vec3 col = vec3(mix(tex1, tex2, m));\n    gl_FragColor = vec4(col * len * 1.5, 1.0);\n}\n",
+      "timeExpr": {
+        "expression": "d * 500",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 500
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    },
+    {
+      "id": "shader3",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "#define EPSILON_NRM (0.1 / resolution.x)\n#define SEA_TIME (1.0 + time * SEA_SPEED)\n\nprecision highp float;\nprecision highp int;\nuniform vec2 resolution;\nuniform vec2 mouse;\nuniform float time;\nvarying vec2 vUv;\nconst int NUM_STEPS = 8;\nconst float PI = 3.141592;\nconst float EPSILON = 1e-3;\nconst int ITER_GEOMETRY = 3;\nconst int ITER_FRAGMENT = 5;\nconst float SEA_HEIGHT = 0.6;\nconst float SEA_CHOPPY = 4.0;\nconst float SEA_SPEED = 0.8;\nconst float SEA_FREQ = 0.16;\nconst vec3 SEA_BASE = vec3(0.1, 0.19, 0.22);\nconst vec3 SEA_WATER_COLOR = vec3(0.8, 0.9, 0.6);\nconst mat2 octave_m = mat2(1.6, 1.2, -1.2, 1.6);\nmat3 fromEuler(vec3 ang) \n                                                                                    {\n                                                                                        vec2 a1 = vec2(sin(ang.x), cos(ang.x));\n                                                                                        vec2 a2 = vec2(sin(ang.y), cos(ang.y));\n                                                                                        vec2 a3 = vec2(sin(ang.z), cos(ang.z));\n                                                                                        mat3 m;\n                                                                                        m[0] = vec3(a1.y * a3.y + a1.x * a2.x * a3.x, a1.y * a2.x * a3.x + a3.y * a1.x, -a2.y * a3.x);\n                                                                                        m[1] = vec3(-a2.y * a1.x, a1.y * a2.y, a2.x);\n                                                                                        m[2] = vec3(a3.y * a1.x * a2.x + a1.y * a3.x, a1.x * a3.x - a1.y * a3.y * a2.x, a2.y * a3.y);\n                                                                                        return m;\n                                                                                    }\nfloat hash(vec2 p) \n                                                                                    {\n                                                                                        float h = dot(p, vec2(127.1, 311.7));\n                                                                                        return fract(sin(h) * 43758.5453123);\n                                                                                    }\nfloat noise(in vec2 p) \n                                                                                    {\n                                                                                        vec2 i = floor(p);\n                                                                                        vec2 f = fract(p);\n                                                                                        vec2 u = f * f * (3.0 - 2.0 * f);\n                                                                                        return -1.0 + 2.0 * mix(mix(hash(i + vec2(0.0, 0.0)), hash(i + vec2(1.0, 0.0)), u.x), mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), u.x), u.y);\n                                                                                    }\nfloat diffuse(vec3 n, vec3 l, float p) \n                                                                                    {\n                                                                                        return pow(dot(n, l) * 0.4 + 0.6, p);\n                                                                                    }\nfloat specular(vec3 n, vec3 l, vec3 e, float s) \n                                                                                    {\n                                                                                        float nrm = (s + 8.0) / (PI * 8.0);\n                                                                                        return pow(max(dot(reflect(e, n), l), 0.0), s) * nrm;\n                                                                                    }\nvec3 getSkyColor(vec3 e) \n                                                                                    {\n                                                                                        e.y = max(e.y, 0.0);\n                                                                                        return vec3(pow(1.0 - e.y, 2.0), 1.0 - e.y, 0.6 + (1.0 - e.y) * 0.4);\n                                                                                    }\nfloat sea_octave(vec2 uv, float choppy) \n                                                                                    {\n                                                                                        uv += noise(uv);\n                                                                                        vec2 wv = 1.0 - abs(sin(uv));\n                                                                                        vec2 swv = abs(cos(uv));\n                                                                                        wv = mix(wv, swv, wv);\n                                                                                        return pow(1.0 - pow(wv.x * wv.y, 0.65), choppy);\n                                                                                    }\nfloat map(vec3 p) \n                                                                                    {\n                                                                                        float freq = SEA_FREQ;\n                                                                                        float amp = SEA_HEIGHT;\n                                                                                        float choppy = SEA_CHOPPY;\n                                                                                        vec2 uv = p.xz;\n                                                                                        uv.x *= 0.75;\n                                                                                        float d, h = 0.0;\n                                                                                        for (int i = 0; i < ITER_GEOMETRY; i++) \n                                                                                        {\n                                                                                            d = sea_octave((uv + SEA_TIME) * freq, choppy);\n                                                                                            d += sea_octave((uv - SEA_TIME) * freq, choppy);\n                                                                                            h += d * amp;\n                                                                                            uv *= octave_m;\n                                                                                            freq *= 1.9;\n                                                                                            amp *= 0.22;\n                                                                                            choppy = mix(choppy, 1.0, 0.2);\n                                                                                        }\n                                                                                        return p.y - h;\n                                                                                    }\nfloat map_detailed(vec3 p) \n                                                                                    {\n                                                                                        float freq = SEA_FREQ;\n                                                                                        float amp = SEA_HEIGHT;\n                                                                                        float choppy = SEA_CHOPPY;\n                                                                                        vec2 uv = p.xz;\n                                                                                        uv.x *= 0.75;\n                                                                                        float d, h = 0.0;\n                                                                                        for (int i = 0; i < ITER_FRAGMENT; i++) \n                                                                                        {\n                                                                                            d = sea_octave((uv + SEA_TIME) * freq, choppy);\n                                                                                            d += sea_octave((uv - SEA_TIME) * freq, choppy);\n                                                                                            h += d * amp;\n                                                                                            uv *= octave_m;\n                                                                                            freq *= 1.9;\n                                                                                            amp *= 0.22;\n                                                                                            choppy = mix(choppy, 1.0, 0.2);\n                                                                                        }\n                                                                                        return p.y - h;\n                                                                                    }\nvec3 getSeaColor(vec3 p, vec3 n, vec3 l, vec3 eye, vec3 dist) \n                                                                                    {\n                                                                                        float fresnel = clamp(1.0 - dot(n, -eye), 0.0, 1.0);\n                                                                                        fresnel = pow(fresnel, 3.0) * 0.65;\n                                                                                        vec3 reflected = getSkyColor(reflect(eye, n));\n                                                                                        vec3 refracted = SEA_BASE + diffuse(n, l, 80.0) * SEA_WATER_COLOR * 0.12;\n                                                                                        vec3 color = mix(refracted, reflected, fresnel);\n                                                                                        float atten = max(1.0 - dot(dist, dist) * 0.001, 0.0);\n                                                                                        color += SEA_WATER_COLOR * (p.y - SEA_HEIGHT) * 0.18 * atten;\n                                                                                        color += vec3(specular(n, l, eye, 60.0));\n                                                                                        return color;\n                                                                                    }\nvec3 getNormal(vec3 p, float eps) \n                                                                                    {\n                                                                                        vec3 n;\n                                                                                        n.y = map_detailed(p);\n                                                                                        n.x = map_detailed(vec3(p.x + eps, p.y, p.z)) - n.y;\n                                                                                        n.z = map_detailed(vec3(p.x, p.y, p.z + eps)) - n.y;\n                                                                                        n.y = eps;\n                                                                                        return normalize(n);\n                                                                                    }\nfloat heightMapTracing(vec3 ori, vec3 dir, out vec3 p) \n                                                                                    {\n                                                                                        float tm = 0.0;\n                                                                                        float tx = 1000.0;\n                                                                                        float hx = map(ori + dir * tx);\n                                                                                        if (hx > 0.0) return tx;\n                                                                                         float hm = map(ori + dir * tm);\n                                                                                        float tmid = 0.0;\n                                                                                        for (int i = 0; i < NUM_STEPS; i++) \n                                                                                        {\n                                                                                            tmid = mix(tm, tx, hm / (hm - hx));\n                                                                                            p = ori + dir * tmid;\n                                                                                            float hmid = map(p);\n                                                                                            if (hmid < 0.0) \n                                                                                            {\n                                                                                                tx = tmid;\n                                                                                                hx = hmid;\n                                                                                            }\n else \n                                                                                            {\n                                                                                                tm = tmid;\n                                                                                                hm = hmid;\n                                                                                            }\n                                                                                        }\n                                                                                        return tmid;\n                                                                                    }\nvoid main() \n                                                                                    {\n                                                                                        //vec2 uv = vUv.xy / resolution.xy;\n                                                                                        vec2 uv = -1.0 + 2.0 *vUv;\n                                                                                        uv = uv * 2.0 - 1.0;\n                                                                                        uv.x *= resolution.x / resolution.y;\n                                                                                        float time2 = time * 0.3 + mouse.x * 0.01;\n                                                                                        vec3 ang = vec3(sin(time2 * 3.0) * 0.1, sin(time2) * 0.2 + 0.3, time2);\n                                                                                        vec3 ori = vec3(0.0, 3.5, time2 * 5.0);\n                                                                                        vec3 dir = normalize(vec3(uv.xy, -2.0));\n                                                                                        dir.z += length(uv) * 0.15;\n                                                                                        dir = normalize(dir) * fromEuler(ang);\n                                                                                        vec3 p;\n                                                                                        heightMapTracing(ori, dir, p);\n                                                                                        vec3 dist = p - ori;\n                                                                                        vec3 n = getNormal(p, dot(dist, dist) * EPSILON_NRM);\n                                                                                        vec3 light = normalize(vec3(0.0, 1.0, 0.8));\n                                                                                        vec3 color = mix(getSkyColor(dir), getSeaColor(p, n, light, dir, dist), pow(smoothstep(0.0, -0.05, dir.y), 0.3));\n                                                                                        gl_FragColor = vec4(pow(color, vec3(0.75)), 1.0);\n                                                                                    }\n",
+      "timeExpr": {
+        "expression": "d * 1000",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 1000
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    },
+    {
+      "id": "shader4",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "precision highp float;\nprecision highp int;\nuniform vec2 resolution;\nuniform float time;\nvarying vec2 vUv;\nfloat noise(vec3 p) \n{\n\tvec3 i = floor(p);\n\tvec4 a = dot(i, vec3(1., 57., 21.)) + vec4(0., 57., 21., 78.);\n\tvec3 f = cos((p - i) * acos(-1.)) * (-.5) + .5;\n\ta = mix(sin(cos(a) * a), sin(cos(1. + a) * (1. + a)), f.x);\n\ta.xy = mix(a.xz, a.yw, f.y);\n\treturn mix(a.x, a.y, f.z);\n}\n\nfloat sphere(vec3 p, vec4 spr) \n{\n\treturn length(spr.xyz - p) - spr.w;\n}\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nfloat flame(vec3 p) \n{\n\tfloat d = sphere(p * vec3(1., .5, 1.), vec4(.0, -1., .0, 1.));\n\treturn d + (noise(p + vec3(.0, time * 2., .0)) + noise(p * 3.) * .5) * .25 * (p.y);\n}\n\nfloat scene(vec3 p) \n{\n\treturn min(100. - length(p), abs(flame(p)));\n}\n\nvec4 raymarch(vec3 org, vec3 dir) \n{\n\tfloat d = 0.0, glow = 0.0, eps = 0.02;\n\tvec3 p = org;\n\tbool glowed = false;\n\tfor (int i = 0; i < 64; i++) \n\t{\n\t\td = scene(p) + eps;\n\t\tp += d * dir;\n\t\tif (d > eps) \n\t\t{\n\t\t\tif (flame(p) < .0) glowed = true;\n\t\t\t if (glowed) glow = float(i) / 64.;\n\t\t }\n\t }\n\treturn vec4(p, glow);\n}\n\nvoid main() \n{\n\t//vec2 v = -1.0 + 2.0 * vUv.xy / resolution.xy;\n        vec2 v = -1.0 + 2.0 *vUv;\n\tv.x *= resolution.x / resolution.y;\n\tvec3 org = vec3(0., -2., 4.);\n\tvec3 dir = normalize(vec3(v.x * 1.6, -v.y, -1.5));\n\tvec4 p = raymarch(org, dir);\n\tfloat glow = p.w;\n\tvec4 col = mix(vec4(1., .5, .1, 1.), vec4(0.1, .5, 1., 1.), p.y * .02 + .4);\n\t//gl_FragColor = mix(vec4(1.), mix(vec4(1., .5, .1, 1.), vec4(0.1, .5, 1., 1.), p.y * .02 + .4), pow(glow * 2., 4.));\n       gl_FragColor = mix(vec4(0.), col, pow(glow*2.,4.));\n}\n",
+      "timeExpr": {
+        "expression": "d * 300",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 300
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    }
+  ],
+  "script": {
+    "init": "",
+    "execInit": "viewer.w.orbitControls.autoRotate = true;",
+    "update": null,
+    "execUpdate": null
+  },
+  "dataSourceProps": [
+    {
+      "prop1": null,
+      "prop2": "url",
+      "type": "string",
+      "label": "Url",
+      "value": ""
+    }
+  ]
+}

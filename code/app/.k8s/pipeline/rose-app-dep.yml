@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "__APP_NAME__-dep"
+spec:
+  selector:
+    matchLabels:
+      app: "__APP_NAME__"
+  replicas: __REPLICAS__
+  template:
+    metadata:
+      labels:
+        app: "__APP_NAME__"
+    spec:
+      containers:
+        - name: "__APP_NAME__"
+          image: "__REGISTRY__/__IMAGE__:__IMAGE_TAG__"
+          ports:
+            - containerPort: __APP_PORT__
+              protocol: TCP
+          tty: true
+          resources:
+            limits:
+              cpu: "__CPU_LIMIT__"
+            requests:
+              cpu: "__CPU_REQUEST__"

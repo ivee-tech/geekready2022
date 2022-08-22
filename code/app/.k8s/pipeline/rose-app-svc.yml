@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "__APP_NAME__-svc"
+  labels:
+    run: "__APP_NAME__-svc"
+spec:
+  ports:
+  - port: __APP_PORT__
+    protocol: TCP
+  selector:
+    app: "__APP_NAME__"
+  type: LoadBalancer

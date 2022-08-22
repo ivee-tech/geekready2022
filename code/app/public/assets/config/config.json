@@ -1,0 +1,14 @@
+{
+    "auth": {
+        "clientId": "14dae618-166f-4726-b330-b257952ba3a8",
+        "authority": "https://3DStoryTeller.b2clogin.com/3DStoryTeller.onmicrosoft.com/B2C_1_SignUpSignIn/",
+        "redirectUri": "https://3dstorytellerdev.z8.web.core.windows.net/",
+        "cacheLocation": "localStorage",
+        "apiConfig": {
+            "scopesUrl": "",                        
+            "scopes": ""
+        }
+    },
+    "storageBaseUrl": "https://storyteller3dacc.blob.core.windows.net"
+}
+

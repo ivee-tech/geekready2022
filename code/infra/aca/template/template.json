@@ -1,0 +1,95 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "environmentId": {
+            "type": "string"
+        },
+        "containers": {
+            "type": "array"
+        },
+        "secrets": {
+            "type": "array"
+        },
+        "registries": {
+            "type": "array"
+        },
+        "environmentName": {
+            "type": "string"
+        },
+        "workspaceName": {
+            "type": "string"
+        },
+        "workspaceLocation": {
+            "type": "string"
+        }
+    },
+    "resources": [
+        {
+            "name": "[parameters('name')]",
+            "kind": "containerapps",
+            "location": "[parameters('location')]",
+            "dependsOn": [
+                "[concat('Microsoft.App/managedEnvironments/', parameters('environmentName'))]"
+            ],
+            "properties": {
+                "configuration": {
+                    "secrets": "[parameters('secrets')]",
+                    "registries": "[parameters('registries')]",
+                    "activeRevisionsMode": "Single"
+                },
+                "template": {
+                    "containers": "[parameters('containers')]",
+                    "scale": {
+                        "minReplicas": 0
+                    }
+                },
+                "managedEnvironmentId": "[parameters('environmentId')]"
+            },
+            "apiVersion": "2022-01-01-preview",
+            "type": "Microsoft.App/containerapps"
+        },
+        {
+            "name": "[parameters('environmentName')]",
+            "location": "[parameters('location')]",
+            "dependsOn": [
+                "[concat('Microsoft.OperationalInsights/workspaces/', parameters('workspaceName'))]"
+            ],
+            "properties": {
+                "internalLoadBalancerEnabled": false,
+                "appLogsConfiguration": {
+                    "destination": "log-analytics",
+                    "logAnalyticsConfiguration": {
+                        "customerId": "[reference(concat('Microsoft.OperationalInsights/workspaces/', parameters('workspaceName')), '2020-08-01').customerId]",
+                        "sharedKey": "[listKeys(concat('Microsoft.OperationalInsights/workspaces/', parameters('workspaceName')), '2020-08-01').primarySharedKey]"
+                    }
+                }
+            },
+            "apiVersion": "2022-03-01",
+            "type": "Microsoft.App/managedEnvironments"
+        },
+        {
+            "apiVersion": "2020-08-01",
+            "name": "[parameters('workspaceName')]",
+            "type": "Microsoft.OperationalInsights/workspaces",
+            "location": "[parameters('workspaceLocation')]",
+            "dependsOn": [],
+            "properties": {
+                "sku": {
+                    "name": "PerGB2018"
+                },
+                "retentionInDays": 30,
+                "workspaceCapping": {}
+            }
+        }
+    ]
+}

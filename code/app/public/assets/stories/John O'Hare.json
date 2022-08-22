@@ -1,0 +1,834 @@
+{
+  "fileName": "John O'Hare.txt",
+  "originalLocation":  {"latitude":55.865684509277344,"longitude":-4.257137775421143,"altitude":0,"altitudeReference":-1,"name":"Glasgow, Glasgow City, United Kingdom"},
+  "updatedLocation":  {"latitude":55.865693672524216,"longitude":-4.256147623062139,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "My name is John O’Hare. I was born in Coatbridge, a wee village ten miles east of Glasgow, Scotland, in 1944.\r\n \r\nOur village was rich in coal, and mines started springing up (or down), in and around Coatbridge, and most other villages in Scotland, from as early as 1616.  The mines were typically staffed by men, and boys from as young as 12years old, it wasn' uncommon for people to die in the mines from poisonous gases, my pal Francie O’Donnell’s  father died in the mine.  Others would suffer, and continue to suffer from lung diseases like bronchitis, something I suffered from, and now has developed into further lung disease.\r\n \r\nThe multiple chimneys, which appeared to be a hundred feet tall, were dotted in and around the village, fuelled by coal, of course, in the iron and steel works, would burn from all the furnaces in the iron and steel works, spewed soot and smoke twenty four hours a day. Every building was black with soot, no-one escaped breathing it, clothing , vege gardens, pets suffered, everything did!. \r\n  Little did we know the damage this would all have on our land, water supplies, our health and lifespan – a lot of people died young back then. \r\n \r\nMe and my pals (Francie O'Donnell, Brian Cooney) while walking through the woods in Townhead near an old farm, came across an unfenced old mine that was almost filled with water, the entrance was covered with branches and bushes, it was totally unmarked and un-fenced. A lot of old mines were left abandoned, a danger to many.\r\n \r\nTownhead also had a canal (The Monklands Canal), that ran through the town and was used by horse-drawn barges to transport coal from the mines to Glasgow and places enroute, almost hard to believe that in the mid- 1800’s the canal could be fished for Perch, Pike, and other species.  As a child the canal was so polluted you wouldn’t touch it with a barge pole! (pun intended).\r\n \r\nThe canal is now no more in the town centre, mainly to build a section of the M8 motorway (and possibly, but unlikely, because of the health hazard to the community). A wee bit of sarcasm.\r\n \r\n\r\n",
+  "storyUpdatedText": "My name is John O’Hare. I was born in Coatbridge, a wee village ten miles east of Glasgow, Scotland, in 1944.\r\n \r\nOur village was rich in coal, and mines started springing up (or down), in and around Coatbridge, and most other villages in Scotland, from as early as 1616.  The mines were typically staffed by men, and boys from as young as 12years old, it wasn' uncommon for people to die in the mines from poisonous gases, my pal Francie O’Donnell’s  father died in the mine.  Others would suffer, and continue to suffer from lung diseases like bronchitis, something I suffered from, and now has developed into further lung disease.\r\n \r\nThe multiple chimneys, which appeared to be a hundred feet tall, were dotted in and around the village, fuelled by coal, of course, in the iron and steel works, would burn from all the furnaces in the iron and steel works, spewed soot and smoke twenty four hours a day. Every building was black with soot, no-one escaped breathing it, clothing , vege gardens, pets suffered, everything did!. \r\n  Little did we know the damage this would all have on our land, water supplies, our health and lifespan – a lot of people died young back then. \r\n \r\nMe and my pals (Francie O'Donnell, Brian Cooney) while walking through the woods in Townhead near an old farm, came across an unfenced old mine that was almost filled with water, the entrance was covered with branches and bushes, it was totally unmarked and un-fenced. A lot of old mines were left abandoned, a danger to many.\r\n \r\nTownhead also had a canal (The Monklands Canal), that ran through the town and was used by horse-drawn barges to transport coal from the mines to Glasgow and places enroute, almost hard to believe that in the mid- 1800’s the canal could be fished for Perch, Pike, and other species.  As a child the canal was so polluted you wouldn’t touch it with a barge pole! (pun intended).\r\n \r\nThe canal is now no more in the town centre, mainly to build a section of the M8 motorway (and possibly, but unlikely, because of the health hazard to the community). A wee bit of sarcasm.\r\n \r\n\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.09,
+        "neutral": 0.04,
+        "negative": 0.87
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.06,
+            "neutral": 0.92,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "My name is John O’Hare.",
+          "offset": 0,
+          "length": 23,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "I was born in Coatbridge, a wee village ten miles east of Glasgow, Scotland, in 1944.",
+          "offset": 24,
+          "length": 85,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.83,
+            "neutral": 0.15,
+            "negative": 0.02
+          },
+          "sentiment": "positive",
+          "text": "Our village was rich in coal, and mines started springing up (or down), in and around Coatbridge, and most other villages in Scotland, from as early as 1616.",
+          "offset": 114,
+          "length": 157,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "The mines were typically staffed by men, and boys from as young as 12years old, it wasn' uncommon for people to die in the mines from poisonous gases, my pal Francie O’Donnell’s  father died in the mine.",
+          "offset": 273,
+          "length": 203,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Others would suffer, and continue to suffer from lung diseases like bronchitis, something I suffered from, and now has developed into further lung disease.",
+          "offset": 478,
+          "length": 155,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "The multiple chimneys, which appeared to be a hundred feet tall, were dotted in and around the village, fuelled by coal, of course, in the iron and steel works, would burn from all the furnaces in the iron and steel works, spewed soot and smoke twenty four hours a day.",
+          "offset": 638,
+          "length": 269,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.07,
+            "negative": 0.92
+          },
+          "sentiment": "negative",
+          "text": "Every building was black with soot, no-one escaped breathing it, clothing , vege gardens, pets suffered, everything did!.",
+          "offset": 908,
+          "length": 121,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Little did we know the damage this would all have on our land, water supplies, our health and lifespan – a lot of people died young back then.",
+          "offset": 1034,
+          "length": 142,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.86,
+            "negative": 0.12
+          },
+          "sentiment": "neutral",
+          "text": "Me and my pals (Francie O'Donnell, Brian Cooney) while walking through the woods in Townhead near an old farm, came across an unfenced old mine that was almost filled with water, the entrance was covered with branches and bushes, it was totally unmarked and un-fenced.",
+          "offset": 1182,
+          "length": 268,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.01,
+            "negative": 0.99
+          },
+          "sentiment": "negative",
+          "text": "A lot of old mines were left abandoned, a danger to many.",
+          "offset": 1451,
+          "length": 57,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.02,
+            "negative": 0.96
+          },
+          "sentiment": "negative",
+          "text": "Townhead also had a canal (The Monklands Canal), that ran through the town and was used by horse-drawn barges to transport coal from the mines to Glasgow and places enroute, almost hard to believe that in the mid- 1800’s the canal could be fished for Perch, Pike, and other species.",
+          "offset": 1513,
+          "length": 282,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "As a child the canal was so polluted you wouldn’t touch it with a barge pole!",
+          "offset": 1797,
+          "length": 77,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.93,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "(pun intended).",
+          "offset": 1875,
+          "length": 15,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0,
+            "negative": 0.99
+          },
+          "sentiment": "negative",
+          "text": "The canal is now no more in the town centre, mainly to build a section of the M8 motorway (and possibly, but unlikely, because of the health hazard to the community).",
+          "offset": 1895,
+          "length": 166,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.12,
+            "neutral": 0.15,
+            "negative": 0.73
+          },
+          "sentiment": "negative",
+          "text": "A wee bit of sarcasm.",
+          "offset": 2062,
+          "length": 21,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "John O’Hare",
+        "Francie O’Donnell",
+        "Francie O'Donnell",
+        "most other villages",
+        "The Monklands Canal",
+        "unfenced old mine",
+        "other species",
+        "old farm",
+        "poisonous gases",
+        "lung diseases",
+        "multiple chimneys",
+        "steel works",
+        "vege gardens",
+        "Brian Cooney",
+        "horse-drawn barges",
+        "barge pole",
+        "M8 motorway",
+        "wee bit",
+        "old mines",
+        "water supplies",
+        "town centre",
+        "health hazard",
+        "wee village",
+        "name",
+        "Coatbridge",
+        "Glasgow",
+        "Scotland",
+        "coal",
+        "men",
+        "boys",
+        "people",
+        "pal",
+        "father",
+        "Others",
+        "bronchitis",
+        "something",
+        "iron",
+        "furnaces",
+        "soot",
+        "building",
+        "clothing",
+        "pets",
+        "everything",
+        "damage",
+        "lifespan",
+        "woods",
+        "Townhead",
+        "entrance",
+        "branches",
+        "bushes",
+        "danger",
+        "places",
+        "mid- 1800",
+        "Perch",
+        "Pike",
+        "child",
+        "section",
+        "community",
+        "sarcasm"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "John O’Hare",
+          "category": "Person",
+          "offset": 11,
+          "length": 11,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Coatbridge",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 38,
+          "length": 10,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "ten miles",
+          "category": "Quantity",
+          "subCategory": "Dimension",
+          "offset": 64,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Glasgow",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 82,
+          "length": 7,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Scotland",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 91,
+          "length": 8,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "1944",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 104,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "village",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 118,
+          "length": 7,
+          "confidenceScore": 0.63
+        },
+        {
+          "text": "coal",
+          "category": "Product",
+          "offset": 138,
+          "length": 4,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "mines",
+          "category": "Location",
+          "offset": 148,
+          "length": 5,
+          "confidenceScore": 0.54
+        },
+        {
+          "text": "Coatbridge",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 200,
+          "length": 10,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "villages",
+          "category": "Location",
+          "offset": 227,
+          "length": 8,
+          "confidenceScore": 0.55
+        },
+        {
+          "text": "Scotland",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 239,
+          "length": 8,
+          "confidenceScore": 1
+        },
+        {
+          "text": "as early as 1616",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 254,
+          "length": 16,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "mines",
+          "category": "Location",
+          "offset": 277,
+          "length": 5,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "12years old",
+          "category": "Quantity",
+          "subCategory": "Age",
+          "offset": 340,
+          "length": 11,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "mines",
+          "category": "Location",
+          "offset": 396,
+          "length": 5,
+          "confidenceScore": 0.88
+        },
+        {
+          "text": "pal",
+          "category": "PersonType",
+          "offset": 427,
+          "length": 3,
+          "confidenceScore": 0.7
+        },
+        {
+          "text": "Francie O’Donnell",
+          "category": "Person",
+          "offset": 431,
+          "length": 17,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "father",
+          "category": "PersonType",
+          "offset": 452,
+          "length": 6,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "mine",
+          "category": "Location",
+          "offset": 471,
+          "length": 4,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 589,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "chimneys",
+          "category": "Location",
+          "offset": 651,
+          "length": 8,
+          "confidenceScore": 0.4
+        },
+        {
+          "text": "a hundred feet",
+          "category": "Quantity",
+          "subCategory": "Dimension",
+          "offset": 682,
+          "length": 14,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "village",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 733,
+          "length": 7,
+          "confidenceScore": 0.73
+        },
+        {
+          "text": "coal",
+          "category": "Product",
+          "offset": 753,
+          "length": 4,
+          "confidenceScore": 0.62
+        },
+        {
+          "text": "steel works",
+          "category": "Location",
+          "offset": 786,
+          "length": 11,
+          "confidenceScore": 0.56
+        },
+        {
+          "text": "furnaces",
+          "category": "Product",
+          "offset": 823,
+          "length": 8,
+          "confidenceScore": 0.48
+        },
+        {
+          "text": "iron",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 839,
+          "length": 4,
+          "confidenceScore": 0.35
+        },
+        {
+          "text": "steel works",
+          "category": "Location",
+          "offset": 848,
+          "length": 11,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "twenty four hours a day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 883,
+          "length": 23,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "building",
+          "category": "Location",
+          "offset": 914,
+          "length": 8,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "one",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 947,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "clothing",
+          "category": "Product",
+          "offset": 973,
+          "length": 8,
+          "confidenceScore": 0.76
+        },
+        {
+          "text": "gardens",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 989,
+          "length": 7,
+          "confidenceScore": 0.73
+        },
+        {
+          "text": "pals",
+          "category": "PersonType",
+          "offset": 1192,
+          "length": 4,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "Francie O'Donnell",
+          "category": "Person",
+          "offset": 1198,
+          "length": 17,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Brian Cooney",
+          "category": "Person",
+          "offset": 1217,
+          "length": 12,
+          "confidenceScore": 1
+        },
+        {
+          "text": "woods",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 1257,
+          "length": 5,
+          "confidenceScore": 0.68
+        },
+        {
+          "text": "Townhead",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 1266,
+          "length": 8,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "farm",
+          "category": "Location",
+          "offset": 1287,
+          "length": 4,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "mine",
+          "category": "Location",
+          "offset": 1321,
+          "length": 4,
+          "confidenceScore": 0.64
+        },
+        {
+          "text": "mines",
+          "category": "Location",
+          "offset": 1464,
+          "length": 5,
+          "confidenceScore": 0.73
+        },
+        {
+          "text": "Townhead",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 1513,
+          "length": 8,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "canal",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1533,
+          "length": 5,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "Monklands Canal",
+          "category": "Location",
+          "offset": 1544,
+          "length": 15,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "town",
+          "category": "Location",
+          "offset": 1583,
+          "length": 4,
+          "confidenceScore": 0.5
+        },
+        {
+          "text": "barges",
+          "category": "Product",
+          "offset": 1616,
+          "length": 6,
+          "confidenceScore": 0.67
+        },
+        {
+          "text": "coal",
+          "category": "Product",
+          "offset": 1636,
+          "length": 4,
+          "confidenceScore": 0.59
+        },
+        {
+          "text": "mines",
+          "category": "Location",
+          "offset": 1650,
+          "length": 5,
+          "confidenceScore": 0.74
+        },
+        {
+          "text": "Glasgow",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 1659,
+          "length": 7,
+          "confidenceScore": 1
+        },
+        {
+          "text": "- 1800",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 1725,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "canal",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1738,
+          "length": 5,
+          "confidenceScore": 0.83
+        },
+        {
+          "text": "canal",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1812,
+          "length": 5,
+          "confidenceScore": 0.93
+        },
+        {
+          "text": "barge pole",
+          "category": "Product",
+          "offset": 1863,
+          "length": 10,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "canal",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1899,
+          "length": 5,
+          "confidenceScore": 0.77
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1908,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "town centre",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 1927,
+          "length": 11,
+          "confidenceScore": 0.62
+        },
+        {
+          "text": "M8 motorway",
+          "category": "Address",
+          "offset": 1973,
+          "length": 11,
+          "confidenceScore": 0.73
+        },
+        {
+          "text": "bit",
+          "category": "Quantity",
+          "subCategory": "Dimension",
+          "offset": 2068,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "sarcasm",
+          "category": "Skill",
+          "offset": 2075,
+          "length": 7,
+          "confidenceScore": 0.53
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "John O’Hare",
+          "category": "Person",
+          "offset": 11,
+          "length": 11,
+          "confidenceScore": 1
+        },
+        {
+          "text": "1944",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 104,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "as early as 1616",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 254,
+          "length": 16,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "12years old",
+          "category": "Quantity",
+          "subCategory": "Age",
+          "offset": 340,
+          "length": 11,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "pal",
+          "category": "PersonType",
+          "offset": 427,
+          "length": 3,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "Francie O’Donnell",
+          "category": "Person",
+          "offset": 431,
+          "length": 17,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "father",
+          "category": "PersonType",
+          "offset": 452,
+          "length": 6,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 589,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "twenty four hours a day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 883,
+          "length": 23,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "pals",
+          "category": "PersonType",
+          "offset": 1192,
+          "length": 4,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "Francie O'Donnell",
+          "category": "Person",
+          "offset": 1198,
+          "length": 17,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Brian Cooney",
+          "category": "Person",
+          "offset": 1217,
+          "length": 12,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1908,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "M8 motorway",
+          "category": "Address",
+          "offset": 1973,
+          "length": 11,
+          "confidenceScore": 0.57
+        }
+      ],
+      "redactedText": "My name is ***********. I was born in Coatbridge, a wee village ten miles east of Glasgow, Scotland, in ****.\r\n \r\nOur village was rich in coal, and mines started springing up (or down), in and around Coatbridge, and most other villages in Scotland, from ****************.  The mines were typically staffed by men, and boys from as young as ***********, it wasn' uncommon for people to die in the mines from poisonous gases, my *** *****************’s  ****** died in the mine.  Others would suffer, and continue to suffer from lung diseases like bronchitis, something I suffered from, and *** has developed into further lung disease.\r\n \r\nThe multiple chimneys, which appeared to be a hundred feet tall, were dotted in and around the village, fuelled by coal, of course, in the iron and steel works, would burn from all the furnaces in the iron and steel works, spewed soot and smoke ***********************. Every building was black with soot, no-one escaped breathing it, clothing , vege gardens, pets suffered, everything did!. \r\n  Little did we know the damage this would all have on our land, water supplies, our health and lifespan – a lot of people died young back then. \r\n \r\nMe and my **** (*****************, ************) while walking through the woods in Townhead near an old farm, came across an unfenced old mine that was almost filled with water, the entrance was covered with branches and bushes, it was totally unmarked and un-fenced. A lot of old mines were left abandoned, a danger to many.\r\n \r\nTownhead also had a canal (The Monklands Canal), that ran through the town and was used by horse-drawn barges to transport coal from the mines to Glasgow and places enroute, almost hard to believe that in the mid- 1800’s the canal could be fished for Perch, Pike, and other species.  As a child the canal was so polluted you wouldn’t touch it with a barge pole! (pun intended).\r\n \r\nThe canal is *** no more in the town centre, mainly to build a section of the *********** (and possibly, but unlikely, because of the health hazard to the community). A wee bit of sarcasm.\r\n \r\n\r\n"
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "fileName": "Gail's Story.txt",
+  "originalLocation":  {"latitude":-39.64654541015625,"longitude":174.34397888183594,"altitude":0,"altitudeReference":-1,"name":"Tangahoe River, New Zealand"},
+  "updatedLocation":  {"latitude":-39.64625570349716,"longitude":174.34541130065918,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Story from Gail:  Ngāti Ruanui, Ngā Ruahinerangi, Ngāti Kahungunu ki Wairoa, Tūhourangi\r\n \r\nKia ora koutou, ko Gail tōku ingoa \r\n \r\nAs tamariki in Hawera we had a lot of self-sufficiency around mātaitai (seafood).\r\n \r\nWe had an abundance of kai and even though we were 12 children living in a two bedroom home with no money - we never went hungry. We grew up on kina, tuna (eels), ika (fish), koura (crayfish), pipi (cockles), kutai and pāua were staple foods for us.\r\n \r\nOne particular delicacy was the mangu (shark) which was used as stock for our boil ups which was made from the liver – called maremare.\r\n\r\nWe would spend the mornings collecting as a whānau and then share it across all of the family groupings down our road – the Kira’s, the Parata’s, the Campbell’s, the Katene’s and the Luke’s. None of us had much so it was very important that we all shared what we got.\r\n\r\nUnfortunately now the beach is extremely paru (polluted). The level of toxicity within our pipi, kina and pāua mean we cannot safely gather kai like we used to do. We now have to go to the supermarket where they charge us $100+ for our favourite kai that used to be free. \r\n\r\nThe other aspect is over-fishing. The pipi beds in Ohawe Beach that were there since our old stories going back hundreds of years have disappeared. The Tangahoe river that used to be the best place for tuna is now being used as a water take for Fonterra. It is less than half of the levels it was when we were children. \r\n",
+  "storyUpdatedText": "Story from Gail:  Ngāti Ruanui, Ngā Ruahinerangi, Ngāti Kahungunu ki Wairoa, Tūhourangi\r\n \r\nKia ora koutou, ko Gail tōku ingoa \r\n \r\nAs tamariki in Hawera we had a lot of self-sufficiency around mātaitai (seafood).\r\n \r\nWe had an abundance of kai and even though we were 12 children living in a two bedroom home with no money - we never went hungry. We grew up on kina, tuna (eels), ika (fish), koura (crayfish), pipi (cockles), kutai and pāua were staple foods for us.\r\n \r\nOne particular delicacy was the mangu (shark) which was used as stock for our boil ups which was made from the liver – called maremare.\r\n\r\nWe would spend the mornings collecting as a whānau and then share it across all of the family groupings down our road – the Kira’s, the Parata’s, the Campbell’s, the Katene’s and the Luke’s. None of us had much so it was very important that we all shared what we got.\r\n\r\nUnfortunately now the beach is extremely paru (polluted). The level of toxicity within our pipi, kina and pāua mean we cannot safely gather kai like we used to do. We now have to go to the supermarket where they charge us $100+ for our favourite kai that used to be free. \r\n\r\nThe other aspect is over-fishing. The pipi beds in Ohawe Beach that were there since our old stories going back hundreds of years have disappeared. The Tangahoe river that used to be the best place for tuna is now being used as a water take for Fonterra. It is less than half of the levels it was when we were children. \r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.42,
+        "neutral": 0.02,
+        "negative": 0.56
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.93,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "Story from Gail:  Ngāti Ruanui, Ngā Ruahinerangi, Ngāti Kahungunu ki Wairoa, Tūhourangi\r\n \r\nKia ora koutou, ko Gail tōku ingoa \r\n \r\nAs tamariki in Hawera we had a lot of self-sufficiency around mātaitai (seafood).",
+          "offset": 0,
+          "length": 213,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.11,
+            "neutral": 0.02,
+            "negative": 0.87
+          },
+          "sentiment": "negative",
+          "text": "We had an abundance of kai and even though we were 12 children living in a two bedroom home with no money - we never went hungry.",
+          "offset": 218,
+          "length": 129,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.07,
+            "neutral": 0.86,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "We grew up on kina, tuna (eels), ika (fish), koura (crayfish), pipi (cockles), kutai and pāua were staple foods for us.",
+          "offset": 348,
+          "length": 119,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.05,
+            "neutral": 0.77,
+            "negative": 0.18
+          },
+          "sentiment": "neutral",
+          "text": "One particular delicacy was the mangu (shark) which was used as stock for our boil ups which was made from the liver – called maremare.",
+          "offset": 472,
+          "length": 135,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.08,
+            "neutral": 0.81,
+            "negative": 0.11
+          },
+          "sentiment": "neutral",
+          "text": "We would spend the mornings collecting as a whānau and then share it across all of the family groupings down our road – the Kira’s, the Parata’s, the Campbell’s, the Katene’s and the Luke’s.",
+          "offset": 611,
+          "length": 190,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.04,
+            "neutral": 0.92,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "None of us had much so it was very important that we all shared what we got.",
+          "offset": 802,
+          "length": 76,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Unfortunately now the beach is extremely paru (polluted).",
+          "offset": 882,
+          "length": 57,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.04,
+            "negative": 0.93
+          },
+          "sentiment": "negative",
+          "text": "The level of toxicity within our pipi, kina and pāua mean we cannot safely gather kai like we used to do.",
+          "offset": 940,
+          "length": 105,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "We now have to go to the supermarket where they charge us $100+ for our favourite kai that used to be free.",
+          "offset": 1046,
+          "length": 107,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.98,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "The other aspect is over-fishing.",
+          "offset": 1158,
+          "length": 33,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.11,
+            "neutral": 0.82,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "The pipi beds in Ohawe Beach that were there since our old stories going back hundreds of years have disappeared.",
+          "offset": 1192,
+          "length": 113,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.95,
+            "neutral": 0.05,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "The Tangahoe river that used to be the best place for tuna is now being used as a water take for Fonterra.",
+          "offset": 1306,
+          "length": 106,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.84,
+            "negative": 0.13
+          },
+          "sentiment": "neutral",
+          "text": "It is less than half of the levels it was when we were children.",
+          "offset": 1413,
+          "length": 64,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "Ngāti Kahungunu ki Wairoa",
+        "ko Gail tōku ingoa",
+        "Ngāti Ruanui",
+        "Kia ora koutou",
+        "two bedroom home",
+        "One particular delicacy",
+        "The Tangahoe river",
+        "Tūhourangi",
+        "Ngā Ruahinerangi",
+        "mātaitai",
+        "pāua",
+        "staple foods",
+        "boil ups",
+        "whānau",
+        "family groupings",
+        "other aspect",
+        "old stories",
+        "best place",
+        "water take",
+        "Ohawe Beach",
+        "favourite kai",
+        "pipi beds",
+        "Story",
+        "tamariki",
+        "Hawera",
+        "lot",
+        "self-sufficiency",
+        "seafood",
+        "abundance",
+        "12 children",
+        "money",
+        "kina",
+        "tuna",
+        "eels",
+        "ika",
+        "fish",
+        "koura",
+        "cockles",
+        "kutai",
+        "mangu",
+        "shark",
+        "stock",
+        "liver",
+        "mornings",
+        "road",
+        "Kira",
+        "Parata",
+        "Campbell",
+        "Katene",
+        "Luke",
+        "None",
+        "level",
+        "toxicity",
+        "supermarket",
+        "hundreds",
+        "years",
+        "Fonterra",
+        "less",
+        "half"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Gail",
+          "category": "Person",
+          "offset": 11,
+          "length": 4,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "tamariki",
+          "category": "PersonType",
+          "offset": 135,
+          "length": 8,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "Hawera",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 147,
+          "length": 6,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "mātaitai",
+          "category": "Product",
+          "offset": 194,
+          "length": 8,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "seafood",
+          "category": "Product",
+          "offset": 204,
+          "length": 7,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "kai",
+          "category": "Product",
+          "offset": 241,
+          "length": 3,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "12",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 269,
+          "length": 2,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "two",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 293,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "home",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 305,
+          "length": 4,
+          "confidenceScore": 0.72
+        },
+        {
+          "text": "kina",
+          "category": "Product",
+          "offset": 362,
+          "length": 4,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "tuna",
+          "category": "Product",
+          "offset": 368,
+          "length": 4,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "eels",
+          "category": "Product",
+          "offset": 374,
+          "length": 4,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "ika",
+          "category": "Product",
+          "offset": 381,
+          "length": 3,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "fish",
+          "category": "Product",
+          "offset": 386,
+          "length": 4,
+          "confidenceScore": 0.69
+        },
+        {
+          "text": "koura",
+          "category": "Product",
+          "offset": 393,
+          "length": 5,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "crayfish",
+          "category": "Product",
+          "offset": 400,
+          "length": 8,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "pipi",
+          "category": "Product",
+          "offset": 411,
+          "length": 4,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "cockles",
+          "category": "Product",
+          "offset": 417,
+          "length": 7,
+          "confidenceScore": 0.83
+        },
+        {
+          "text": "kutai",
+          "category": "Product",
+          "offset": 427,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "pāua",
+          "category": "Product",
+          "offset": 437,
+          "length": 4,
+          "confidenceScore": 0.93
+        },
+        {
+          "text": "One",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 472,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "mangu",
+          "category": "Product",
+          "offset": 504,
+          "length": 5,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "maremare",
+          "category": "Product",
+          "offset": 598,
+          "length": 8,
+          "confidenceScore": 0.7
+        },
+        {
+          "text": "mornings",
+          "category": "DateTime",
+          "subCategory": "TimeRange",
+          "offset": 630,
+          "length": 8,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Kira",
+          "category": "Person",
+          "offset": 735,
+          "length": 4,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Parata",
+          "category": "Person",
+          "offset": 747,
+          "length": 6,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Campbell",
+          "category": "Person",
+          "offset": 761,
+          "length": 8,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Katene",
+          "category": "Person",
+          "offset": 777,
+          "length": 6,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Luke",
+          "category": "Person",
+          "offset": 794,
+          "length": 4,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 896,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "beach",
+          "category": "Location",
+          "offset": 904,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "pipi",
+          "category": "Product",
+          "offset": 973,
+          "length": 4,
+          "confidenceScore": 0.5
+        },
+        {
+          "text": "kai",
+          "category": "Product",
+          "offset": 1022,
+          "length": 3,
+          "confidenceScore": 0.55
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1049,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "supermarket",
+          "category": "Location",
+          "offset": 1071,
+          "length": 11,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "us $100",
+          "category": "Quantity",
+          "subCategory": "Currency",
+          "offset": 1101,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "kai",
+          "category": "Product",
+          "offset": 1128,
+          "length": 3,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "Ohawe Beach",
+          "category": "Location",
+          "offset": 1209,
+          "length": 11,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "Tangahoe river",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1310,
+          "length": 14,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "tuna",
+          "category": "Product",
+          "offset": 1360,
+          "length": 4,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1368,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Fonterra",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 1403,
+          "length": 8,
+          "confidenceScore": 0.7
+        },
+        {
+          "text": "half",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 1429,
+          "length": 4,
+          "confidenceScore": 0.8
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Gail",
+          "category": "Person",
+          "offset": 11,
+          "length": 4,
+          "confidenceScore": 0.65
+        },
+        {
+          "text": "Ngāti Ruanui",
+          "category": "Person",
+          "offset": 18,
+          "length": 12,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "Ngā Ruahinerangi",
+          "category": "Person",
+          "offset": 32,
+          "length": 16,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "Ngāti Kahungunu",
+          "category": "Person",
+          "offset": 50,
+          "length": 15,
+          "confidenceScore": 0.77
+        },
+        {
+          "text": "Wairoa",
+          "category": "Person",
+          "offset": 69,
+          "length": 6,
+          "confidenceScore": 0.72
+        },
+        {
+          "text": "Tūhourangi",
+          "category": "Person",
+          "offset": 77,
+          "length": 10,
+          "confidenceScore": 0.83
+        },
+        {
+          "text": "tamariki",
+          "category": "PersonType",
+          "offset": 135,
+          "length": 8,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "mornings",
+          "category": "DateTime",
+          "subCategory": "TimeRange",
+          "offset": 630,
+          "length": 8,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Kira",
+          "category": "Person",
+          "offset": 735,
+          "length": 4,
+          "confidenceScore": 0.59
+        },
+        {
+          "text": "Parata",
+          "category": "Person",
+          "offset": 747,
+          "length": 6,
+          "confidenceScore": 0.59
+        },
+        {
+          "text": "Campbell",
+          "category": "Person",
+          "offset": 761,
+          "length": 8,
+          "confidenceScore": 0.83
+        },
+        {
+          "text": "Katene",
+          "category": "Person",
+          "offset": 777,
+          "length": 6,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "Luke",
+          "category": "Person",
+          "offset": 794,
+          "length": 4,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 896,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1049,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1368,
+          "length": 3,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "Story from ****:  ************, ****************, *************** ki ******, **********\r\n \r\nKia ora koutou, ko Gail tōku ingoa \r\n \r\nAs ******** in Hawera we had a lot of self-sufficiency around mātaitai (seafood).\r\n \r\nWe had an abundance of kai and even though we were 12 children living in a two bedroom home with no money - we never went hungry. We grew up on kina, tuna (eels), ika (fish), koura (crayfish), pipi (cockles), kutai and pāua were staple foods for us.\r\n \r\nOne particular delicacy was the mangu (shark) which was used as stock for our boil ups which was made from the liver – called maremare.\r\n\r\nWe would spend the ******** collecting as a whānau and then share it across all of the family groupings down our road – the ****’s, the ******’s, the ********’s, the ******’s and the ****’s. None of us had much so it was very important that we all shared what we got.\r\n\r\nUnfortunately *** the beach is extremely paru (polluted). The level of toxicity within our pipi, kina and pāua mean we cannot safely gather kai like we used to do. We *** have to go to the supermarket where they charge us $100+ for our favourite kai that used to be free. \r\n\r\nThe other aspect is over-fishing. The pipi beds in Ohawe Beach that were there since our old stories going back hundreds of years have disappeared. The Tangahoe river that used to be the best place for tuna is *** being used as a water take for Fonterra. It is less than half of the levels it was when we were children. \r\n"
+    }
+  ]
+}

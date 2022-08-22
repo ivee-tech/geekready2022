@@ -1,0 +1,534 @@
+{
+  "fileName": "kaumatua-interviews-te-awarua-o-porirua-2013.720p.3.txt",
+  "videoFileName": "kaumatua-interviews-te-awarua-o-porirua-2013.360p.mp4",
+  "originalLocation": { "latitude": -41.13148, "longitude": 174.83999, "name": "Porirua, Wellington Region, New Zealand" },
+  "updatedLocation": { "latitude": -41.13148, "longitude": 174.83999, "name": "Porirua, Wellington Region, New Zealand" },
+  "overlay": { "locations": [
+    { "latitude": -41.080007, "longitude": 174.867744, "name": "Plimmerton, Porirua 5026, New Zealand" },
+    { "latitude": -41.096546, "longitude": 174.839521, "name": "Whitireia, New Zealand" },
+    { "latitude": -41.101447, "longitude": 174.848426, "name": "Tītahi Bay, Porirua 5022, New Zealand" },
+    { "latitude": -41.104227, "longitude": 174.852817, "name": "Onepoto, Tītahi Bay, Porirua 5022, New Zealand" },
+    { "latitude": -41.123709, "longitude": 174.835204, "name": "Takapūwāhia, Porirua 5022, New Zealand" },
+    { "latitude": -41.131643, "longitude": 174.840576, "name": "Parumoana Street, Porirua City Centre, Porirua 5022, New Zealand" },
+    { "latitude": -41.134008, "longitude": 174.846485, "name": "Porirua 5024, New Zealand" },
+    { "latitude": -41.149337, "longitude": 174.837545, "name": "Kenepuru, Porirua 5022, New Zealand" }
+  ] },
+  "storyOriginalText": "they reckon it's gonna take years and years but. Yeah, one day to be like it was when I was a kid. \r\n\r\nHaving enough changes around here. But certainly we'd like to see the beach. The beach for future generations cause that is going to help them with their food baskets, is to see the beach all cleaned up. \r\n\r\nIf we expect to. Yeah, if we expect to to and have the harbor here for us, then we need to look after it. But I I'm not sure whether the government has that in mind, but you know, for me, the harbor is the beginning of the end of Porirua \r\n\r\nAnd and to see it back in its previous form and to have another pipi again. I don't know whether I will out of the harbor. If we do it would be an enormous tribute to our people.  \r\n\r\nSo what I would like to see. Is the whole place beautified? We're constantly having working parties now, groups of children and young people. Cleaning up, but you know you do that. Like two or three days in a row and the next week, it's all A mess again. Yeah, they're constantly fishing out shopping trolleys and. All sorts of rubbish.  \r\n\r\nWhat we call pollution. Can be prevented. Through the expertise sits now on board and the collective. And through educating Communities. Because obviously what has an influence is what? Each household puts down the sink. \r\n\r\n \r\n\r\n",
+  "storyUpdatedText": "they reckon it's gonna take years and years but. Yeah, one day to be like it was when I was a kid. \r\n\r\nHaving enough changes around here. But certainly we'd like to see the beach. The beach for future generations cause that is going to help them with their food baskets, is to see the beach all cleaned up. \r\n\r\nIf we expect to. Yeah, if we expect to to and have the harbor here for us, then we need to look after it. But I I'm not sure whether the government has that in mind, but you know, for me, the harbor is the beginning of the end of Porirua \r\n\r\nAnd and to see it back in its previous form and to have another pipi again. I don't know whether I will out of the harbor. If we do it would be an enormous tribute to our people.  \r\n\r\nSo what I would like to see. Is the whole place beautified? We're constantly having working parties now, groups of children and young people. Cleaning up, but you know you do that. Like two or three days in a row and the next week, it's all A mess again. Yeah, they're constantly fishing out shopping trolleys and. All sorts of rubbish.  \r\n\r\nWhat we call pollution. Can be prevented. Through the expertise sits now on board and the collective. And through educating Communities. Because obviously what has an influence is what? Each household puts down the sink. \r\n\r\n \r\n\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.53,
+        "neutral": 0.05,
+        "negative": 0.42
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.13,
+            "neutral": 0.86,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "they reckon it's gonna take years and years but.",
+          "offset": 0,
+          "length": 48,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.19,
+            "neutral": 0.79,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "Yeah, one day to be like it was when I was a kid.",
+          "offset": 49,
+          "length": 49,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.15,
+            "neutral": 0.81,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "Having enough changes around here.",
+          "offset": 103,
+          "length": 34,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.99,
+            "neutral": 0.01,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "But certainly we'd like to see the beach.",
+          "offset": 138,
+          "length": 41,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.78,
+            "neutral": 0.21,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "The beach for future generations cause that is going to help them with their food baskets, is to see the beach all cleaned up.",
+          "offset": 180,
+          "length": 126,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.06,
+            "neutral": 0.91,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "If we expect to.",
+          "offset": 311,
+          "length": 16,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Yeah, if we expect to to and have the harbor here for us, then we need to look after it.",
+          "offset": 328,
+          "length": 88,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.98,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "But I I'm not sure whether the government has that in mind, but you know, for me, the harbor is the beginning of the end of Porirua \r\n\r\nAnd and to see it back in its previous form and to have another pipi again.",
+          "offset": 417,
+          "length": 211,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.99,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "I don't know whether I will out of the harbor.",
+          "offset": 629,
+          "length": 46,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.2,
+            "neutral": 0.78,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "If we do it would be an enormous tribute to our people.",
+          "offset": 676,
+          "length": 55,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "So what I would like to see.",
+          "offset": 737,
+          "length": 28,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.92,
+            "neutral": 0.07,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "Is the whole place beautified?",
+          "offset": 766,
+          "length": 30,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.16,
+            "neutral": 0.78,
+            "negative": 0.06
+          },
+          "sentiment": "neutral",
+          "text": "We're constantly having working parties now, groups of children and young people.",
+          "offset": 797,
+          "length": 81,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.97,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "Cleaning up, but you know you do that.",
+          "offset": 879,
+          "length": 38,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Like two or three days in a row and the next week, it's all A mess again.",
+          "offset": 918,
+          "length": 73,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.04,
+            "neutral": 0.94,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "Yeah, they're constantly fishing out shopping trolleys and.",
+          "offset": 992,
+          "length": 59,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "All sorts of rubbish.",
+          "offset": 1052,
+          "length": 21,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.07,
+            "negative": 0.93
+          },
+          "sentiment": "negative",
+          "text": "What we call pollution.",
+          "offset": 1079,
+          "length": 23,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.72,
+            "negative": 0.26
+          },
+          "sentiment": "neutral",
+          "text": "Can be prevented.",
+          "offset": 1103,
+          "length": 17,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.97,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Through the expertise sits now on board and the collective.",
+          "offset": 1121,
+          "length": 59,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.1,
+            "neutral": 0.88,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "And through educating Communities.",
+          "offset": 1181,
+          "length": 34,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.98,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "Because obviously what has an influence is what?",
+          "offset": 1216,
+          "length": 48,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Each household puts down the sink.",
+          "offset": 1265,
+          "length": 34,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "future generations cause",
+        "enough changes",
+        "food baskets",
+        "previous form",
+        "enormous tribute",
+        "working parties",
+        "Cleaning up",
+        "three days",
+        "next week",
+        "shopping trolleys",
+        "young people",
+        "years",
+        "kid",
+        "beach",
+        "harbor",
+        "government",
+        "mind",
+        "beginning",
+        "end",
+        "Porirua",
+        "pipi",
+        "place",
+        "groups",
+        "children",
+        "two",
+        "row",
+        "mess",
+        "sorts",
+        "rubbish",
+        "expertise",
+        "board",
+        "collective",
+        "Communities",
+        "influence",
+        "household",
+        "sink"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "one day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 55,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "beach",
+          "category": "Location",
+          "offset": 173,
+          "length": 5,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "beach",
+          "category": "Location",
+          "offset": 184,
+          "length": 5,
+          "confidenceScore": 0.94
+        },
+        {
+          "text": "food baskets",
+          "category": "Product",
+          "offset": 257,
+          "length": 12,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "beach",
+          "category": "Location",
+          "offset": 285,
+          "length": 5,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "harbor",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 366,
+          "length": 6,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "harbor",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 503,
+          "length": 6,
+          "confidenceScore": 0.93
+        },
+        {
+          "text": "Porirua",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 541,
+          "length": 7,
+          "confidenceScore": 0.67
+        },
+        {
+          "text": "harbor",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 668,
+          "length": 6,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 837,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "two",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 923,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "three days",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 930,
+          "length": 10,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "next week",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 958,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "shopping trolleys",
+          "category": "Product",
+          "offset": 1029,
+          "length": 17,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1148,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "sink",
+          "category": "Product",
+          "offset": 1294,
+          "length": 4,
+          "confidenceScore": 0.75
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "one day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 55,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 837,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "young",
+          "category": "PersonType",
+          "offset": 865,
+          "length": 5,
+          "confidenceScore": 0.49
+        },
+        {
+          "text": "three days",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 930,
+          "length": 10,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "next week",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 958,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1148,
+          "length": 3,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "they reckon it's gonna take years and years but. Yeah, ******* to be like it was when I was a kid. \r\n\r\nHaving enough changes around here. But certainly we'd like to see the beach. The beach for future generations cause that is going to help them with their food baskets, is to see the beach all cleaned up. \r\n\r\nIf we expect to. Yeah, if we expect to to and have the harbor here for us, then we need to look after it. But I I'm not sure whether the government has that in mind, but you know, for me, the harbor is the beginning of the end of Porirua \r\n\r\nAnd and to see it back in its previous form and to have another pipi again. I don't know whether I will out of the harbor. If we do it would be an enormous tribute to our people.  \r\n\r\nSo what I would like to see. Is the whole place beautified? We're constantly having working parties ***, groups of children and ***** people. Cleaning up, but you know you do that. Like two or ********** in a row and the *********, it's all A mess again. Yeah, they're constantly fishing out shopping trolleys and. All sorts of rubbish.  \r\n\r\nWhat we call pollution. Can be prevented. Through the expertise sits *** on board and the collective. And through educating Communities. Because obviously what has an influence is what? Each household puts down the sink. \r\n\r\n \r\n\r\n"
+    }
+  ]
+}

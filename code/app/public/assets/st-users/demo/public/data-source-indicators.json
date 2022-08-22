@@ -1,0 +1,703 @@
+{
+  "container": {
+    "name": "mainGroup",
+    "uuid": "",
+    "url": "",
+    "meshType": "group",
+    "objectProps": [],
+    "geometryProps": [],
+    "materialProps": [],
+    "cfgProps": [],
+    "children": [],
+    "contentPanels": "",
+    "visibleRuntime": true,
+    "sVisibleRuntime": "true",
+    "dataSourceItem": null
+  },
+  "timelines": [],
+  "lights": [
+    {
+      "name": "",
+      "uuid": "E0877D5F-F53A-46BB-AB7F-D6633E62C21D",
+      "type": "DirectionalLight",
+      "lightProps": [
+        {
+          "prop1": null,
+          "prop2": "type",
+          "type": "string",
+          "label": "Type",
+          "value": "DirectionalLight",
+          "readOnly": true
+        },
+        {
+          "prop1": null,
+          "prop2": "uuid",
+          "type": "string",
+          "label": "UUID",
+          "value": "",
+          "readOnly": true
+        },
+        {
+          "prop1": null,
+          "prop2": "name",
+          "type": "string",
+          "label": "name",
+          "value": ""
+        },
+        {
+          "prop1": null,
+          "prop2": "color",
+          "type": "color",
+          "label": "Color",
+          "value": 16777215
+        },
+        {
+          "prop1": null,
+          "prop2": "intensity",
+          "type": "number",
+          "label": "Intensity",
+          "value": 1,
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        },
+        {
+          "prop1": "position",
+          "prop2": "x",
+          "type": "number",
+          "label": "Position X",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": "position",
+          "prop2": "y",
+          "type": "number",
+          "label": "Position Y",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": "position",
+          "prop2": "z",
+          "type": "number",
+          "label": "Position Z",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": null,
+          "prop2": "size",
+          "type": "number",
+          "label": "Size",
+          "min": 1,
+          "max": 100,
+          "value": 5,
+          "step": 1
+        },
+        {
+          "prop1": null,
+          "prop2": "shadowCameraFov",
+          "type": "number",
+          "label": "Shadow Camera FOV",
+          "value": 70,
+          "min": 0,
+          "max": 1000,
+          "step": 10
+        },
+        {
+          "prop1": null,
+          "prop2": "castShadow",
+          "type": "bool",
+          "label": "Cast Shadow",
+          "value": false
+        },
+        {
+          "prop1": null,
+          "prop2": "showHelper",
+          "type": "bool",
+          "label": "Show Helper",
+          "value": false
+        },
+        {
+          "prop1": null,
+          "prop2": "showHelperRuntime",
+          "type": "bool",
+          "label": "Runtime",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "cameraProps": [
+    {
+      "prop1": null,
+      "prop2": "fov",
+      "type": "number",
+      "label": "FOV",
+      "value": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": null,
+      "prop2": "aspect",
+      "type": "number",
+      "label": "Aspect",
+      "value": 2.1309655937846839,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "prop1": null,
+      "prop2": "near",
+      "type": "number",
+      "label": "Near",
+      "value": 0.1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1
+    },
+    {
+      "prop1": null,
+      "prop2": "far",
+      "type": "number",
+      "label": "Far",
+      "value": 10000,
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "prop1": "position",
+      "prop2": "x",
+      "type": "number",
+      "label": "Position X",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "y",
+      "type": "number",
+      "label": "Position Y",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "z",
+      "type": "number",
+      "label": "Position Z",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    }
+  ],
+  "sceneProps": [
+    {
+      "prop1": "scene",
+      "prop2": "useFog",
+      "type": "bool",
+      "label": "Use Fog",
+      "value": false
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogColor",
+      "type": "color",
+      "label": "Fog Color",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogMistDensity",
+      "type": "number",
+      "label": "Fog Mist Density",
+      "value": 0.015,
+      "min": 0,
+      "max": 1,
+      "step": 0.001
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxis",
+      "type": "bool",
+      "label": "Show Axis",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxisRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisSize",
+      "type": "number",
+      "label": "Axis Size",
+      "value": 1000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "axis",
+      "prop2": "useAxisArrows",
+      "type": "bool",
+      "label": "Axis Arrows",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisArrowHeadLength",
+      "type": "number",
+      "label": "Axis Arrow Head Length",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGrid",
+      "type": "bool",
+      "label": "Show Grid",
+      "value": false
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGridRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridSize",
+      "type": "number",
+      "label": "Grid Size",
+      "value": 2000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridDivisions",
+      "type": "number",
+      "label": "Grid Divisions",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColor",
+      "type": "color",
+      "label": "Grid Color",
+      "value": "#808080"
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColorCenterLine",
+      "type": "color",
+      "label": "Grid Color Center Line",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "backgroundColor",
+      "type": "cssColor",
+      "label": "Background Color",
+      "value": "#000000"
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useStereoEffect",
+      "type": "bool",
+      "label": "Stereo Effect",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useStereoEffectRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAnaglyphEffect",
+      "type": "bool",
+      "label": "Anaglyph Effect",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAnaglyphEffectRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAsciiEffect",
+      "type": "bool",
+      "label": "Ascii Effect",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAsciiEffectRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    }
+  ],
+  "audioProps": [
+    {
+      "prop1": null,
+      "prop2": "fileName",
+      "type": "string",
+      "label": "Audio File Name",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "select",
+      "type": "function",
+      "label": "Select",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "play",
+      "type": "function",
+      "label": "Play",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "pause",
+      "type": "function",
+      "label": "Pause",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "autoPlay",
+      "type": "bool",
+      "label": "Auto Play",
+      "value": false
+    },
+    {
+      "prop1": null,
+      "prop2": "loop",
+      "type": "bool",
+      "label": "Loop",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "controls",
+      "type": "bool",
+      "label": "Controls",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "position",
+      "type": "string",
+      "label": "Position",
+      "value": "absolute",
+      "values": [
+        "static",
+        "relative",
+        "absolute"
+      ]
+    },
+    {
+      "prop1": null,
+      "prop2": "left",
+      "type": "string",
+      "label": "Left",
+      "value": "10px"
+    },
+    {
+      "prop1": null,
+      "prop2": "top",
+      "type": "string",
+      "label": "Top",
+      "value": "10px"
+    }
+  ],
+  "additionalContents": [],
+  "shaders": [],
+  "script": {
+    "init": null,
+    "execInit": "viewer.w.orbitControls.autoRotate = true;",
+    "update": "",
+    "execUpdate": null
+  },
+  "dataSourceProps": [
+    {
+      "prop1": null,
+      "prop2": "title",
+      "type": "string",
+      "label": "Title",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "url",
+      "type": "string",
+      "label": "Url",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "contentPanel",
+      "type": "string",
+      "label": "Content panel",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "type",
+      "type": "string",
+      "label": "Type",
+      "value": "cylinder"
+    },
+    {
+      "prop1": null,
+      "prop2": "textBackgroundColor",
+      "type": "color",
+      "label": "Text background color",
+      "value": "#000000"
+    },
+    {
+      "prop1": null,
+      "prop2": "textColor",
+      "type": "color",
+      "label": "Text color",
+      "value": "#ff4b00"
+    },
+    {
+      "prop1": null,
+      "prop2": "transparentBackground",
+      "type": "boolean",
+      "label": "Transparent background",
+      "value": false
+    },
+    {
+      "prop1": null,
+      "prop2": "valueFormat",
+      "type": "string",
+      "label": "Format",
+      "value": "number"
+    },
+    {
+      "prop1": "css",
+      "prop2": "position",
+      "type": "string",
+      "label": "Position",
+      "value": "absolute"
+    },
+    {
+      "prop1": "css",
+      "prop2": "left",
+      "type": "string",
+      "label": "Left",
+      "value": "10px"
+    },
+    {
+      "prop1": "css",
+      "prop2": "top",
+      "type": "string",
+      "label": "Top",
+      "value": "100px"
+    },
+    {
+      "prop1": "css",
+      "prop2": "width",
+      "type": "string",
+      "label": "Width",
+      "value": "500px"
+    },
+    {
+      "prop1": "css",
+      "prop2": "height",
+      "type": "string",
+      "label": "Height",
+      "value": "800px"
+    },
+    {
+      "prop1": "css",
+      "prop2": "opacity",
+      "type": "string",
+      "label": "Opacity",
+      "value": "1"
+    },
+    {
+      "prop1": "css",
+      "prop2": "background-color",
+      "type": "string",
+      "label": "Background color",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "page",
+      "type": "number",
+      "label": "Page",
+      "value": 1
+    },
+    {
+      "prop1": null,
+      "prop2": "pageSize",
+      "type": "number",
+      "label": "Page size",
+      "value": 20
+    },
+    {
+      "prop1": null,
+      "prop2": "drilldownPatternUrl",
+      "type": "string",
+      "label": "Drilldown Pattern Url",
+      "value": ""
+    },
+    {
+      "prop1": "urls",
+      "prop2": "title0",
+      "type": "string",
+      "label": "Title 0",
+      "value": "World Development Indicators"
+    },
+    {
+      "prop1": "urls",
+      "prop2": "url0",
+      "type": "string",
+      "label": "Url 0",
+      "value": "http://editor.ivee.tech/svc/api/worldbank/indicators/SP-POP-TOTL;NY-GDP-MKTP-CD;FP-CPI-TOTL;FP-CPI-TOTL-ZG;NY.GDP.PCAP.CD;NY.GNP.PCAP.CD/data-source"
+    },
+    {
+      "prop1": "urls",
+      "prop2": "type0",
+      "type": "string",
+      "label": "Type 0",
+      "value": "particles",
+      "values": [
+        "none",
+        "",
+        "group",
+        "line",
+        "plane",
+        "circle",
+        "cube",
+        "sphere",
+        "cylinder",
+        "torus",
+        "torusKnot",
+        "points",
+        "particles",
+        "text"
+      ]
+    },
+    {
+      "prop1": "urls",
+      "prop2": "title1",
+      "type": "string",
+      "label": "Title 1",
+      "value": "Countries indicator"
+    },
+    {
+      "prop1": "urls",
+      "prop2": "url1",
+      "type": "string",
+      "label": "Url 1",
+      "value": "http://editor.ivee.tech/svc/api/worldbank/countries/indicators/{id}/data-source?dateFrom=YTD&dateTo=2016&page={page}&perPage={pageSize}"
+    },
+    {
+      "prop1": "urls",
+      "prop2": "type1",
+      "type": "string",
+      "label": "Type 1",
+      "value": "cylinder",
+      "values": [
+        "none",
+        "",
+        "group",
+        "line",
+        "plane",
+        "circle",
+        "cube",
+        "sphere",
+        "cylinder",
+        "torus",
+        "torusKnot",
+        "points",
+        "particles",
+        "text"
+      ]
+    },
+    {
+      "prop1": "urls",
+      "prop2": "title2",
+      "type": "string",
+      "label": "Title 2",
+      "value": ""
+    },
+    {
+      "prop1": "urls",
+      "prop2": "url2",
+      "type": "string",
+      "label": "Url 2",
+      "value": ""
+    },
+    {
+      "prop1": "urls",
+      "prop2": "type2",
+      "type": "string",
+      "label": "Type 2",
+      "value": "cube",
+      "values": [
+        "none",
+        "",
+        "group",
+        "line",
+        "plane",
+        "circle",
+        "cube",
+        "sphere",
+        "cylinder",
+        "torus",
+        "torusKnot",
+        "points",
+        "particles",
+        "text"
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "id": "FD860004-1358-4D72-9AED-619149845E52",
+      "type": "dataSource",
+      "cfg": []
+    }
+  ]
+}

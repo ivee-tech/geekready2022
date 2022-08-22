@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: rose-app-func-test-001
+spec:
+  template:
+    metadata:
+      labels:
+        app: rose-app-func-test
+    spec:
+      containers:
+        - name: rose-app-func-test
+          image: zzacr.azurecr.io/geekready2021/rose-app-func-test:latest
+          imagePullPolicy: Always
+          tty: true
+      restartPolicy: OnFailure
+  backoffLimit: 6 # default 6, 0 to no restart
+  completions: 2
+  parallelism: 2

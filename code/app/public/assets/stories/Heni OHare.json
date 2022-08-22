@@ -1,0 +1,706 @@
+{
+"fileName":"Heni O'Hare.wav",
+"videoFileName": "Heni OHare.mp4",
+  "originalLocation":  {"latitude":-41.21644,"longitude":174.92475,"altitude":0,"altitudeReference":-1,"name":"Waiwhetu Road, Waterloo, Lower Hutt 5010, 5011"},
+  "updatedLocation":  {"latitude":-41.21633833571465,"longitude":174.92459105026245,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Hi, my name is Henio. Here I'm from Y with two letters in Lower Hutt, Wellington. And I'm doing this for my daughter Roseanne. She wants me to talk about when I was a child. Well, when I was about 10, my mum would ask us, ask me and my cousins, well, we will go down and get some water. Chris from the local river, which is a street we we call it the river and it had water Chris Heels so we would go down and get back for our. T for that night and then come home. And then later on in the day, we'd go back to that same river and we we had a swimming hole down there and we would swim all day till about two time and then go home. And we had such good fun. We did that every day and the school holidays. Our parents didn't have to worry about us, 'cause they knew where we were. Just down the road. And now you would not do that. We would never do that, and let river, because it's because of the pollution. My brothers and I I used to go with my one of my brothers Guilian down there. There's no more deals in the rubber. Because of the pollution, we sometimes we'd swim and then people would be throwing their rubbish. Their grass clippings in it and the and the river. And then we have to get out of the river 'cause we 'cause all this rubbish going floating down. And yes, Sir, it was. It was really a sport us for sport. It for us kids. But now you would don't see any kids down at the river there. It's not as nice as it used to be. It's just a little we stream. And yeah, I hope this is what you wanted, Rosen? OK, I'll think of something else later on bye. ",
+  "storyUpdatedText": "Hi, my name is Heni O'Hare. I'm from Waiwhetu in Lower Hutt, Wellington. And I'm doing this for my daughter Roseann. She wants me to talk about when I was a child. Well, when I was about 10, my mum would ask us, ask me and my cousins, well, we will go down and get some water. Chris watercress from the local river, which is a street we we call it the river and it had watercress, eels so we would go down and get back for our tea for that night and then come home. And then later on in the day, we'd go back to that same river and we we had a swimming hole down there and we would swim all day till about two time and then go home. And we had such good fun. We did that every day and the school holidays. Our parents didn't have to worry about us, 'cause they knew where we were. Just down the road.And now you would not do that. We would never do that, and let river, because it's because of the pollution. My brothers and I I used to go with my one of my brothers Guilian down there. There's no more deals in the rubber.Because of the pollution, we sometimes we'd swim and then people would be throwing their rubbish. Their grass clippings in it and the and the river. And then we have to get out of the river 'cause we 'cause all this rubbish going floating down.And yes, Sir, it was.It was really a sport us for sport. It for us kids.But now you would don't see any kids down at the river there. It's not as nice as it used to be. It's just a little we stream.And yeah, I hope this is what you wanted, Rosen?OK, I'll think of something else later on bye.\n\n\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.4,
+        "neutral": 0.09,
+        "negative": 0.51
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.99,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "Hi, my name is Heni O'Hare.",
+          "offset": 0,
+          "length": 27,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "I'm from Waiwhetu in Lower Hutt, Wellington.",
+          "offset": 28,
+          "length": 44,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.37,
+            "neutral": 0.61,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "And I'm doing this for my daughter Roseann.",
+          "offset": 73,
+          "length": 43,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.19,
+            "neutral": 0.74,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "She wants me to talk about when I was a child.",
+          "offset": 117,
+          "length": 46,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.68,
+            "neutral": 0.3,
+            "negative": 0.02
+          },
+          "sentiment": "positive",
+          "text": "Well, when I was about 10, my mum would ask us, ask me and my cousins, well, we will go down and get some water.",
+          "offset": 164,
+          "length": 112,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Chris watercress from the local river, which is a street we we call it the river and it had watercress, eels so we would go down and get back for our tea for that night and then come home.",
+          "offset": 277,
+          "length": 188,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.99,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "And then later on in the day, we'd go back to that same river and we we had a swimming hole down there and we would swim all day till about two time and then go home.",
+          "offset": 466,
+          "length": 166,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "And we had such good fun.",
+          "offset": 633,
+          "length": 25,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.08,
+            "neutral": 0.91,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "We did that every day and the school holidays.",
+          "offset": 659,
+          "length": 46,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.96,
+            "neutral": 0.01,
+            "negative": 0.03
+          },
+          "sentiment": "positive",
+          "text": "Our parents didn't have to worry about us, 'cause they knew where we were.",
+          "offset": 706,
+          "length": 74,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.97,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Just down the road.And now you would not do that.",
+          "offset": 781,
+          "length": 49,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.11,
+            "negative": 0.89
+          },
+          "sentiment": "negative",
+          "text": "We would never do that, and let river, because it's because of the pollution.",
+          "offset": 831,
+          "length": 77,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.12,
+            "neutral": 0.87,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "My brothers and I I used to go with my one of my brothers Guilian down there.",
+          "offset": 909,
+          "length": 77,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "There's no more deals in the rubber.Because of the pollution, we sometimes we'd swim and then people would be throwing their rubbish.",
+          "offset": 987,
+          "length": 133,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Their grass clippings in it and the and the river.",
+          "offset": 1121,
+          "length": 50,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "And then we have to get out of the river 'cause we 'cause all this rubbish going floating down.And yes, Sir, it was.It was really a sport us for sport.",
+          "offset": 1172,
+          "length": 151,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.4,
+            "negative": 0.59
+          },
+          "sentiment": "negative",
+          "text": "It for us kids.But now you would don't see any kids down at the river there.",
+          "offset": 1324,
+          "length": 76,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "It's not as nice as it used to be.",
+          "offset": 1401,
+          "length": 34,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.98,
+            "neutral": 0.01,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "It's just a little we stream.And yeah, I hope this is what you wanted, Rosen?OK, I'll think of something else later on bye.",
+          "offset": 1436,
+          "length": 123,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "Heni O'Hare",
+        "Lower Hutt",
+        "swimming hole",
+        "two time",
+        "good fun",
+        "school holidays",
+        "grass clippings",
+        "Chris watercress",
+        "local river",
+        "same river",
+        "name",
+        "Waiwhetu",
+        "Wellington",
+        "daughter",
+        "Roseann",
+        "child",
+        "mum",
+        "cousins",
+        "street",
+        "eels",
+        "tea",
+        "night",
+        "parents",
+        "road",
+        "pollution",
+        "brothers",
+        "Guilian",
+        "deals",
+        "rubber",
+        "people",
+        "rubbish",
+        "Sir",
+        "sport",
+        "kids",
+        "Rosen",
+        "something",
+        "bye"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Heni O'Hare",
+          "category": "Person",
+          "offset": 15,
+          "length": 11,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Waiwhetu",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 37,
+          "length": 8,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "Lower Hutt",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 49,
+          "length": 10,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "Wellington",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 61,
+          "length": 10,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "daughter",
+          "category": "PersonType",
+          "offset": 99,
+          "length": 8,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Roseann",
+          "category": "Person",
+          "offset": 108,
+          "length": 7,
+          "confidenceScore": 1
+        },
+        {
+          "text": "10",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 187,
+          "length": 2,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "mum",
+          "category": "PersonType",
+          "offset": 194,
+          "length": 3,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "cousins",
+          "category": "PersonType",
+          "offset": 226,
+          "length": 7,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "water",
+          "category": "Product",
+          "offset": 270,
+          "length": 5,
+          "confidenceScore": 0.56
+        },
+        {
+          "text": "Chris",
+          "category": "Person",
+          "offset": 277,
+          "length": 5,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 309,
+          "length": 5,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 352,
+          "length": 5,
+          "confidenceScore": 0.79
+        },
+        {
+          "text": "tea",
+          "category": "Product",
+          "offset": 427,
+          "length": 3,
+          "confidenceScore": 0.61
+        },
+        {
+          "text": "night",
+          "category": "DateTime",
+          "subCategory": "TimeRange",
+          "offset": 440,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "home",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 460,
+          "length": 4,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "the day",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 487,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 522,
+          "length": 5,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "swimming hole",
+          "category": "Location",
+          "offset": 544,
+          "length": 13,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "all day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 587,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "two",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 606,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "home",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 627,
+          "length": 4,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "every day",
+          "category": "DateTime",
+          "subCategory": "Set",
+          "offset": 671,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "school holidays",
+          "category": "Event",
+          "offset": 689,
+          "length": 15,
+          "confidenceScore": 0.52
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 710,
+          "length": 7,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 804,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 863,
+          "length": 5,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "brothers",
+          "category": "PersonType",
+          "offset": 912,
+          "length": 8,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "one",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 948,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "brothers",
+          "category": "PersonType",
+          "offset": 958,
+          "length": 8,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "Guilian",
+          "category": "Person",
+          "offset": 967,
+          "length": 7,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "rubber",
+          "category": "Product",
+          "offset": 1016,
+          "length": 6,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1165,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1207,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1343,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 1388,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "Rosen",
+          "category": "Person",
+          "offset": 1507,
+          "length": 5,
+          "confidenceScore": 1
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Heni O'Hare",
+          "category": "Person",
+          "offset": 15,
+          "length": 11,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "daughter",
+          "category": "PersonType",
+          "offset": 99,
+          "length": 8,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "Roseann",
+          "category": "Person",
+          "offset": 108,
+          "length": 7,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "mum",
+          "category": "PersonType",
+          "offset": 194,
+          "length": 3,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "cousins",
+          "category": "PersonType",
+          "offset": 226,
+          "length": 7,
+          "confidenceScore": 0.94
+        },
+        {
+          "text": "Chris",
+          "category": "Person",
+          "offset": 277,
+          "length": 5,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "night",
+          "category": "DateTime",
+          "subCategory": "TimeRange",
+          "offset": 440,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "the day",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 487,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "all day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 587,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "every day",
+          "category": "DateTime",
+          "subCategory": "Set",
+          "offset": 671,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "parents",
+          "category": "PersonType",
+          "offset": 710,
+          "length": 7,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 804,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "brothers",
+          "category": "PersonType",
+          "offset": 912,
+          "length": 8,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "brothers",
+          "category": "PersonType",
+          "offset": 958,
+          "length": 8,
+          "confidenceScore": 0.89
+        },
+        {
+          "text": "Guilian",
+          "category": "Person",
+          "offset": 967,
+          "length": 7,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1343,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Rosen",
+          "category": "Person",
+          "offset": 1507,
+          "length": 5,
+          "confidenceScore": 0.98
+        }
+      ],
+      "redactedText": "Hi, my name is ***********. I'm from Waiwhetu in Lower Hutt, Wellington. And I'm doing this for my ******** *******. She wants me to talk about when I was a child. Well, when I was about 10, my *** would ask us, ask me and my *******, well, we will go down and get some water. ***** watercress from the local river, which is a street we we call it the river and it had watercress, eels so we would go down and get back for our tea for that ***** and then come home. And then later on in *******, we'd go back to that same river and we we had a swimming hole down there and we would swim ******* till about two time and then go home. And we had such good fun. We did that ********* and the school holidays. Our ******* didn't have to worry about us, 'cause they knew where we were. Just down the road.And *** you would not do that. We would never do that, and let river, because it's because of the pollution. My ******** and I I used to go with my one of my ******** ******* down there. There's no more deals in the rubber.Because of the pollution, we sometimes we'd swim and then people would be throwing their rubbish. Their grass clippings in it and the and the river. And then we have to get out of the river 'cause we 'cause all this rubbish going floating down.And yes, Sir, it was.It was really a sport us for sport. It for us kids.But *** you would don't see any kids down at the river there. It's not as nice as it used to be. It's just a little we stream.And yeah, I hope this is what you wanted, *****?OK, I'll think of something else later on bye.\n\n\n"
+    }
+  ]
+}

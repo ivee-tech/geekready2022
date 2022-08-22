@@ -1,0 +1,433 @@
+{
+  "fileName": "Tahu's Story.txt",
+  "originalLocation":  {"latitude":-39.540672302246094,"longitude":174.44345092773438,"altitude":0,"altitudeReference":-1,"name":"South Taranaki"},
+  "updatedLocation":  {"latitude":-39.53175810123025,"longitude":174.44750213623047,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Story from Tahu:  Ngāti Ruanui\r\n  \r\nOur river the Waingongoro is an awa (river) that is used by the dairy farmers in South Taranaki for dumping effluent. It has become so extreme that we are no longer allowed to swim in our awa. I know we need dairy farming but it is causing too much harm to our awa.\r\n  \r\nThe Tangahoe awa had all of the Tuna (eels) completely destroyed by Silverfern Farms washing a poisonous ammonia leak down their drains into our awa. They are talking about reintroducing new tuna to our awa but all of those families that have lived there for longer than we have are now gone. They were our kaitiaki (protectors) for our area Silver Fern Farms fined $337k over potentially lethal ammonia leak - NZ Herald\r\n  \r\nI recall some beautiful rongoā (cure-alls) that we used as a whānau. The ‘tutu’ plant was one that was used on Dad when he broke his leg playing rugby. I don’t know where those are now. Haven’t seen them\r\n",
+  "storyUpdatedText": "Story from Tahu:  Ngāti Ruanui\r\n  \r\nOur river the Waingongoro is an awa (river) that is used by the dairy farmers in South Taranaki for dumping effluent. It has become so extreme that we are no longer allowed to swim in our awa. I know we need dairy farming but it is causing too much harm to our awa.\r\n  \r\nThe Tangahoe awa had all of the Tuna (eels) completely destroyed by Silverfern Farms washing a poisonous ammonia leak down their drains into our awa. They are talking about reintroducing new tuna to our awa but all of those families that have lived there for longer than we have are now gone. They were our kaitiaki (protectors) for our area Silver Fern Farms fined $337k over potentially lethal ammonia leak - NZ Herald\r\n  \r\nI recall some beautiful rongoā (cure-alls) that we used as a whānau. The ‘tutu’ plant was one that was used on Dad when he broke his leg playing rugby. I don’t know where those are now. Haven’t seen them\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.13,
+        "neutral": 0.08,
+        "negative": 0.79
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.28,
+            "negative": 0.71
+          },
+          "sentiment": "negative",
+          "text": "Story from Tahu:  Ngāti Ruanui\r\n  \r\nOur river the Waingongoro is an awa (river) that is used by the dairy farmers in South Taranaki for dumping effluent.",
+          "offset": 0,
+          "length": 153,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.97,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "It has become so extreme that we are no longer allowed to swim in our awa.",
+          "offset": 154,
+          "length": 74,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "I know we need dairy farming but it is causing too much harm to our awa.",
+          "offset": 229,
+          "length": 72,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "The Tangahoe awa had all of the Tuna (eels) completely destroyed by Silverfern Farms washing a poisonous ammonia leak down their drains into our awa.",
+          "offset": 307,
+          "length": 149,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.35,
+            "neutral": 0.62,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "They are talking about reintroducing new tuna to our awa but all of those families that have lived there for longer than we have are now gone.",
+          "offset": 457,
+          "length": 142,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.76,
+            "neutral": 0.06,
+            "negative": 0.18
+          },
+          "sentiment": "positive",
+          "text": "They were our kaitiaki (protectors) for our area Silver Fern Farms fined $337k over potentially lethal ammonia leak - NZ Herald\r\n  \r\nI recall some beautiful rongoā (cure-alls) that we used as a whānau.",
+          "offset": 600,
+          "length": 201,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "The ‘tutu’ plant was one that was used on Dad when he broke his leg playing rugby.",
+          "offset": 802,
+          "length": 82,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.99,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "I don’t know where those are now.",
+          "offset": 885,
+          "length": 33,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.11,
+            "negative": 0.88
+          },
+          "sentiment": "negative",
+          "text": "Haven’t seen them",
+          "offset": 919,
+          "length": 17,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "Ngāti Ruanui",
+        "Silver Fern Farms",
+        "lethal ammonia leak",
+        "The Tangahoe awa",
+        "Silverfern Farms",
+        "poisonous ammonia",
+        "dairy farmers",
+        "South Taranaki",
+        "dairy farming",
+        "NZ Herald",
+        "beautiful rongoā",
+        "whānau",
+        "tutu’ plant",
+        "new tuna",
+        "Story",
+        "Tahu",
+        "river",
+        "Waingongoro",
+        "effluent",
+        "harm",
+        "eels",
+        "drains",
+        "families",
+        "kaitiaki",
+        "protectors",
+        "area",
+        "Dad",
+        "leg",
+        "rugby"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Tahu",
+          "category": "Person",
+          "offset": 11,
+          "length": 4,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "Ngāti Ruanui",
+          "category": "Person",
+          "offset": 18,
+          "length": 12,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 40,
+          "length": 5,
+          "confidenceScore": 0.53
+        },
+        {
+          "text": "Waingongoro",
+          "category": "Location",
+          "offset": 50,
+          "length": 11,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "awa",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 68,
+          "length": 3,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "river",
+          "category": "Location",
+          "offset": 73,
+          "length": 5,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "dairy",
+          "category": "PersonType",
+          "offset": 100,
+          "length": 5,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "farmers",
+          "category": "PersonType",
+          "offset": 106,
+          "length": 7,
+          "confidenceScore": 0.56
+        },
+        {
+          "text": "South Taranaki",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 117,
+          "length": 14,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "awa",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 224,
+          "length": 3,
+          "confidenceScore": 0.34
+        },
+        {
+          "text": "dairy farming",
+          "category": "Skill",
+          "offset": 244,
+          "length": 13,
+          "confidenceScore": 0.76
+        },
+        {
+          "text": "Tangahoe",
+          "category": "PersonType",
+          "offset": 311,
+          "length": 8,
+          "confidenceScore": 0.3
+        },
+        {
+          "text": "Silverfern Farms",
+          "category": "Organization",
+          "offset": 375,
+          "length": 16,
+          "confidenceScore": 0.67
+        },
+        {
+          "text": "ammonia",
+          "category": "Product",
+          "offset": 412,
+          "length": 7,
+          "confidenceScore": 0.56
+        },
+        {
+          "text": "tuna",
+          "category": "Product",
+          "offset": 498,
+          "length": 4,
+          "confidenceScore": 0.93
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 590,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Silver Fern Farms",
+          "category": "Organization",
+          "offset": 649,
+          "length": 17,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "$337k",
+          "category": "Quantity",
+          "subCategory": "Currency",
+          "offset": 673,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "NZ Herald",
+          "category": "Organization",
+          "offset": 718,
+          "length": 9,
+          "confidenceScore": 0.88
+        },
+        {
+          "text": "rongoā",
+          "category": "Product",
+          "offset": 757,
+          "length": 6,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "one",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 823,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Dad",
+          "category": "PersonType",
+          "offset": 844,
+          "length": 3,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "rugby",
+          "category": "Skill",
+          "offset": 878,
+          "length": 5,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 914,
+          "length": 3,
+          "confidenceScore": 0.8
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Tahu",
+          "category": "Person",
+          "offset": 11,
+          "length": 4,
+          "confidenceScore": 0.42
+        },
+        {
+          "text": "Ngāti Ruanui",
+          "category": "Person",
+          "offset": 18,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "dairy farmers",
+          "category": "PersonType",
+          "offset": 100,
+          "length": 13,
+          "confidenceScore": 0.57
+        },
+        {
+          "text": "awa",
+          "category": "PersonType",
+          "offset": 297,
+          "length": 3,
+          "confidenceScore": 0.63
+        },
+        {
+          "text": "Tangahoe",
+          "category": "PersonType",
+          "offset": 311,
+          "length": 8,
+          "confidenceScore": 0.36
+        },
+        {
+          "text": "Silverfern Farms",
+          "category": "Organization",
+          "offset": 375,
+          "length": 16,
+          "confidenceScore": 0.69
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 590,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Silver Fern Farms",
+          "category": "Organization",
+          "offset": 649,
+          "length": 17,
+          "confidenceScore": 0.69
+        },
+        {
+          "text": "NZ Herald",
+          "category": "Organization",
+          "offset": 718,
+          "length": 9,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "Dad",
+          "category": "PersonType",
+          "offset": 844,
+          "length": 3,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 914,
+          "length": 3,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "Story from ****:  ************\r\n  \r\nOur river the Waingongoro is an awa (river) that is used by the ************* in South Taranaki for dumping effluent. It has become so extreme that we are no longer allowed to swim in our awa. I know we need dairy farming but it is causing too much harm to our ***.\r\n  \r\nThe ******** awa had all of the Tuna (eels) completely destroyed by **************** washing a poisonous ammonia leak down their drains into our awa. They are talking about reintroducing new tuna to our awa but all of those families that have lived there for longer than we have are *** gone. They were our kaitiaki (protectors) for our area ***************** fined $337k over potentially lethal ammonia leak - *********\r\n  \r\nI recall some beautiful rongoā (cure-alls) that we used as a whānau. The ‘tutu’ plant was one that was used on *** when he broke his leg playing rugby. I don’t know where those are ***. Haven’t seen them\r\n"
+    }
+  ]
+}

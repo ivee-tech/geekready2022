@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"k8sVersion": {
+			"value": "1.20.15"
+		},
+		"adminGroupObjectIDs": {
+			"value": [
+				"***"
+			]
+		},
+		"prefix" : {
+			"value": "zz"
+		},
+		"suffix" : {
+			"value": "dev"
+		},
+		"aksNodes" : {
+			"value": 1
+		},
+		"vnetPrefix": {
+			"value": "10.10.0.0/16"
+		},
+		"vnetName": {
+			"value": ""
+		},
+		"aksSubnets": {
+			"value": [
+				{
+					"name": "snet-aks",
+					"properties": {
+						"addressPrefix": "10.10.0.0/24"
+					}
+				},
+				{
+					"name": "snet-ilb",
+					"properties": {
+						"addressPrefix": "10.10.1.0/24"
+					}
+				},
+				{
+					"name": "user-snet-aks",
+					"properties": {
+						"addressPrefix": "10.10.2.0/24"
+					}
+				}
+			]
+		},
+		"aksSubnetName": {
+			"value": "snet-aks"
+		},
+		"aksSkuTier": {
+			"value": "Free"
+		},
+		"aksUserNodes" : {
+			"value": 2
+		}
+
+	}
+  }

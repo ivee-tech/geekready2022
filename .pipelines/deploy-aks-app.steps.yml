@@ -1,0 +1,39 @@
+parameters:
+- name: imageTag
+  type: string
+  default: '0.0.1'
+- name: dockerRegistryServiceConnection
+  type: string
+- name: imagePullSecret
+  type: string
+- name: imageRepository
+  type: string
+- name: containerRegistry
+  type: string
+
+steps:
+- checkout: self
+- task: KubernetesManifest@0
+  displayName: Create imagePullSecret
+  inputs:
+    action: createSecret
+    secretName: '${{ parameters.imagePullSecret }}'
+    dockerRegistryEndpoint: '${{ parameters.dockerRegistryServiceConnection }}'
+
+- task: Tokenizer@0
+  inputs:
+    sourceFilesPattern: '$(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-*.yml'
+    tokenDataSource: 'environmentVariables'
+
+- task: KubernetesManifest@0
+  displayName: Deploy to Kubernetes cluster
+  inputs:
+    action: deploy
+    manifests: |
+      $(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-dep.yml
+      $(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-svc.yml
+      $(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-hpa-cpu.yml
+    imagePullSecrets: |
+      ${{ parameters.imagePullSecret }}
+    containers: |
+      ${{ parameters.containerRegistry }}/${{ parameters.imageRepository }}:${{ parameters.imageTag }}

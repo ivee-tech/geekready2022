@@ -1,0 +1,399 @@
+{
+  "fileName": "Dougs Story.txt",
+    "originalLocation":  {"latitude":-39.05438232421875,"longitude":175.71507263183594,"altitude":0,"altitudeReference":-1,"name":"Lake Rotoaira, New Zealand"},
+    "updatedLocation":  {"latitude":-39.053904279893345,"longitude":175.7152795791626,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Story from Doug:  Ngati Tuwharetoa, Turangi:\r\n\r\nHi Roseann, here is my contribution to your request for a story on environmental impact.\r\n\r\nGlobal climate change has impacted on our local native bush environment significantly. Due to warmer and drier climates, we now have mast seasons on a more regular basis than ever before. \r\n\r\nMast spring/summer seasons result in an abundance of seeds and berry fruit in our native forests that subsequently results in population explosions of pests throughout the food chain cycle. This firstly starts with the mustelids (rats, stoats, ferrets and weasels) who prey on taonga seeds, plants, insect, lizard and bird species. \r\n\r\nBirds and insects are especially important as they are key in pollinating and spreading seeds and naturally maintaining the biodiversity of new growth in the bush. The ungulates (goats, deer and pigs) and possums mass feed on the forest that also has a detrimental effect on biodiversity and impacts the mycelium communication network between plants that each rely on to maintain health. \r\n\r\nHuman intervention is needed via more pest eradication operations in our native forests in a more intensive and regular fashion to maintain balance and avoid destruction of our native forests.\r\n\r\nAn example location is all the green space around Lake Rotoaira\r\n\r\n",
+  "storyUpdatedText": "Story from Doug:  Ngati Tuwharetoa, Turangi:\r\n\r\nHi Roseann, here is my contribution to your request for a story on environmental impact.\r\n\r\nGlobal climate change has impacted on our local native bush environment significantly. Due to warmer and drier climates, we now have mast seasons on a more regular basis than ever before. \r\n\r\nMast spring/summer seasons result in an abundance of seeds and berry fruit in our native forests that subsequently results in population explosions of pests throughout the food chain cycle. This firstly starts with the mustelids (rats, stoats, ferrets and weasels) who prey on taonga seeds, plants, insect, lizard and bird species. \r\n\r\nBirds and insects are especially important as they are key in pollinating and spreading seeds and naturally maintaining the biodiversity of new growth in the bush. The ungulates (goats, deer and pigs) and possums mass feed on the forest that also has a detrimental effect on biodiversity and impacts the mycelium communication network between plants that each rely on to maintain health. \r\n\r\nHuman intervention is needed via more pest eradication operations in our native forests in a more intensive and regular fashion to maintain balance and avoid destruction of our native forests.\r\n\r\nAn example location is all the green space around Lake Rotoaira\r\n\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.23,
+        "neutral": 0.16,
+        "negative": 0.61
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.25,
+            "neutral": 0.72,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Story from Doug:  Ngati Tuwharetoa, Turangi:\r\n\r\nHi Roseann, here is my contribution to your request for a story on environmental impact.",
+          "offset": 0,
+          "length": 136,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.04,
+            "neutral": 0.96,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "Global climate change has impacted on our local native bush environment significantly.",
+          "offset": 140,
+          "length": 86,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.05,
+            "neutral": 0.94,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Due to warmer and drier climates, we now have mast seasons on a more regular basis than ever before.",
+          "offset": 227,
+          "length": 100,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.98,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "Mast spring/summer seasons result in an abundance of seeds and berry fruit in our native forests that subsequently results in population explosions of pests throughout the food chain cycle.",
+          "offset": 332,
+          "length": 189,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.95,
+            "negative": 0.04
+          },
+          "sentiment": "neutral",
+          "text": "This firstly starts with the mustelids (rats, stoats, ferrets and weasels) who prey on taonga seeds, plants, insect, lizard and bird species.",
+          "offset": 522,
+          "length": 141,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.69,
+            "neutral": 0.3,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "Birds and insects are especially important as they are key in pollinating and spreading seeds and naturally maintaining the biodiversity of new growth in the bush.",
+          "offset": 668,
+          "length": 163,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.11,
+            "negative": 0.89
+          },
+          "sentiment": "negative",
+          "text": "The ungulates (goats, deer and pigs) and possums mass feed on the forest that also has a detrimental effect on biodiversity and impacts the mycelium communication network between plants that each rely on to maintain health.",
+          "offset": 832,
+          "length": 223,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.07,
+            "negative": 0.92
+          },
+          "sentiment": "negative",
+          "text": "Human intervention is needed via more pest eradication operations in our native forests in a more intensive and regular fashion to maintain balance and avoid destruction of our native forests.",
+          "offset": 1060,
+          "length": 192,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "An example location is all the green space around Lake Rotoaira",
+          "offset": 1256,
+          "length": 63,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "local native bush environment",
+        "Global climate change",
+        "food chain cycle",
+        "possums mass feed",
+        "mycelium communication network",
+        "pest eradication operations",
+        "Mast spring/summer seasons",
+        "mast seasons",
+        "native forests",
+        "Ngati Tuwharetoa",
+        "Hi Roseann",
+        "environmental impact",
+        "drier climates",
+        "regular basis",
+        "berry fruit",
+        "population explosions",
+        "bird species",
+        "new growth",
+        "detrimental effect",
+        "Human intervention",
+        "regular fashion",
+        "example location",
+        "green space",
+        "Lake Rotoaira",
+        "taonga seeds",
+        "Story",
+        "Doug",
+        "Turangi",
+        "contribution",
+        "request",
+        "warmer",
+        "abundance",
+        "pests",
+        "mustelids",
+        "rats",
+        "stoats",
+        "ferrets",
+        "weasels",
+        "plants",
+        "insect",
+        "lizard",
+        "Birds",
+        "biodiversity",
+        "ungulates",
+        "goats",
+        "deer",
+        "pigs",
+        "health",
+        "intensive",
+        "balance",
+        "destruction"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Doug",
+          "category": "Person",
+          "offset": 11,
+          "length": 4,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "Roseann",
+          "category": "Person",
+          "offset": 51,
+          "length": 7,
+          "confidenceScore": 1
+        },
+        {
+          "text": "environmental impact",
+          "category": "Skill",
+          "offset": 115,
+          "length": 20,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "change",
+          "category": "Event",
+          "offset": 155,
+          "length": 6,
+          "confidenceScore": 0.62
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 264,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "spring",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 337,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "summer",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 344,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "seeds",
+          "category": "Product",
+          "offset": 385,
+          "length": 5,
+          "confidenceScore": 0.64
+        },
+        {
+          "text": "berry fruit",
+          "category": "Product",
+          "offset": 395,
+          "length": 11,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "forests",
+          "category": "Location",
+          "offset": 421,
+          "length": 7,
+          "confidenceScore": 0.72
+        },
+        {
+          "text": "taonga seeds",
+          "category": "Product",
+          "offset": 609,
+          "length": 12,
+          "confidenceScore": 0.66
+        },
+        {
+          "text": "pollinating",
+          "category": "Skill",
+          "offset": 730,
+          "length": 11,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "spreading",
+          "category": "Skill",
+          "offset": 746,
+          "length": 9,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "maintaining",
+          "category": "Skill",
+          "offset": 776,
+          "length": 11,
+          "confidenceScore": 0.87
+        },
+        {
+          "text": "biodiversity",
+          "category": "Skill",
+          "offset": 792,
+          "length": 12,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "bush",
+          "category": "Location",
+          "offset": 826,
+          "length": 4,
+          "confidenceScore": 0.78
+        },
+        {
+          "text": "forest",
+          "category": "Location",
+          "offset": 898,
+          "length": 6,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "pest eradication",
+          "category": "Event",
+          "offset": 1098,
+          "length": 16,
+          "confidenceScore": 0.66
+        },
+        {
+          "text": "forests",
+          "category": "Location",
+          "offset": 1140,
+          "length": 7,
+          "confidenceScore": 0.69
+        },
+        {
+          "text": "forests",
+          "category": "Location",
+          "offset": 1244,
+          "length": 7,
+          "confidenceScore": 0.65
+        },
+        {
+          "text": "Lake Rotoaira",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 1306,
+          "length": 13,
+          "confidenceScore": 0.98
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Doug",
+          "category": "Person",
+          "offset": 11,
+          "length": 4,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "Ngati Tuwharetoa",
+          "category": "Person",
+          "offset": 18,
+          "length": 16,
+          "confidenceScore": 0.59
+        },
+        {
+          "text": "Roseann",
+          "category": "Person",
+          "offset": 51,
+          "length": 7,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 264,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "spring",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 337,
+          "length": 6,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "summer",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 344,
+          "length": 6,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "Story from ****:  ****************, Turangi:\r\n\r\nHi *******, here is my contribution to your request for a story on environmental impact.\r\n\r\nGlobal climate change has impacted on our local native bush environment significantly. Due to warmer and drier climates, we *** have mast seasons on a more regular basis than ever before. \r\n\r\nMast ******/****** seasons result in an abundance of seeds and berry fruit in our native forests that subsequently results in population explosions of pests throughout the food chain cycle. This firstly starts with the mustelids (rats, stoats, ferrets and weasels) who prey on taonga seeds, plants, insect, lizard and bird species. \r\n\r\nBirds and insects are especially important as they are key in pollinating and spreading seeds and naturally maintaining the biodiversity of new growth in the bush. The ungulates (goats, deer and pigs) and possums mass feed on the forest that also has a detrimental effect on biodiversity and impacts the mycelium communication network between plants that each rely on to maintain health. \r\n\r\nHuman intervention is needed via more pest eradication operations in our native forests in a more intensive and regular fashion to maintain balance and avoid destruction of our native forests.\r\n\r\nAn example location is all the green space around Lake Rotoaira\r\n\r\n"
+    }
+  ]
+}

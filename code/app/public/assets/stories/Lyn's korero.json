@@ -1,0 +1,939 @@
+{
+  "fileName": "Lyn's korero.wav",
+  "videoFileName": "Lyn's korero.m4a",
+  "originalLocation":  {"latitude":-38.795772552490234,"longitude":175.89459228515625,"altitude":0,"altitudeReference":-1,"name":"Lake Taupo, New Zealand"},
+  "updatedLocation":  {"latitude":-38.792229453207966,"longitude":175.89189147949216,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Keira and hello my name is Lynn and I live in pukerua on the southern shores of Lake Taupo in New Zealand which is the in the central North Island. The photos attached are from our property. We have a 1 1/2 acre section that has a pond in what appears to be a drain for overflow of the pond. The lane we live on was once owned by my auntie who raised her children who are obviously my cousins here on this property I and I was curious about the pond and the wet areas at the bottom of our section. I also noted that there was. River stones when I tried to dig up and put plants on native plants in that area. And that it was significantly wet down there. Obviously I was always curious about this, so I talked to one of my cousins to come and visit me to give me some insight into what the slim was. They it was a significant piece of lean at one time, obviously full of native Bush beckoned the 1800s in early 1900s until all the trees were fouled for housing and other purposes. Back in the day. And they, her family, my auntie and. Had this as a farm at one time. My cousin told me that it was once a stream that flowed through this property and the reason why I was probably finding these small stones and other larger stones when I was digging into the ground and that as a child that was their swimming hole. They would, you know, run down to this area and swim and play in the stream. And drink from it. And just as a general kind of water source for them, along with rainwater. Overtime. The strangest started to dry up and pretty much disappeared in landfill was put over top to make the property more usable from a farming perspective. So we my cousin is now 59 years old. She believes that it started drying up probably about 50. Years ago, the process had started and. Teenage she moved into her teenage years. It was just becoming nonexistent. But water flow through through this area. So that is my story while spreading my far no story and we can only assume that possibly impact from climate change and. Farming the removal of the native Bush as well that had the streams flowing through it. I know from an ancestral view from my heritage being. Indigenous to New Zealand. Being a New Zealand Maori, that lot about ancestors walked through this land and they used to camp on the property that we now have purely because it had water. And no longer is there. Which is very sad. K Thank you. ",
+  "storyUpdatedText": "Keira and hello my name is Lynn and I live in pukerua on the southern shores of Lake Taupo in New Zealand which is the in the central North Island. The photos attached are from our property. We have a 1 1/2 acre section that has a pond in what appears to be a drain for overflow of the pond. The lane we live on was once owned by my auntie who raised her children who are obviously my cousins here on this property I and I was curious about the pond and the wet areas at the bottom of our section. I also noted that there was. River stones when I tried to dig up and put plants on native plants in that area. And that it was significantly wet down there. Obviously I was always curious about this, so I talked to one of my cousins to come and visit me to give me some insight into what the slim was. They it was a significant piece of lean at one time, obviously full of native Bush beckoned the 1800s in early 1900s until all the trees were fouled for housing and other purposes. Back in the day. And they, her family, my auntie and. Had this as a farm at one time. My cousin told me that it was once a stream that flowed through this property and the reason why I was probably finding these small stones and other larger stones when I was digging into the ground and that as a child that was their swimming hole. They would, you know, run down to this area and swim and play in the stream. And drink from it. And just as a general kind of water source for them, along with rainwater. Overtime. The strangest started to dry up and pretty much disappeared in landfill was put over top to make the property more usable from a farming perspective. So we my cousin is now 59 years old. She believes that it started drying up probably about 50. Years ago, the process had started and. Teenage she moved into her teenage years. It was just becoming nonexistent. But water flow through through this area. So that is my story while spreading my far no story and we can only assume that possibly impact from climate change and. Farming the removal of the native Bush as well that had the streams flowing through it. I know from an ancestral view from my heritage being. Indigenous to New Zealand. Being a New Zealand Maori, that lot about ancestors walked through this land and they used to camp on the property that we now have purely because it had water. And no longer is there. Which is very sad. K Thank you. ",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.29,
+        "neutral": 0.05,
+        "negative": 0.66
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.99,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "Keira and hello my name is Lynn and I live in pukerua on the southern shores of Lake Taupo in New Zealand which is the in the central North Island.",
+          "offset": 0,
+          "length": 147,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.97,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "The photos attached are from our property.",
+          "offset": 148,
+          "length": 42,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.01,
+            "negative": 0.99
+          },
+          "sentiment": "negative",
+          "text": "We have a 1 1/2 acre section that has a pond in what appears to be a drain for overflow of the pond.",
+          "offset": 191,
+          "length": 100,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.11,
+            "neutral": 0.88,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "The lane we live on was once owned by my auntie who raised her children who are obviously my cousins here on this property I and I was curious about the pond and the wet areas at the bottom of our section.",
+          "offset": 292,
+          "length": 205,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "I also noted that there was.",
+          "offset": 498,
+          "length": 28,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "River stones when I tried to dig up and put plants on native plants in that area.",
+          "offset": 527,
+          "length": 81,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.99,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "And that it was significantly wet down there.",
+          "offset": 609,
+          "length": 45,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.45,
+            "neutral": 0.49,
+            "negative": 0.06
+          },
+          "sentiment": "neutral",
+          "text": "Obviously I was always curious about this, so I talked to one of my cousins to come and visit me to give me some insight into what the slim was.",
+          "offset": 655,
+          "length": 144,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.65,
+            "negative": 0.34
+          },
+          "sentiment": "neutral",
+          "text": "They it was a significant piece of lean at one time, obviously full of native Bush beckoned the 1800s in early 1900s until all the trees were fouled for housing and other purposes.",
+          "offset": 800,
+          "length": 180,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.12,
+            "neutral": 0.85,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Back in the day.",
+          "offset": 981,
+          "length": 16,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.09,
+            "neutral": 0.9,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "And they, her family, my auntie and.",
+          "offset": 998,
+          "length": 36,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.76,
+            "neutral": 0.21,
+            "negative": 0.03
+          },
+          "sentiment": "positive",
+          "text": "Had this as a farm at one time.",
+          "offset": 1035,
+          "length": 31,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.9,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "My cousin told me that it was once a stream that flowed through this property and the reason why I was probably finding these small stones and other larger stones when I was digging into the ground and that as a child that was their swimming hole.",
+          "offset": 1067,
+          "length": 247,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.99,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "They would, you know, run down to this area and swim and play in the stream.",
+          "offset": 1315,
+          "length": 76,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.06,
+            "neutral": 0.92,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "And drink from it.",
+          "offset": 1392,
+          "length": 18,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.99,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "And just as a general kind of water source for them, along with rainwater.",
+          "offset": 1411,
+          "length": 74,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.07,
+            "neutral": 0.77,
+            "negative": 0.16
+          },
+          "sentiment": "neutral",
+          "text": "Overtime.",
+          "offset": 1486,
+          "length": 9,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.02,
+            "negative": 0.97
+          },
+          "sentiment": "negative",
+          "text": "The strangest started to dry up and pretty much disappeared in landfill was put over top to make the property more usable from a farming perspective.",
+          "offset": 1496,
+          "length": 149,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "So we my cousin is now 59 years old.",
+          "offset": 1646,
+          "length": 36,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.88,
+            "negative": 0.1
+          },
+          "sentiment": "neutral",
+          "text": "She believes that it started drying up probably about 50.",
+          "offset": 1683,
+          "length": 57,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.1,
+            "neutral": 0.87,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Years ago, the process had started and.",
+          "offset": 1741,
+          "length": 39,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.08,
+            "neutral": 0.85,
+            "negative": 0.07
+          },
+          "sentiment": "neutral",
+          "text": "Teenage she moved into her teenage years.",
+          "offset": 1781,
+          "length": 41,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.04,
+            "negative": 0.96
+          },
+          "sentiment": "negative",
+          "text": "It was just becoming nonexistent.",
+          "offset": 1823,
+          "length": 33,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "But water flow through through this area.",
+          "offset": 1857,
+          "length": 41,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.94,
+            "negative": 0.05
+          },
+          "sentiment": "neutral",
+          "text": "So that is my story while spreading my far no story and we can only assume that possibly impact from climate change and.",
+          "offset": 1899,
+          "length": 120,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.03,
+            "neutral": 0.96,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Farming the removal of the native Bush as well that had the streams flowing through it.",
+          "offset": 2020,
+          "length": 87,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.3,
+            "neutral": 0.68,
+            "negative": 0.02
+          },
+          "sentiment": "neutral",
+          "text": "I know from an ancestral view from my heritage being.",
+          "offset": 2108,
+          "length": 53,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.15,
+            "neutral": 0.82,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "Indigenous to New Zealand.",
+          "offset": 2162,
+          "length": 26,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.24,
+            "neutral": 0.63,
+            "negative": 0.13
+          },
+          "sentiment": "neutral",
+          "text": "Being a New Zealand Maori, that lot about ancestors walked through this land and they used to camp on the property that we now have purely because it had water.",
+          "offset": 2189,
+          "length": 160,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "And no longer is there.",
+          "offset": 2350,
+          "length": 23,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "Which is very sad.",
+          "offset": 2374,
+          "length": 18,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "K Thank you.",
+          "offset": 2393,
+          "length": 12,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "central North Island",
+        "1 1/2 acre section",
+        "other larger stones",
+        "New Zealand Maori",
+        "other purposes",
+        "River stones",
+        "small stones",
+        "southern shores",
+        "Lake Taupo",
+        "wet areas",
+        "significant piece",
+        "one time",
+        "native Bush",
+        "early 1900s",
+        "swimming hole",
+        "general kind",
+        "farming perspective",
+        "climate change",
+        "ancestral view",
+        "heritage being",
+        "native plants",
+        "teenage years",
+        "water source",
+        "Keira",
+        "name",
+        "Lynn",
+        "pukerua",
+        "photos",
+        "property",
+        "pond",
+        "drain",
+        "overflow",
+        "lane",
+        "auntie",
+        "children",
+        "cousins",
+        "bottom",
+        "insight",
+        "lean",
+        "1800s",
+        "trees",
+        "housing",
+        "day",
+        "family",
+        "stream",
+        "reason",
+        "ground",
+        "rainwater",
+        "Overtime",
+        "strangest",
+        "landfill",
+        "top",
+        "process",
+        "story",
+        "removal",
+        "lot",
+        "ancestors"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Keira",
+          "category": "Person",
+          "offset": 0,
+          "length": 5,
+          "confidenceScore": 1
+        },
+        {
+          "text": "Lynn",
+          "category": "Person",
+          "offset": 27,
+          "length": 4,
+          "confidenceScore": 1
+        },
+        {
+          "text": "pukerua",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 46,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Lake Taupo",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 80,
+          "length": 10,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "New Zealand",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 94,
+          "length": 11,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "North Island",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 134,
+          "length": 12,
+          "confidenceScore": 0.68
+        },
+        {
+          "text": "1 1/2 acre",
+          "category": "Quantity",
+          "subCategory": "Dimension",
+          "offset": 201,
+          "length": 10,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "pond",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 231,
+          "length": 4,
+          "confidenceScore": 0.82
+        },
+        {
+          "text": "pond",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 286,
+          "length": 4,
+          "confidenceScore": 0.76
+        },
+        {
+          "text": "lane",
+          "category": "Location",
+          "offset": 296,
+          "length": 4,
+          "confidenceScore": 0.62
+        },
+        {
+          "text": "auntie",
+          "category": "PersonType",
+          "offset": 333,
+          "length": 6,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "cousins",
+          "category": "PersonType",
+          "offset": 385,
+          "length": 7,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "pond",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 445,
+          "length": 4,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "one",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 713,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "cousins",
+          "category": "PersonType",
+          "offset": 723,
+          "length": 7,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "one",
+          "category": "DateTime",
+          "subCategory": "Time",
+          "offset": 843,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "the 1800s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 892,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "1900s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 911,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "the day",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 989,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "auntie",
+          "category": "PersonType",
+          "offset": 1023,
+          "length": 6,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "farm",
+          "category": "Location",
+          "offset": 1049,
+          "length": 4,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "one",
+          "category": "DateTime",
+          "subCategory": "Time",
+          "offset": 1057,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "cousin",
+          "category": "PersonType",
+          "offset": 1070,
+          "length": 6,
+          "confidenceScore": 0.98
+        },
+        {
+          "text": "swimming hole",
+          "category": "Location",
+          "offset": 1300,
+          "length": 13,
+          "confidenceScore": 0.73
+        },
+        {
+          "text": "stream",
+          "category": "Location",
+          "offset": 1384,
+          "length": 6,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "strangest",
+          "category": "PersonType",
+          "offset": 1500,
+          "length": 9,
+          "confidenceScore": 0.51
+        },
+        {
+          "text": "landfill",
+          "category": "Location",
+          "offset": 1559,
+          "length": 8,
+          "confidenceScore": 0.73
+        },
+        {
+          "text": "farming",
+          "category": "Skill",
+          "offset": 1625,
+          "length": 7,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "cousin",
+          "category": "PersonType",
+          "offset": 1655,
+          "length": 6,
+          "confidenceScore": 0.99
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1665,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "59 years old",
+          "category": "Quantity",
+          "subCategory": "Age",
+          "offset": 1669,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "50",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 1737,
+          "length": 2,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "climate change",
+          "category": "Event",
+          "offset": 2000,
+          "length": 14,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "Bush",
+          "category": "Person",
+          "offset": 2054,
+          "length": 4,
+          "confidenceScore": 0.55
+        },
+        {
+          "text": "Indigenous",
+          "category": "PersonType",
+          "offset": 2162,
+          "length": 10,
+          "confidenceScore": 0.71
+        },
+        {
+          "text": "New Zealand",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 2176,
+          "length": 11,
+          "confidenceScore": 1
+        },
+        {
+          "text": "New Zealand",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 2197,
+          "length": 11,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "Maori",
+          "category": "PersonType",
+          "offset": 2209,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "ancestors",
+          "category": "PersonType",
+          "offset": 2231,
+          "length": 9,
+          "confidenceScore": 0.92
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 2312,
+          "length": 3,
+          "confidenceScore": 0.8
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Keira",
+          "category": "Person",
+          "offset": 0,
+          "length": 5,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "Lynn",
+          "category": "Person",
+          "offset": 27,
+          "length": 4,
+          "confidenceScore": 0.95
+        },
+        {
+          "text": "auntie",
+          "category": "PersonType",
+          "offset": 333,
+          "length": 6,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "cousins",
+          "category": "PersonType",
+          "offset": 385,
+          "length": 7,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "cousins",
+          "category": "PersonType",
+          "offset": 723,
+          "length": 7,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "one",
+          "category": "DateTime",
+          "subCategory": "Time",
+          "offset": 843,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Bush",
+          "category": "Person",
+          "offset": 878,
+          "length": 4,
+          "confidenceScore": 0.85
+        },
+        {
+          "text": "the 1800s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 892,
+          "length": 9,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "1900s",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 911,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "the day",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 989,
+          "length": 7,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "auntie",
+          "category": "PersonType",
+          "offset": 1023,
+          "length": 6,
+          "confidenceScore": 0.91
+        },
+        {
+          "text": "one",
+          "category": "DateTime",
+          "subCategory": "Time",
+          "offset": 1057,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "cousin",
+          "category": "PersonType",
+          "offset": 1070,
+          "length": 6,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "cousin",
+          "category": "PersonType",
+          "offset": 1655,
+          "length": 6,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 1665,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "59 years old",
+          "category": "Quantity",
+          "subCategory": "Age",
+          "offset": 1669,
+          "length": 12,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Bush",
+          "category": "Person",
+          "offset": 2054,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "Indigenous",
+          "category": "PersonType",
+          "offset": 2162,
+          "length": 10,
+          "confidenceScore": 0.64
+        },
+        {
+          "text": "Maori",
+          "category": "PersonType",
+          "offset": 2209,
+          "length": 5,
+          "confidenceScore": 0.86
+        },
+        {
+          "text": "ancestors",
+          "category": "PersonType",
+          "offset": 2231,
+          "length": 9,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "now",
+          "category": "DateTime",
+          "offset": 2312,
+          "length": 3,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "***** and hello my name is **** and I live in pukerua on the southern shores of Lake Taupo in New Zealand which is the in the central North Island. The photos attached are from our property. We have a 1 1/2 acre section that has a pond in what appears to be a drain for overflow of the pond. The lane we live on was once owned by my ****** who raised her children who are obviously my ******* here on this property I and I was curious about the pond and the wet areas at the bottom of our section. I also noted that there was. River stones when I tried to dig up and put plants on native plants in that area. And that it was significantly wet down there. Obviously I was always curious about this, so I talked to one of my ******* to come and visit me to give me some insight into what the slim was. They it was a significant piece of lean at *** time, obviously full of native **** beckoned ********* in early ***** until all the trees were fouled for housing and other purposes. Back in *******. And they, her family, my ****** and. Had this as a farm at *** time. My ****** told me that it was once a stream that flowed through this property and the reason why I was probably finding these small stones and other larger stones when I was digging into the ground and that as a child that was their swimming hole. They would, you know, run down to this area and swim and play in the stream. And drink from it. And just as a general kind of water source for them, along with rainwater. Overtime. The strangest started to dry up and pretty much disappeared in landfill was put over top to make the property more usable from a farming perspective. So we my ****** is *** ************. She believes that it started drying up probably about 50. Years ago, the process had started and. Teenage she moved into her teenage years. It was just becoming nonexistent. But water flow through through this area. So that is my story while spreading my far no story and we can only assume that possibly impact from climate change and. Farming the removal of the native **** as well that had the streams flowing through it. I know from an ancestral view from my heritage being. ********** to New Zealand. Being a New Zealand *****, that lot about ********* walked through this land and they used to camp on the property that we *** have purely because it had water. And no longer is there. Which is very sad. K Thank you. "
+    }
+  ]
+}

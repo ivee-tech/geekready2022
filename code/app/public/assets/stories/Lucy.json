@@ -1,0 +1,531 @@
+{
+  "fileName": "Lucy.txt",
+  "originalLocation": {"latitude":-43.14182,"longitude":171.70091,"altitude":0,"altitudeReference":-1,"name":"Broken River Skifield Road, Craigieburn Forest Park, Craigieburn Forest Park 7580"},
+  "updatedLocation": {"latitude":-43.14196036799774,"longitude":171.7010224946594,"altitude":0,"altitudeReference":-1},
+  "storyOriginalText": "Lucy’s Story: 4th generation NZ’er\r\n\r\nI’ve grown up skiing at a small club field called Broken River, nestled in the mountain range bordering Kura Tawhiti. This place and the people are my family. It is an essential part of who I am today. The club members like myself, love sharing this special place to us with others and pass on the experiences we had as children to our own. Our roots run deep in this place. It’s absolutely more than a ski-field to us. Sounds stupid, but trust me. Every time I reach the top of the mountain, I am utterly at peace. It’s where we all go for peace, fun, memories and support. \r\n\r\nIn my life time I’m feeling the change. Warming average temperatures. The seasons feel more uncertain to me. The snow-pack seems thinner. More rain. We’ve had two particularly difficult seasons in the last two years. We’re asking if and how we will survive. I have lingering doubt and fear that at some point I won’t be able to share this place any more with others – friends or children. I don’t want to think about that too hard, but I know I will have to and help the club plan. That maybe there’ll be a day when I won’t be skiing any more. It will break all our hearts. It will leave an immense void in our lives, I know.  \r\n\r\n\r\n",
+  "storyUpdatedText": "Lucy’s Story: 4th generation NZ’er\r\n\r\nI’ve grown up skiing at a small club field called Broken River, nestled in the mountain range bordering Kura Tawhiti. This place and the people are my family. It is an essential part of who I am today. The club members like myself, love sharing this special place to us with others and pass on the experiences we had as children to our own. Our roots run deep in this place. It’s absolutely more than a ski-field to us. Sounds stupid, but trust me. Every time I reach the top of the mountain, I am utterly at peace. It’s where we all go for peace, fun, memories and support. \r\n\r\nIn my life time I’m feeling the change. Warming average temperatures. The seasons feel more uncertain to me. The snow-pack seems thinner. More rain. We’ve had two particularly difficult seasons in the last two years. We’re asking if and how we will survive. I have lingering doubt and fear that at some point I won’t be able to share this place any more with others – friends or children. I don’t want to think about that too hard, but I know I will have to and help the club plan. That maybe there’ll be a day when I won’t be skiing any more. It will break all our hearts. It will leave an immense void in our lives, I know.  \r\n\r\n\r\n",
+  "sentimentResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.41,
+        "neutral": 0.06,
+        "negative": 0.53
+      },
+      "sentences": [
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.02,
+            "negative": 0.98
+          },
+          "sentiment": "negative",
+          "text": "Lucy’s Story: 4th generation NZ’er\r\n\r\nI’ve grown up skiing at a small club field called Broken River, nestled in the mountain range bordering Kura Tawhiti.",
+          "offset": 0,
+          "length": 155,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.76,
+            "neutral": 0.23,
+            "negative": 0.01
+          },
+          "sentiment": "positive",
+          "text": "This place and the people are my family.",
+          "offset": 156,
+          "length": 40,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.91,
+            "neutral": 0.09,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "It is an essential part of who I am today.",
+          "offset": 197,
+          "length": 42,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.92,
+            "neutral": 0.08,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "The club members like myself, love sharing this special place to us with others and pass on the experiences we had as children to our own.",
+          "offset": 240,
+          "length": 138,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.28,
+            "neutral": 0.71,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "Our roots run deep in this place.",
+          "offset": 379,
+          "length": 33,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.99,
+            "negative": 0
+          },
+          "sentiment": "neutral",
+          "text": "It’s absolutely more than a ski-field to us.",
+          "offset": 413,
+          "length": 44,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.09,
+            "neutral": 0,
+            "negative": 0.91
+          },
+          "sentiment": "negative",
+          "text": "Sounds stupid, but trust me.",
+          "offset": 458,
+          "length": 28,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.19,
+            "neutral": 0.04,
+            "negative": 0.77
+          },
+          "sentiment": "negative",
+          "text": "Every time I reach the top of the mountain, I am utterly at peace.",
+          "offset": 487,
+          "length": 66,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.99,
+            "neutral": 0.01,
+            "negative": 0
+          },
+          "sentiment": "positive",
+          "text": "It’s where we all go for peace, fun, memories and support.",
+          "offset": 554,
+          "length": 58,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.79,
+            "neutral": 0.19,
+            "negative": 0.02
+          },
+          "sentiment": "positive",
+          "text": "In my life time I’m feeling the change.",
+          "offset": 617,
+          "length": 39,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.05,
+            "neutral": 0.83,
+            "negative": 0.12
+          },
+          "sentiment": "neutral",
+          "text": "Warming average temperatures.",
+          "offset": 657,
+          "length": 29,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "The seasons feel more uncertain to me.",
+          "offset": 687,
+          "length": 38,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.99,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "The snow-pack seems thinner.",
+          "offset": 726,
+          "length": 28,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.06,
+            "neutral": 0.91,
+            "negative": 0.03
+          },
+          "sentiment": "neutral",
+          "text": "More rain.",
+          "offset": 755,
+          "length": 10,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "We’ve had two particularly difficult seasons in the last two years.",
+          "offset": 766,
+          "length": 67,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.04,
+            "neutral": 0.95,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "We’re asking if and how we will survive.",
+          "offset": 834,
+          "length": 40,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentiment": "negative",
+          "text": "I have lingering doubt and fear that at some point I won’t be able to share this place any more with others – friends or children.",
+          "offset": 875,
+          "length": 130,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.21,
+            "neutral": 0.08,
+            "negative": 0.71
+          },
+          "sentiment": "negative",
+          "text": "I don’t want to think about that too hard, but I know I will have to and help the club plan.",
+          "offset": 1006,
+          "length": 92,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.01,
+            "neutral": 0.98,
+            "negative": 0.01
+          },
+          "sentiment": "neutral",
+          "text": "That maybe there’ll be a day when I won’t be skiing any more.",
+          "offset": 1099,
+          "length": 61,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.08,
+            "neutral": 0.5,
+            "negative": 0.42
+          },
+          "sentiment": "neutral",
+          "text": "It will break all our hearts.",
+          "offset": 1161,
+          "length": 29,
+          "opinions": []
+        },
+        {
+          "confidenceScores": {
+            "positive": 0.02,
+            "neutral": 0.93,
+            "negative": 0.05
+          },
+          "sentiment": "neutral",
+          "text": "It will leave an immense void in our lives, I know.",
+          "offset": 1191,
+          "length": 51,
+          "opinions": []
+        }
+      ]
+    }
+  ],
+  "keyPhraseResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "keyPhrases": [
+        "Warming average temperatures",
+        "small club field",
+        "last two years",
+        "club members",
+        "club plan",
+        "4th generation",
+        "Kura Tawhiti",
+        "essential part",
+        "life time",
+        "More rain",
+        "lingering doubt",
+        "immense void",
+        "mountain range",
+        "difficult seasons",
+        "special place",
+        "Lucy",
+        "Story",
+        "NZ",
+        "people",
+        "family",
+        "others",
+        "experiences",
+        "children",
+        "roots",
+        "ski-field",
+        "top",
+        "peace",
+        "fun",
+        "memories",
+        "support",
+        "change",
+        "snow-pack",
+        "fear",
+        "point",
+        "friends",
+        "day",
+        "hearts",
+        "lives"
+      ]
+    }
+  ],
+  "entityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Lucy",
+          "category": "Person",
+          "offset": 0,
+          "length": 4,
+          "confidenceScore": 0.94
+        },
+        {
+          "text": "4th",
+          "category": "Quantity",
+          "subCategory": "Ordinal",
+          "offset": 14,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "NZ",
+          "category": "PersonType",
+          "offset": 29,
+          "length": 2,
+          "confidenceScore": 0.75
+        },
+        {
+          "text": "er",
+          "category": "PersonType",
+          "offset": 32,
+          "length": 2,
+          "confidenceScore": 0.52
+        },
+        {
+          "text": "club field",
+          "category": "Location",
+          "offset": 70,
+          "length": 10,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "Broken River",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 88,
+          "length": 12,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "New Zealand",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 88,
+          "length": 12,
+          "confidenceScore": 0.96
+        },
+        {
+          "text": "mountain range",
+          "category": "Location",
+          "subCategory": "Structural",
+          "offset": 117,
+          "length": 14,
+          "confidenceScore": 0.83
+        },
+        {
+          "text": "Kura Tawhiti",
+          "category": "Location",
+          "subCategory": "GPE",
+          "offset": 142,
+          "length": 12,
+          "confidenceScore": 0.6
+        },
+        {
+          "text": "today",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 233,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "club members",
+          "category": "PersonType",
+          "offset": 244,
+          "length": 12,
+          "confidenceScore": 0.63
+        },
+        {
+          "text": "ski-field",
+          "category": "Location",
+          "offset": 441,
+          "length": 9,
+          "confidenceScore": 0.93
+        },
+        {
+          "text": "mountain",
+          "category": "Location",
+          "subCategory": "Geographical",
+          "offset": 521,
+          "length": 8,
+          "confidenceScore": 0.81
+        },
+        {
+          "text": "support",
+          "category": "Skill",
+          "offset": 604,
+          "length": 7,
+          "confidenceScore": 0.58
+        },
+        {
+          "text": "two",
+          "category": "Quantity",
+          "subCategory": "Number",
+          "offset": 776,
+          "length": 3,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "last two years",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 818,
+          "length": 14,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "friends",
+          "category": "PersonType",
+          "offset": 985,
+          "length": 7,
+          "confidenceScore": 0.97
+        },
+        {
+          "text": "a day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 1122,
+          "length": 5,
+          "confidenceScore": 0.8
+        }
+      ]
+    }
+  ],
+  "piiEntityResults": [
+    {
+      "id": "0",
+      "warnings": [],
+      "entities": [
+        {
+          "text": "Lucy",
+          "category": "Person",
+          "offset": 0,
+          "length": 4,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "NZ",
+          "category": "PersonType",
+          "offset": 29,
+          "length": 2,
+          "confidenceScore": 0.84
+        },
+        {
+          "text": "today",
+          "category": "DateTime",
+          "subCategory": "Date",
+          "offset": 233,
+          "length": 5,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "members",
+          "category": "PersonType",
+          "offset": 249,
+          "length": 7,
+          "confidenceScore": 0.62
+        },
+        {
+          "text": "last two years",
+          "category": "DateTime",
+          "subCategory": "DateRange",
+          "offset": 818,
+          "length": 14,
+          "confidenceScore": 0.8
+        },
+        {
+          "text": "friends",
+          "category": "PersonType",
+          "offset": 985,
+          "length": 7,
+          "confidenceScore": 0.9
+        },
+        {
+          "text": "children",
+          "category": "PersonType",
+          "offset": 996,
+          "length": 8,
+          "confidenceScore": 0.62
+        },
+        {
+          "text": "a day",
+          "category": "DateTime",
+          "subCategory": "Duration",
+          "offset": 1122,
+          "length": 5,
+          "confidenceScore": 0.8
+        }
+      ],
+      "redactedText": "****’s Story: 4th generation **’er\r\n\r\nI’ve grown up skiing at a small club field called Broken River, nestled in the mountain range bordering Kura Tawhiti. This place and the people are my family. It is an essential part of who I am *****. The club ******* like myself, love sharing this special place to us with others and pass on the experiences we had as children to our own. Our roots run deep in this place. It’s absolutely more than a ski-field to us. Sounds stupid, but trust me. Every time I reach the top of the mountain, I am utterly at peace. It’s where we all go for peace, fun, memories and support. \r\n\r\nIn my life time I’m feeling the change. Warming average temperatures. The seasons feel more uncertain to me. The snow-pack seems thinner. More rain. We’ve had two particularly difficult seasons in the **************. We’re asking if and how we will survive. I have lingering doubt and fear that at some point I won’t be able to share this place any more with others – ******* or ********. I don’t want to think about that too hard, but I know I will have to and help the club plan. That maybe there’ll be ***** when I won’t be skiing any more. It will break all our hearts. It will leave an immense void in our lives, I know.  \r\n\r\n\r\n"
+    }
+  ]
+}

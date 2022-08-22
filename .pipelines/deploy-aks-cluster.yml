@@ -1,0 +1,21 @@
+trigger:
+  none
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    az bicep build -f src/infra/aks/main.bicep
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Visual Studio Enterprise Subscription(62755989-1bb3-4d7b-8131-13e79f4bdc5f)'
+    subscriptionId: '62755989-1bb3-4d7b-8131-13e79f4bdc5f'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'zz-test'
+    location: 'Australia Central'
+    templateLocation: 'Linked artifact'
+    csmFile: 'src/infra/aks/main.json'
+    csmParametersFile: 'src/infra/aks/parameters_test.json'
+    deploymentMode: 'Incremental'

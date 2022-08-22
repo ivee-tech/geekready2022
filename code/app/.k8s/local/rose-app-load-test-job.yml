@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: rose-app-load-test-001
+spec:
+  template:
+    metadata:
+      labels:
+        app: rose-app-load-test
+    spec:
+      containers:
+        - name: rose-app-load-test
+          image: zzacr.azurecr.io/geekready2021/rose-app-load-test:latest
+          imagePullPolicy: Always
+      restartPolicy: OnFailure
+  backoffLimit: 6 # default 6, 0 to no restart
+  completions: 1000
+  parallelism: 10

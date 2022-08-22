@@ -1,0 +1,6 @@
+{
+    "_remoteServerUrl": "__remoteServerUrl__",
+    "_appUrl": "__appUrl__", 
+    "remoteServerUrl": "http://20.40.179.23:4444/wd/hub",
+    "appUrl": "http://20.53.196.76:2999"
+}

@@ -1,0 +1,636 @@
+{
+  "container": {
+    "name": "mainGroup",
+    "uuid": "",
+    "url": "",
+    "meshType": "group",
+    "objectProps": [],
+    "geometryProps": [],
+    "materialProps": [],
+    "cfgProps": [],
+    "children": [],
+    "contentPanels": "",
+    "visibleRuntime": true,
+    "sVisibleRuntime": "true",
+    "dataSourceItem": null
+  },
+  "timelines": [
+    {
+      "name": "New timeline",
+      "cameraPositionDisplacement": {
+        "displacement": {
+          "x": 0.001,
+          "y": 0,
+          "z": 0
+        },
+        "min": {
+          "x": -10000,
+          "y": 0,
+          "z": 0
+        },
+        "max": {
+          "x": 10000,
+          "y": 0,
+          "z": 0
+        },
+        "enabled": true,
+        "expression": {
+          "x": "",
+          "y": "",
+          "z": "",
+          "fnx": null,
+          "fny": null,
+          "fnz": null
+        }
+      },
+      "cameraDirection": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "enabled": true,
+      "sEnabled": "true",
+      "expression": null,
+      "easing": null,
+      "duration": 0,
+      "meshes": [],
+      "meshCameraVerticesDisplacement": {
+        "displacement": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "min": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "enabled": true,
+        "expression": {
+          "x": "",
+          "y": "",
+          "z": "",
+          "fnx": null,
+          "fny": null,
+          "fnz": null
+        },
+        "useCurrent": false,
+        "yoyo": false,
+        "repeat": 0,
+        "trigger": "none",
+        "runtimeReverse": false,
+        "script": ""
+      },
+      "meshCameraVerticesUUID": null
+    }
+  ],
+  "lights": [
+    {
+      "name": "",
+      "uuid": "FEE5A1B8-6B1E-4536-A9A0-E56F21CE1FB2",
+      "type": "DirectionalLight",
+      "lightProps": [
+        {
+          "prop1": null,
+          "prop2": "type",
+          "type": "string",
+          "label": "Type",
+          "value": "DirectionalLight",
+          "readOnly": true
+        },
+        {
+          "prop1": null,
+          "prop2": "uuid",
+          "type": "string",
+          "label": "UUID",
+          "value": "",
+          "readOnly": true
+        },
+        {
+          "prop1": null,
+          "prop2": "name",
+          "type": "string",
+          "label": "name",
+          "value": ""
+        },
+        {
+          "prop1": null,
+          "prop2": "color",
+          "type": "color",
+          "label": "Color",
+          "value": 16777215
+        },
+        {
+          "prop1": null,
+          "prop2": "intensity",
+          "type": "number",
+          "label": "Intensity",
+          "value": 1,
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        },
+        {
+          "prop1": "position",
+          "prop2": "x",
+          "type": "number",
+          "label": "Position X",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": "position",
+          "prop2": "y",
+          "type": "number",
+          "label": "Position Y",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": "position",
+          "prop2": "z",
+          "type": "number",
+          "label": "Position Z",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": null,
+          "prop2": "size",
+          "type": "number",
+          "label": "Size",
+          "min": 1,
+          "max": 100,
+          "value": 5,
+          "step": 1
+        },
+        {
+          "prop1": null,
+          "prop2": "shadowCameraFov",
+          "type": "number",
+          "label": "Shadow Camera FOV",
+          "value": 70,
+          "min": 0,
+          "max": 1000,
+          "step": 10
+        },
+        {
+          "prop1": null,
+          "prop2": "castShadow",
+          "type": "bool",
+          "label": "Cast Shadow",
+          "value": false
+        },
+        {
+          "prop1": null,
+          "prop2": "showHelper",
+          "type": "bool",
+          "label": "Show Helper",
+          "value": false
+        },
+        {
+          "prop1": null,
+          "prop2": "showHelperRuntime",
+          "type": "bool",
+          "label": "Runtime",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "cameraProps": [
+    {
+      "prop1": null,
+      "prop2": "fov",
+      "type": "number",
+      "label": "FOV",
+      "value": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": null,
+      "prop2": "aspect",
+      "type": "number",
+      "label": "Aspect",
+      "value": 2.1333333333333333,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "prop1": null,
+      "prop2": "near",
+      "type": "number",
+      "label": "Near",
+      "value": 0.1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1
+    },
+    {
+      "prop1": null,
+      "prop2": "far",
+      "type": "number",
+      "label": "Far",
+      "value": 10000,
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "prop1": "position",
+      "prop2": "x",
+      "type": "number",
+      "label": "Position X",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "y",
+      "type": "number",
+      "label": "Position Y",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "z",
+      "type": "number",
+      "label": "Position Z",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    }
+  ],
+  "sceneProps": [
+    {
+      "prop1": "scene",
+      "prop2": "useFog",
+      "type": "bool",
+      "label": "Use Fog",
+      "value": false
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogColor",
+      "type": "color",
+      "label": "Fog Color",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogMistDensity",
+      "type": "number",
+      "label": "Fog Mist Density",
+      "value": 0.015,
+      "min": 0,
+      "max": 1,
+      "step": 0.001
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxis",
+      "type": "bool",
+      "label": "Show Axis",
+      "value": false
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxisRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisSize",
+      "type": "number",
+      "label": "Axis Size",
+      "value": 1000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "axis",
+      "prop2": "useAxisArrows",
+      "type": "bool",
+      "label": "Axis Arrows",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisArrowHeadLength",
+      "type": "number",
+      "label": "Axis Arrow Head Length",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGrid",
+      "type": "bool",
+      "label": "Show Grid",
+      "value": false
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGridRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridSize",
+      "type": "number",
+      "label": "Grid Size",
+      "value": 2000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridDivisions",
+      "type": "number",
+      "label": "Grid Divisions",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColor",
+      "type": "color",
+      "label": "Grid Color",
+      "value": "#808080"
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColorCenterLine",
+      "type": "color",
+      "label": "Grid Color Center Line",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "backgroundColor",
+      "type": "cssColor",
+      "label": "Background Color",
+      "value": "#ffffff"
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useStereoEffect",
+      "type": "bool",
+      "label": "Stereo Effect",
+      "value": true
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useStereoEffectRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": true
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAnaglyphEffect",
+      "type": "bool",
+      "label": "Anaglyph Effect",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAnaglyphEffectRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAsciiEffect",
+      "type": "bool",
+      "label": "Ascii Effect",
+      "value": false
+    },
+    {
+      "prop1": "renderer",
+      "prop2": "useAsciiEffectRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "scene",
+      "prop2": "noSleep",
+      "type": "bool",
+      "label": "No Sleep",
+      "value": true
+    }
+  ],
+  "audioProps": [
+    {
+      "prop1": null,
+      "prop2": "fileName",
+      "type": "string",
+      "label": "Audio File Name",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "select",
+      "type": "function",
+      "label": "Select",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "play",
+      "type": "function",
+      "label": "Play",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "pause",
+      "type": "function",
+      "label": "Pause",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "autoPlay",
+      "type": "bool",
+      "label": "Auto Play",
+      "value": false
+    },
+    {
+      "prop1": null,
+      "prop2": "loop",
+      "type": "bool",
+      "label": "Loop",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "controls",
+      "type": "bool",
+      "label": "Controls",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "position",
+      "type": "string",
+      "label": "Position",
+      "value": "absolute",
+      "values": [
+        "static",
+        "relative",
+        "absolute"
+      ]
+    },
+    {
+      "prop1": null,
+      "prop2": "left",
+      "type": "string",
+      "label": "Left",
+      "value": "10px"
+    },
+    {
+      "prop1": null,
+      "prop2": "top",
+      "type": "string",
+      "label": "Top",
+      "value": "10px"
+    }
+  ],
+  "additionalContents": [],
+  "shaders": [
+    {
+      "id": "ShaderNoise",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        }
+      ],
+      "vertexProgram": "\t\t\tvarying vec2 vUv;\n\t\t\tuniform vec2 scale;\n\t\t\tuniform vec2 offset;\n\n\t\t\tvoid main( void ) {\n\n\t\t\t\tvUv = uv * scale + offset;\n\t\t\t\tgl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );\n\n\t\t\t}\n",
+      "fragmentProgram": "\t\t\t//\n\t\t\t// Description : Array and textureless GLSL 3D simplex noise function.\n\t\t\t//      Author : Ian McEwan, Ashima Arts.\n\t\t\t//  Maintainer : ijm\n\t\t\t//     Lastmod : 20110409 (stegu)\n\t\t\t//     License : Copyright (C) 2011 Ashima Arts. All rights reserved.\n\t\t\t//               Distributed under the MIT License. See LICENSE file.\n\t\t\t//\n\n\t\t\tuniform float time;\n\t\t\tvarying vec2 vUv;\n\n\t\t\tvec4 permute( vec4 x ) {\n\n\t\t\t\treturn mod( ( ( x * 34.0 ) + 1.0 ) * x, 289.0 );\n\n\t\t\t}\n\n\t\t\tvec4 taylorInvSqrt( vec4 r ) {\n\n\t\t\t\treturn 1.79284291400159 - 0.85373472095314 * r;\n\n\t\t\t}\n\n\t\t\tfloat snoise( vec3 v ) {\n\n\t\t\t\tconst vec2 C = vec2( 1.0 / 6.0, 1.0 / 3.0 );\n\t\t\t\tconst vec4 D = vec4( 0.0, 0.5, 1.0, 2.0 );\n\n\t\t\t\t// First corner\n\n\t\t\t\tvec3 i  = floor( v + dot( v, C.yyy ) );\n\t\t\t\tvec3 x0 = v - i + dot( i, C.xxx );\n\n\t\t\t\t// Other corners\n\n\t\t\t\tvec3 g = step( x0.yzx, x0.xyz );\n\t\t\t\tvec3 l = 1.0 - g;\n\t\t\t\tvec3 i1 = min( g.xyz, l.zxy );\n\t\t\t\tvec3 i2 = max( g.xyz, l.zxy );\n\n\t\t\t\tvec3 x1 = x0 - i1 + 1.0 * C.xxx;\n\t\t\t\tvec3 x2 = x0 - i2 + 2.0 * C.xxx;\n\t\t\t\tvec3 x3 = x0 - 1. + 3.0 * C.xxx;\n\n\t\t\t\t// Permutations\n\n\t\t\t\ti = mod( i, 289.0 );\n\t\t\t\tvec4 p = permute( permute( permute(\n\t\t\t\t\t\t i.z + vec4( 0.0, i1.z, i2.z, 1.0 ) )\n\t\t\t\t\t   + i.y + vec4( 0.0, i1.y, i2.y, 1.0 ) )\n\t\t\t\t\t   + i.x + vec4( 0.0, i1.x, i2.x, 1.0 ) );\n\n\t\t\t\t// Gradients\n\t\t\t\t// ( N*N points uniformly over a square, mapped onto an octahedron.)\n\n\t\t\t\tfloat n_ = 1.0 / 7.0; // N=7\n\n\t\t\t\tvec3 ns = n_ * D.wyz - D.xzx;\n\n\t\t\t\tvec4 j = p - 49.0 * floor( p * ns.z *ns.z );  //  mod(p,N*N)\n\n\t\t\t\tvec4 x_ = floor( j * ns.z );\n\t\t\t\tvec4 y_ = floor( j - 7.0 * x_ );    // mod(j,N)\n\n\t\t\t\tvec4 x = x_ *ns.x + ns.yyyy;\n\t\t\t\tvec4 y = y_ *ns.x + ns.yyyy;\n\t\t\t\tvec4 h = 1.0 - abs( x ) - abs( y );\n\n\t\t\t\tvec4 b0 = vec4( x.xy, y.xy );\n\t\t\t\tvec4 b1 = vec4( x.zw, y.zw );\n\n\n\t\t\t\tvec4 s0 = floor( b0 ) * 2.0 + 1.0;\n\t\t\t\tvec4 s1 = floor( b1 ) * 2.0 + 1.0;\n\t\t\t\tvec4 sh = -step( h, vec4( 0.0 ) );\n\n\t\t\t\tvec4 a0 = b0.xzyw + s0.xzyw * sh.xxyy;\n\t\t\t\tvec4 a1 = b1.xzyw + s1.xzyw * sh.zzww;\n\n\t\t\t\tvec3 p0 = vec3( a0.xy, h.x );\n\t\t\t\tvec3 p1 = vec3( a0.zw, h.y );\n\t\t\t\tvec3 p2 = vec3( a1.xy, h.z );\n\t\t\t\tvec3 p3 = vec3( a1.zw, h.w );\n\n\t\t\t\t// Normalise gradients\n\n\t\t\t\tvec4 norm = taylorInvSqrt( vec4( dot( p0, p0 ), dot( p1, p1 ), dot( p2, p2 ), dot( p3, p3 ) ) );\n\t\t\t\tp0 *= norm.x;\n\t\t\t\tp1 *= norm.y;\n\t\t\t\tp2 *= norm.z;\n\t\t\t\tp3 *= norm.w;\n\n\t\t\t\t// Mix final noise value\n\n\t\t\t\tvec4 m = max( 0.6 - vec4( dot( x0, x0 ), dot( x1, x1 ), dot( x2, x2 ), dot( x3, x3 ) ), 0.0 );\n\t\t\t\tm = m * m;\n\t\t\t\treturn 42.0 * dot( m*m, vec4( dot( p0, x0 ), dot( p1, x1 ),\n\t\t\t\t\t\t\t\t\t\t\t  dot( p2, x2 ), dot( p3, x3 ) ) );\n\n\t\t\t}\n\n\t\t\tfloat surface3( vec3 coord ) {\n\n\t\t\t\tfloat n = 0.0;\n\n\t\t\t\tn += 1.0 * abs( snoise( coord ) );\n\t\t\t\tn += 0.5 * abs( snoise( coord * 2.0 ) );\n\t\t\t\tn += 0.25 * abs( snoise( coord * 4.0 ) );\n\t\t\t\tn += 0.125 * abs( snoise( coord * 8.0 ) );\n\n\t\t\t\treturn n;\n\n\t\t\t}\n\n\t\t\tvoid main( void ) {\n\n\t\t\t\tvec3 coord = vec3( vUv, -time );\n\t\t\t\tfloat n = surface3( coord );\n\n\t\t\t\tgl_FragColor = vec4( vec3( n, n, n ), 1.0 );\n\n\t\t\t}\n",
+      "timeExpr": {
+        "expression": "d * 0.001",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 0.001
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    }
+  ],
+  "script": {
+    "init": null,
+    "execInit": null,
+    "update": null,
+    "execUpdate": null
+  },
+  "dataSourceProps": [],
+  "plugins": [
+    {
+      "id": "2A9940C9-609E-4D97-9988-A5D881C25D51",
+      "type": "threejsTerrain",
+      "cfg": [
+        {
+          "id": "p0UzHV",
+          "name": "shaderNoiseId",
+          "value": "ShaderNoise"
+        },
+        {
+          "id": "PsGGv5",
+          "name": "diffuseTexture1FilePath",
+          "value": "images/lavatile.jpg"
+        },
+        {
+          "id": "1aGybv",
+          "name": "diffuseTexture2FilePath",
+          "value": "images/backgrounddetailed6.jpg"
+        },
+        {
+          "id": "Q540RE",
+          "name": "detailTextureFilePath",
+          "value": "images/texture.jpg"
+        }
+      ]
+    },
+    {
+      "id": "585DA260-F18F-466B-B030-E2E92140A6A1",
+      "type": "skybox",
+      "cfg": [
+        {
+          "id": "kZ4rJ9",
+          "name": "srcFile",
+          "value": "images/skyboxsun5deg2.png"
+        },
+        {
+          "id": "2twgf6",
+          "name": "size",
+          "value": 1024
+        }
+      ]
+    }
+  ]
+}

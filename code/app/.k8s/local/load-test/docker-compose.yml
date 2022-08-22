@@ -1,0 +1,4 @@
+version: '3.4'
+services:
+  rose-app-load-test:
+    image: rose-app-load-test:latest

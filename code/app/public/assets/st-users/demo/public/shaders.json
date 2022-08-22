@@ -1,0 +1,2227 @@
+{
+  "container": {
+    "name": "mainGroup",
+    "uuid": "",
+    "url": "",
+    "meshType": "group",
+    "objectProps": [],
+    "geometryProps": [],
+    "materialProps": [],
+    "cfgProps": [],
+    "children": [
+      {
+        "name": "",
+        "uuid": "37195D96-BBDE-425F-9468-015D73910152",
+        "url": "",
+        "meshType": "sphere",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "37195D96-BBDE-425F-9468-015D73910152",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 107.6682471717391,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 30.084276679455328,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 126.15690469502401,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": null,
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id"
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "SphereGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "radius",
+            "type": "number",
+            "label": "Radius",
+            "min": 1,
+            "max": 1000,
+            "value": 50,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 3,
+            "max": 360,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 2,
+            "max": 360,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "phiStart",
+            "type": "number",
+            "label": "Phi Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "phiLength",
+            "type": "number",
+            "label": "Phi Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaStart",
+            "type": "number",
+            "label": "Theta Start",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 0,
+            "step": 0.1,
+            "deg": true
+          },
+          {
+            "prop1": null,
+            "prop2": "thetaLength",
+            "type": "number",
+            "label": "Theta Length",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#719768"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": true
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader1"
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "shaderId": "shader1"
+      },
+      {
+        "name": "",
+        "uuid": "EC37030C-F1EA-46CB-B5D7-F555F7A3BE69",
+        "meshType": "torus",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "EC37030C-F1EA-46CB-B5D7-F555F7A3BE69",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": 76.504161083035839,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 33.720696193970895,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -146.81468211787833,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "TorusGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "radius",
+            "type": "number",
+            "label": "Radius",
+            "min": 1,
+            "max": 1000,
+            "value": 50,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "tube",
+            "type": "number",
+            "label": "Tube",
+            "min": 1,
+            "max": 1000,
+            "value": 25,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "radialSegments",
+            "type": "number",
+            "label": "Radial Segments",
+            "min": 1,
+            "max": 1000,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "tubularSegments",
+            "type": "number",
+            "label": "Tubular Segments",
+            "min": 1,
+            "max": 1000,
+            "value": 36,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "arc",
+            "type": "number",
+            "label": "Arc",
+            "min": 0,
+            "max": 6.2831853071795862,
+            "value": 6.2831853071795862,
+            "step": 0.1,
+            "deg": true
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#f52276"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader2"
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "shaderId": "shader2"
+      },
+      {
+        "name": "",
+        "uuid": "435ECCEE-9EB6-4BEA-8A0F-4D425A8A0400",
+        "meshType": "torusKnot",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "435ECCEE-9EB6-4BEA-8A0F-4D425A8A0400",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": -118.41646272317547,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 45.381432005920445,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 225.42391890313445,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "TorusKnotGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "radius",
+            "type": "number",
+            "label": "Radius",
+            "min": 1,
+            "max": 1000,
+            "value": 50,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "tube",
+            "type": "number",
+            "label": "Tube",
+            "min": 1,
+            "max": 1000,
+            "value": 12.5,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "radialSegments",
+            "type": "number",
+            "label": "Radial Segments",
+            "min": 1,
+            "max": 1000,
+            "value": 64,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "tubularSegments",
+            "type": "number",
+            "label": "Tubular Segments",
+            "min": 1,
+            "max": 1000,
+            "value": 8,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "p",
+            "type": "number",
+            "label": "p",
+            "min": 1,
+            "max": 100,
+            "value": 2,
+            "step": 1
+          },
+          {
+            "prop1": null,
+            "prop2": "q",
+            "type": "number",
+            "label": "q",
+            "min": 1,
+            "max": 100,
+            "value": 3,
+            "step": 1
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#73a398"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader1"
+          }
+        ],
+        "cfgProps": [],
+        "children": []
+      },
+      {
+        "name": "",
+        "uuid": "469D6343-868B-4B9E-B946-CC79F68C6220",
+        "meshType": "cube",
+        "objectProps": [
+          {
+            "prop1": null,
+            "prop2": "name",
+            "type": "string",
+            "label": "Name",
+            "value": ""
+          },
+          {
+            "prop1": null,
+            "prop2": "uuid",
+            "type": "string",
+            "label": "UUID",
+            "value": "469D6343-868B-4B9E-B946-CC79F68C6220",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "prop1": null,
+            "prop2": "contentPanels",
+            "type": "string",
+            "label": "Content Panels"
+          },
+          {
+            "prop1": null,
+            "prop2": "visible",
+            "type": "boolean",
+            "label": "Visible",
+            "value": true
+          },
+          {
+            "prop1": null,
+            "prop2": "visibleRuntime",
+            "type": "boolean",
+            "label": "Runtime",
+            "value": false
+          },
+          {
+            "prop1": null,
+            "prop2": "sVisibleRuntime",
+            "type": "string",
+            "label": "SRuntime",
+            "hidden": true
+          },
+          {
+            "prop1": null,
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id"
+          },
+          {
+            "prop1": "position",
+            "prop2": "x",
+            "type": "number",
+            "label": "Position X",
+            "min": -1000,
+            "max": 1000,
+            "value": -107.28556161252169,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "y",
+            "type": "number",
+            "label": "Position Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 94.152221543133862,
+            "step": 10
+          },
+          {
+            "prop1": "position",
+            "prop2": "z",
+            "type": "number",
+            "label": "Position Z",
+            "min": -1000,
+            "max": 1000,
+            "value": -19.76035818886254,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "x",
+            "type": "number",
+            "label": "Rotation X",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "y",
+            "type": "number",
+            "label": "Rotation Y",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "rotation",
+            "prop2": "z",
+            "type": "number",
+            "label": "Rotation Z",
+            "min": -1000,
+            "max": 1000,
+            "value": 0,
+            "step": 10
+          },
+          {
+            "prop1": "scale",
+            "prop2": "x",
+            "type": "number",
+            "label": "Scale X",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "y",
+            "type": "number",
+            "label": "Scale Y",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          },
+          {
+            "prop1": "scale",
+            "prop2": "z",
+            "type": "number",
+            "label": "Scale Z",
+            "min": -10,
+            "max": 10,
+            "value": 1,
+            "step": 1
+          }
+        ],
+        "geometryProps": [
+          {
+            "prop1": null,
+            "prop2": "type",
+            "type": "enum",
+            "label": "Type",
+            "value": "BoxGeometry",
+            "readOnly": true
+          },
+          {
+            "prop1": null,
+            "prop2": "width",
+            "type": "number",
+            "label": "Width",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "height",
+            "type": "number",
+            "label": "Height",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depth",
+            "type": "number",
+            "label": "Depth",
+            "min": 0,
+            "max": 1000,
+            "value": 100,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "widthSegments",
+            "type": "number",
+            "label": "Width Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "heightSegments",
+            "type": "number",
+            "label": "Height Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          },
+          {
+            "prop1": null,
+            "prop2": "depthSegments",
+            "type": "number",
+            "label": "Depth Segments",
+            "min": 1,
+            "max": 100,
+            "value": 1,
+            "step": 10
+          }
+        ],
+        "materialProps": [
+          {
+            "prop1": "material",
+            "prop2": "type",
+            "type": "object",
+            "label": "Type",
+            "value": "MeshBasicMaterial",
+            "values": [
+              "LineBasicMaterial",
+              "LineDashedMaterial",
+              "MeshBasicMaterial",
+              "MeshDepthMaterial",
+              "MeshLambertMaterial",
+              "MeshPhongMaterial",
+              "MeshStandardMaterial",
+              "MeshToonMaterial",
+              "PointsMaterial",
+              "MultiMaterial"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "color",
+            "type": "color",
+            "label": "Color",
+            "value": "#a65e0c"
+          },
+          {
+            "prop1": "material",
+            "prop2": "specular",
+            "type": "color",
+            "label": "Specular",
+            "value": "#111111"
+          },
+          {
+            "prop1": "material",
+            "prop2": "wireframe",
+            "type": "boolean",
+            "label": "Wireframe",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "transparent",
+            "type": "boolean",
+            "label": "Transparent",
+            "value": false
+          },
+          {
+            "prop1": "material",
+            "prop2": "opacity",
+            "type": "number",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "value": 1,
+            "step": 0.05
+          },
+          {
+            "prop1": "material",
+            "prop2": "texture",
+            "type": "map",
+            "label": "Map Texture",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "select",
+            "type": "map",
+            "label": "Select",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "refresh",
+            "type": "map",
+            "label": "Refresh",
+            "value": ""
+          },
+          {
+            "prop1": "material",
+            "prop2": "useCanvas",
+            "type": "boolean",
+            "label": "Use Canvas",
+            "value": false
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "text",
+            "type": "string",
+            "label": "Canvas text",
+            "value": "Text"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "font",
+            "type": "string",
+            "label": "Font",
+            "value": "12px Arial"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textColor",
+            "type": "color",
+            "label": "Text color",
+            "value": "#000"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "backgroundColor",
+            "type": "color",
+            "label": "Background color",
+            "value": "#fff"
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textAlign",
+            "type": "string",
+            "label": "Text align",
+            "value": "center",
+            "values": [
+              "left",
+              "center",
+              "right",
+              "justify"
+            ]
+          },
+          {
+            "prop1": "canvas",
+            "prop2": "textBaseline",
+            "type": "string",
+            "label": "Text baseline",
+            "value": "middle",
+            "values": [
+              "top",
+              "middle",
+              "bottom"
+            ]
+          },
+          {
+            "prop1": "material",
+            "prop2": "shaderId",
+            "type": "string",
+            "label": "Shader Id",
+            "value": "shader3"
+          }
+        ],
+        "cfgProps": [],
+        "children": [],
+        "shaderId": "shader3"
+      }
+    ],
+    "contentPanels": "",
+    "visibleRuntime": true,
+    "sVisibleRuntime": "true"
+  },
+  "timelines": [
+    {
+      "name": "New timeline",
+      "cameraPositionDisplacement": {
+        "displacement": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "min": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "enabled": true,
+        "expression": {
+          "x": "500 * sin(t * 0.0005)",
+          "y": "",
+          "z": "500 * cos(t * 0.0005)",
+          "fnx": null,
+          "fny": null,
+          "fnz": null
+        }
+      },
+      "cameraDirection": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "enabled": true,
+      "sEnabled": "true",
+      "expression": null,
+      "easing": null,
+      "duration": 0,
+      "meshes": [
+        {
+          "positionDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true,
+            "expression": {
+              "x": "",
+              "y": "",
+              "z": "",
+              "fnx": null,
+              "fny": null,
+              "fnz": null
+            }
+          },
+          "rotationDisplacement": {
+            "displacement": {
+              "x": -0.1,
+              "y": -0.5,
+              "z": 0
+            },
+            "min": {
+              "x": -100,
+              "y": -100,
+              "z": -100
+            },
+            "max": {
+              "x": 100,
+              "y": 100,
+              "z": 100
+            },
+            "enabled": false,
+            "expression": {
+              "x": "",
+              "y": "",
+              "z": "",
+              "fnx": null,
+              "fny": null,
+              "fnz": null
+            }
+          },
+          "scaleDisplacement": {
+            "displacement": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "min": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "max": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true,
+            "expression": {
+              "x": "",
+              "y": "",
+              "z": "",
+              "fnx": null,
+              "fny": null,
+              "fnz": null
+            }
+          },
+          "uuid": "37195D96-BBDE-425F-9468-015D73910152",
+          "visible": true,
+          "positionDirection": {
+            "x": -1,
+            "y": -1,
+            "z": -1
+          },
+          "scaleDirection": {
+            "x": -1,
+            "y": -1,
+            "z": -1
+          },
+          "rotationDirection": {
+            "x": -1,
+            "y": 1,
+            "z": 1
+          },
+          "runtimeTweenReverseMouseUp": false,
+          "runtimeTweenReverseMouseDown": false
+        }
+      ],
+      "meshCameraVerticesDisplacement": {
+        "displacement": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "min": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "enabled": true,
+        "expression": {
+          "x": "",
+          "y": "",
+          "z": "",
+          "fnx": null,
+          "fny": null,
+          "fnz": null
+        },
+        "useCurrent": false,
+        "yoyo": false,
+        "repeat": 0
+      },
+      "meshCameraVerticesUUID": null
+    }
+  ],
+  "lights": [
+    {
+      "name": "",
+      "uuid": "4E164BEF-AABC-470D-A310-7844318C969F",
+      "type": "DirectionalLight",
+      "lightProps": [
+        {
+          "prop1": null,
+          "prop2": "type",
+          "type": "string",
+          "label": "Type",
+          "value": "DirectionalLight",
+          "readOnly": true
+        },
+        {
+          "prop1": null,
+          "prop2": "uuid",
+          "type": "string",
+          "label": "UUID",
+          "value": "",
+          "readOnly": true
+        },
+        {
+          "prop1": null,
+          "prop2": "name",
+          "type": "string",
+          "label": "name",
+          "value": ""
+        },
+        {
+          "prop1": null,
+          "prop2": "color",
+          "type": "color",
+          "label": "Color",
+          "value": 16777215
+        },
+        {
+          "prop1": null,
+          "prop2": "intensity",
+          "type": "number",
+          "label": "Intensity",
+          "value": 1,
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        },
+        {
+          "prop1": "position",
+          "prop2": "x",
+          "type": "number",
+          "label": "Position X",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": "position",
+          "prop2": "y",
+          "type": "number",
+          "label": "Position Y",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": "position",
+          "prop2": "z",
+          "type": "number",
+          "label": "Position Z",
+          "min": -1000,
+          "max": 1000,
+          "value": 100,
+          "step": 10
+        },
+        {
+          "prop1": null,
+          "prop2": "size",
+          "type": "number",
+          "label": "Size",
+          "min": 1,
+          "max": 100,
+          "value": 5,
+          "step": 1
+        },
+        {
+          "prop1": null,
+          "prop2": "shadowCameraFov",
+          "type": "number",
+          "label": "Shadow Camera FOV",
+          "value": 70,
+          "min": 0,
+          "max": 1000,
+          "step": 10
+        },
+        {
+          "prop1": null,
+          "prop2": "castShadow",
+          "type": "bool",
+          "label": "Cast Shadow",
+          "value": false
+        },
+        {
+          "prop1": null,
+          "prop2": "showHelper",
+          "type": "bool",
+          "label": "Show Helper",
+          "value": false
+        },
+        {
+          "prop1": null,
+          "prop2": "showHelperRuntime",
+          "type": "bool",
+          "label": "Runtime",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "cameraProps": [
+    {
+      "prop1": null,
+      "prop2": "fov",
+      "type": "number",
+      "label": "FOV",
+      "value": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": null,
+      "prop2": "aspect",
+      "type": "number",
+      "label": "Aspect",
+      "value": 2.0210526315789474,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "prop1": null,
+      "prop2": "near",
+      "type": "number",
+      "label": "Near",
+      "value": 0.1,
+      "min": 0,
+      "max": 100,
+      "step": 0.1
+    },
+    {
+      "prop1": null,
+      "prop2": "far",
+      "type": "number",
+      "label": "Far",
+      "value": 10000,
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "prop1": "position",
+      "prop2": "x",
+      "type": "number",
+      "label": "Position X",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "y",
+      "type": "number",
+      "label": "Position Y",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    },
+    {
+      "prop1": "position",
+      "prop2": "z",
+      "type": "number",
+      "label": "Position Z",
+      "min": -1000,
+      "max": 1000,
+      "value": 200,
+      "step": 10
+    }
+  ],
+  "sceneProps": [
+    {
+      "prop1": "scene",
+      "prop2": "useFog",
+      "type": "bool",
+      "label": "Use Fog",
+      "value": false
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogColor",
+      "type": "color",
+      "label": "Fog Color",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "fogMistDensity",
+      "type": "number",
+      "label": "Fog Mist Density",
+      "value": 0.015,
+      "min": 0,
+      "max": 1,
+      "step": 0.001
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxis",
+      "type": "bool",
+      "label": "Show Axis",
+      "value": false
+    },
+    {
+      "prop1": "axis",
+      "prop2": "showAxisRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisSize",
+      "type": "number",
+      "label": "Axis Size",
+      "value": 1000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "axis",
+      "prop2": "useAxisArrows",
+      "type": "bool",
+      "label": "Axis Arrows",
+      "value": true
+    },
+    {
+      "prop1": "axis",
+      "prop2": "axisArrowHeadLength",
+      "type": "number",
+      "label": "Axis Arrow Head Length",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGrid",
+      "type": "bool",
+      "label": "Show Grid",
+      "value": false
+    },
+    {
+      "prop1": "grid",
+      "prop2": "showGridRuntime",
+      "type": "bool",
+      "label": "Runtime",
+      "value": false
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridSize",
+      "type": "number",
+      "label": "Grid Size",
+      "value": 2000,
+      "min": 1,
+      "max": 1000,
+      "step": 10
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridDivisions",
+      "type": "number",
+      "label": "Grid Divisions",
+      "value": 100,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColor",
+      "type": "color",
+      "label": "Grid Color",
+      "value": "#808080"
+    },
+    {
+      "prop1": "grid",
+      "prop2": "gridColorCenterLine",
+      "type": "color",
+      "label": "Grid Color Center Line",
+      "value": "#FFFFFF"
+    },
+    {
+      "prop1": "scene",
+      "prop2": "backgroundColor",
+      "type": "cssColor",
+      "label": "Background Color",
+      "value": "#1E1E1E"
+    }
+  ],
+  "audioProps": [
+    {
+      "prop1": null,
+      "prop2": "fileName",
+      "type": "string",
+      "label": "Audio File Name",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "select",
+      "type": "function",
+      "label": "Select",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "play",
+      "type": "function",
+      "label": "Play",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "pause",
+      "type": "function",
+      "label": "Pause",
+      "value": ""
+    },
+    {
+      "prop1": null,
+      "prop2": "autoPlay",
+      "type": "bool",
+      "label": "Auto Play",
+      "value": false
+    },
+    {
+      "prop1": null,
+      "prop2": "loop",
+      "type": "bool",
+      "label": "Loop",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "controls",
+      "type": "bool",
+      "label": "Controls",
+      "value": true
+    },
+    {
+      "prop1": null,
+      "prop2": "position",
+      "type": "string",
+      "label": "Position",
+      "value": "absolute",
+      "values": [
+        "static",
+        "relative",
+        "absolute"
+      ]
+    },
+    {
+      "prop1": null,
+      "prop2": "left",
+      "type": "string",
+      "label": "Left",
+      "value": "10px"
+    },
+    {
+      "prop1": null,
+      "prop2": "top",
+      "type": "string",
+      "label": "Top",
+      "value": "10px"
+    }
+  ],
+  "additionalContents": [],
+  "shaders": [
+    {
+      "id": "shader1",
+      "uniforms": [
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        },
+        {
+          "name": "time",
+          "type": "f",
+          "value": 0
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "\t\t\tuniform float time;\n\t\t\tuniform vec2 resolution;\n\n\t\t\tvarying vec2 vUv;\n\n\t\t\tvoid main( void ) {\n\n\t\t\t\tvec2 position = -1.0 + 2.0 * vUv;\n\n\t\t\t\tfloat red = abs( sin( position.x * position.y + time / 5.0 ) );\n\t\t\t\tfloat green = abs( sin( position.x * position.y + time / 4.0 ) );\n\t\t\t\tfloat blue = abs( sin( position.x * position.y + time / 3.0 ) );\n\t\t\t\tgl_FragColor = vec4( red, green, blue, 1.0 );\n\n\t\t\t}\n",
+      "timeExpr": {
+        "expression": "d * 5",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 5
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    },
+    {
+      "id": "shader2",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "\t\t\tuniform float time;\n\t\t\tuniform vec2 resolution;\n\n\t\t\tvarying vec2 vUv;\n\n\t\t\tvoid main( void ) {\n\n\t\t\t\tvec2 position = vUv;\n\n\t\t\t\tfloat color = 0.0;\n\t\t\t\tcolor += sin( position.x * cos( time / 15.0 ) * 80.0 ) + cos( position.y * cos( time / 15.0 ) * 10.0 );\n\t\t\t\tcolor += sin( position.y * sin( time / 10.0 ) * 40.0 ) + cos( position.x * sin( time / 25.0 ) * 40.0 );\n\t\t\t\tcolor += sin( position.x * sin( time / 5.0 ) * 10.0 ) + sin( position.y * sin( time / 35.0 ) * 80.0 );\n\t\t\t\tcolor *= sin( time / 10.0 ) * 0.5;\n\n\t\t\t\tgl_FragColor = vec4( vec3( color, color * 0.5, sin( color + time / 3.0 ) * 0.75 ), 1.0 );\n\n\t\t\t}\n",
+      "timeExpr": {
+        "expression": "d * 100",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 100
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    },
+    {
+      "id": "shader3",
+      "uniforms": [
+        {
+          "name": "time",
+          "type": "f",
+          "value": 1
+        },
+        {
+          "name": "resolution",
+          "type": "v2",
+          "value": null
+        }
+      ],
+      "vertexProgram": "\nvarying vec2 vUv;\n\nvoid main()\n{\n    vUv = uv;\n    vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * mvPosition;\n}\n",
+      "fragmentProgram": "uniform vec2 resolution;\nuniform float time;\n\nvoid main()\t{\n\n    vec2 p = -1.0 + 2.0 * gl_FragCoord.xy / resolution.xy;\n    float a = time*40.0;\n    float d,e,f,g=1.0/40.0,h,i,r,q;\n    e=400.0*(p.x*0.5+0.5);\n    f=400.0*(p.y*0.5+0.5);\n    i=200.0+sin(e*g+a/150.0)*20.0;\n    d=200.0+cos(f*g/2.0)*18.0+cos(e*g)*7.0;\n    r=sqrt(pow(abs(i-e),2.0)+pow(abs(d-f),2.0));\n    q=f/r;\n    e=(r*cos(q))-a/2.0;f=(r*sin(q))-a/2.0;\n    d=sin(e*g)*176.0+sin(e*g)*164.0+r;\n    h=((f+d)+a/2.0)*g;\n    i=cos(h+r*p.x/1.3)*(e+e+a)+cos(q*g*6.0)*(r+h/3.0);\n    h=sin(f*g)*144.0-sin(e*g)*212.0*p.x;\n    h=(h+(f-e)*q+sin(r-(a+h)/7.0)*10.0+i/4.0)*g;\n    i+=cos(h*2.3*sin(a/350.0-q))*184.0*sin(q-(r*4.3+a/12.0)*g)+tan(r*g+h)*184.0*cos(r*g+h);\n    i=mod(i/5.6,256.0)/64.0;\n    if(i<0.0) i+=4.0;\n    if(i>=2.0) i=4.0-i;\n    d=r/350.0;\n    d+=sin(d*d*8.0)*0.52;\n    f=(sin(a*g)+1.0)/2.0;\n    gl_FragColor=vec4(vec3(f*i/1.6,i/2.0+d/13.0,i)*d*p.x+vec3(i/1.3+d/8.0,i/2.0+d/18.0,i)*d*(1.0-p.x),1.0);\n\n}\n",
+      "timeExpr": {
+        "expression": "d * 500",
+        "fn": {
+          "tokens": [
+            {
+              "type": "IVAR",
+              "value": "d"
+            },
+            {
+              "type": "INUMBER",
+              "value": 500
+            },
+            {
+              "type": "IOP2",
+              "value": "*"
+            }
+          ],
+          "parser": {
+            "unaryOps": {},
+            "binaryOps": {},
+            "ternaryOps": {},
+            "functions": {},
+            "consts": {
+              "E": 2.7182818284590451,
+              "PI": 3.1415926535897931,
+              "true": true,
+              "false": false
+            }
+          },
+          "unaryOps": {},
+          "binaryOps": {},
+          "ternaryOps": {},
+          "functions": {}
+        }
+      }
+    }
+  ]
+}

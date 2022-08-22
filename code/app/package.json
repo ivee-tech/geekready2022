@@ -1,0 +1,89 @@
+{
+  "name": "hello-geekready-2022",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 2999",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "npm run serve",
+    "unit-test": "jest --testPathPattern=tests/unit/*",
+    "func-test": "jest --testPathPattern=tests/func/*",
+    "unit-test-ci": "export TEST_ENV=CI && jest --testPathPattern=tests/unit/* --ci --watchAll=false",
+    "func-test-ci": "export TEST_ENV=CI && jest --testPathPattern=tests/func/* --ci --watchAll=false"
+  },
+  "dependencies": {
+    "@vueform/toggle": "^2.0.0",
+    "core-js": "^3.8.3",
+    "dat-gui": "^0.5.0",
+    "fs": "0.0.1-security",
+    "iv-3d-lib": "^1.0.31",
+    "register-service-worker": "^1.7.2",
+    "three": "^0.126.1",
+    "three-anaglypheffect": "^1.0.0",
+    "three-asciieffect": "^1.0.1",
+    "three-buffer-geometry-utils": "^1.0.0",
+    "three-css3drenderer": "^1.0.0",
+    "three-orbitcontrols": "^1.1.2",
+    "three-shader-terrain": "^1.0.0",
+    "three-shaders": "^1.0.0",
+    "three-stereoeffect": "^1.0.15",
+    "three-trackballcontrols": "^0.9.0",
+    "three.regular.helvetiker": "^1.0.0",
+    "tween.js": "^16.6.0",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^8.5.1",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-plugin-pwa": "^4.5.11",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-plugin-typescript": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "chromedriver": "^104.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "^28.1.3",
+    "prettier": "^1.19.1",
+    "selenium-webdriver": "^4.4.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "@vue/prettier",
+      "@vue/prettier/@typescript-eslint"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "no-inferrable-types": "off",
+      "@typescript-eslint/no-inferrable-types": "off",
+      "prefer-const": "off",
+      "no-empty": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
