@@ -21,3 +21,7 @@ az deployment group create -n $appName-deployment `
 
 az bicep decompile -f template.json
 
+# HW image
+mcr.microsoft.com/azuredocs/containerapps-helloworld:latest
+# sample image
+zzacr.azurecr.io/microsoft/dotnet/samples:aspnetapp

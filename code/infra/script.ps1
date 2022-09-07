@@ -1,3 +1,5 @@
+kubectl config current-context
+
 $resourceGroupName='zz-shared'
 $acrName='zzacr'
 $loginServer="$acrName.azurecr.io"
@@ -25,10 +27,10 @@ docker tag $fullSrcImg $fullDestImg
 docker push $fullDestImg
 
 # run trivy against the deployed image
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v $HOME/Library/Caches:/root/.cache/ zzacr.azurecr.io/aquasec/trivy --exit-code 0 --severity MEDIUM,HIGH --ignore-unfixed $containerRegistry/$imageRepository:$tag
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v $HOME/Library/Caches:/root/.cache/ zzacr.azurecr.io/aquasec/trivy --exit-code 1 --severity CRITICAL --ignore-unfixed $containerRegistry/$imageRepository:$tag
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v $HOME/Library/Caches:/root/.cache/ zzacr.azurecr.io/aquasec/trivy --exit-code 0 --severity MEDIUM,HIGH --ignore-unfixed $fullDestImg
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v $HOME/Library/Caches:/root/.cache/ zzacr.azurecr.io/aquasec/trivy --exit-code 1 --severity CRITICAL --ignore-unfixed $fullDestImg
 
-# deploy AKS cluster
+# deploy AKS cluster (Linux)
 /bin/bash deploy.sh dev
 /bin/bash deploy.sh test
 
@@ -43,16 +45,21 @@ $resourceGroupName='zz-dev'
 $aksName='zz-dev-aks'
 az aks get-credentials -n $aksName -g $resourceGroupName
 
-# deploy rose app and svc to AKS to
+# deploy rose app and svc to AKS
 $ns='geekready2022'
 # kubectl create namespace $ns
 kubectl apply -f rose-app-dep.yml -n $ns
+# kubectl delete deployment rose-app-dep -n $ns
 kubectl apply -f rose-app-svc.yml -n $ns
+# kubectl delete svc rose-app-svc -n $ns
 
 kubectl apply -f rose-app-int.yml -n $ns
+# kubectl delete svc rose-app-int -n $ns
 
 # deploy HPA
 kubectl apply -f rose-app-hpa-cpu.yml -n $ns
+kubectl get hpa rose-app-hpa-cpu -n $ns
+# kubectl delete hpa rose-app-hpa-cpu -n $ns
 
 # increase load
 # internal call - timeout
@@ -60,11 +67,11 @@ kubectl run -it load-generator --rm --image=busybox --restart=Never --namespace 
     -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://<IP>:2999; done"
 # using external
 kubectl run -it load-generator --rm --image=busybox --restart=Never --namespace $ns `
-    -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://20.53.196.76:2999/; done"
+    -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://<EXT_IP>:2999/; done"
 
 # using external, curl
 kubectl run -it load-generator --rm --image=busybox --restart=Never --namespace $ns `
-    -- /bin/sh -c "while sleep 0.01; do curl -L -v http://20.53.196.76:2999/  -A \"Mozilla/5.0 (compatible;  MSIE 7.01; Windows NT 5.0)\"; done"
+    -- /bin/sh -c "while sleep 0.01; do curl -L -v http://<EXT_IP>:2999/  -A \"Mozilla/5.0 (compatible;  MSIE 7.01; Windows NT 5.0)\"; done"
 
 # testing namespace
 tns='geekready2021-testing'
