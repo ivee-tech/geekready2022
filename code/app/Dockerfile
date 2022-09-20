@@ -1,25 +1,24 @@
-# specify the node base image with your desired version node:<version>
-FROM node:14
+FROM node:lts-alpine
 
-# set working directory
+# install simple http server for serving static content
+RUN npm install -g http-server
+
+# make the 'app' folder the current working directory
 WORKDIR /app
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
-# install app dependencies
-COPY package.json ./
-RUN npm install
+# copy both 'package.json' and 'package-lock.json' (if available)
+# COPY package*.json ./
 
-# add app
-COPY . ./
+# # install project dependencies
+# RUN npm install
 
-# run unit tests
-RUN npm run unit-test-ci
+# # copy project files and folders to the current working directory (i.e. 'app' folder)
+# COPY . .
 
-RUN chmod u=r .
+# # build app for production with minification
+# RUN npm run build
+
+COPY dist .
+# COPY root.html index.html
 EXPOSE 2999
-
-USER 1024
-
-# start app
-ENTRYPOINT [ "npm", "start" ]
+CMD [ "http-server", ".", "-p", "2999" ]

@@ -9,15 +9,17 @@ az acr login -n $acrName
 
 docker images
 
+npm run build
+
 # build and test local image
-docker build -t hello-geekready-2022:0.0.1 .
-docker run -it -p 2999:2999 hello-geekready-2022:0.0.1
+docker build -t hello-geekready-2022:0.0.3 .
+docker run -it -p 2999:2999 hello-geekready-2022:0.0.3
 # navigate to localhost:2999
 
 # push local image manually
 $imageName='hello-geekready-2022'
-$tag='0.0.1'
-$destTag='0.0.1'
+$tag='0.0.3'
+$destTag='0.0.3'
 $ns='geekready2022'
 $fullSrcImg = "$($imageName):$($tag)"
 $fullDestImg = "$loginServer/$ns/$($imageName):$($destTag)"
@@ -49,7 +51,10 @@ az aks get-credentials -n $aksName -g $resourceGroupName
 $ns='geekready2022'
 # kubectl create namespace $ns
 kubectl apply -f rose-app-dep.yml -n $ns
+# deploy v0.0.1
+kubectl apply -f rose-app-dep-001.yml -n $ns
 # kubectl delete deployment rose-app-dep -n $ns
+# deploy LoadBalancer, point to v0.0.1
 kubectl apply -f rose-app-svc.yml -n $ns
 # kubectl delete svc rose-app-svc -n $ns
 

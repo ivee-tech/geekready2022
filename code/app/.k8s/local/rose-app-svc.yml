@@ -9,5 +9,5 @@ spec:
   - port: 2999
     protocol: TCP
   selector:
-    app: rose-app
+    app: rose-app-001
   type: LoadBalancer

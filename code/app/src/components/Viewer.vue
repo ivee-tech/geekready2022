@@ -170,8 +170,8 @@ export default class Viewer extends Vue {
     this.userSvc = new lib.UserService();
     this.errorSvc = new lib.ErrorService();
     this.environment = new lib.Iv3dEnvironment();
-    this.environment.usersDataUrl = "assets/st-users";
-    this.environment.assetsRelUrl = 'assets/';
+    this.environment.usersDataUrl = process.env.BASE_URL + 'assets/st-users';
+    this.environment.assetsRelUrl = process.env.BASE_URL + 'assets/';
 
     this.objHandler = new lib.Iv3dObjectHandler(
       this.userSvc,

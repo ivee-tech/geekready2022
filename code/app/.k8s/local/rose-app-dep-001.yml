@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rose-app-dep
+  name: rose-app-dep-001
 spec:
   selector:
     matchLabels:
-      app: rose-app
+      app: rose-app-001
   replicas: 2
   template:
     metadata:
       labels:
-        app: rose-app
+        app: rose-app-001
     spec:
       containers:
-        - name: rose-app
-          image: zzacr.azurecr.io/geekready2022/hello-geekready-2022:0.0.3
+        - name: rose-app-001
+          image: zzacr.azurecr.io/geekready2022/hello-geekready-2022:0.0.1
           ports:
             - containerPort: 2999
               protocol: TCP

@@ -5,6 +5,7 @@ import * as TWEEN from 'tween.js';
 
 export class ViewerApp {
 
+    private baseUrl: string = process.env.BASE_URL;
     private w: lib.WglUtil = new lib.WglUtil();
     private dirLight;
     private pointLight;
@@ -90,6 +91,7 @@ export class ViewerApp {
         this.userSvc = new lib.UserService();
         this.errorSvc = new lib.ErrorService();
         this.environment = new lib.Iv3dEnvironment();
+        this.w.objModelCfg.srcDir = this.baseUrl + 'assets/models/';
         this.data = new lib.DataModel();
 
         this.objHandler = new lib.Iv3dObjectHandler(this.userSvc, this.errorSvc, this.environment);
