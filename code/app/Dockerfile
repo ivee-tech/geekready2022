@@ -1,4 +1,21 @@
-FROM node:lts-alpine
+FROM node:14 as build
+
+# set working directory
+WORKDIR /app
+
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+# install app dependencies
+COPY package.json ./
+RUN npm install
+
+# add app
+COPY . ./
+
+RUN npm run build
+
+
+FROM node:lts-alpine as final
 
 # install simple http server for serving static content
 RUN npm install -g http-server
@@ -6,19 +23,7 @@ RUN npm install -g http-server
 # make the 'app' folder the current working directory
 WORKDIR /app
 
-# copy both 'package.json' and 'package-lock.json' (if available)
-# COPY package*.json ./
+COPY --from=build /app/dist/. .
 
-# # install project dependencies
-# RUN npm install
-
-# # copy project files and folders to the current working directory (i.e. 'app' folder)
-# COPY . .
-
-# # build app for production with minification
-# RUN npm run build
-
-COPY dist .
-# COPY root.html index.html
 EXPOSE 2999
 CMD [ "http-server", ".", "-p", "2999" ]
