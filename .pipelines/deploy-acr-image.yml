@@ -14,8 +14,8 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '3d4e0708-a129-4408-becf-02abdb1c61bd'
-  imageRepository: 'geekready2021/hello-rose-world'
+  dockerRegistryServiceConnection: 'zzacr'
+  imageRepository: 'geekready2022/hello-geekready-2022'
   containerRegistry: 'zzacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: ${{ parameters.tag }} # '$(Build.BuildId)'
