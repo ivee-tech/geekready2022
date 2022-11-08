@@ -279,7 +279,7 @@ export class ViewerApp {
     }
     
     loadRoseModel(onLoaded, onLoadRoseProgress, onLoadRoseError) {
-        this.w.loadObjModel(null, "open-red-rose/red-white-rose.obj", "open-red-rose/texture_map_white_red.jpg", (object) => {
+        this.w.loadObjModel(null, "open-red-rose/red-white-rose.obj.data", "open-red-rose/texture_map_white_red.jpg", (object) => {
             if(onLoaded) { 
             }
             let scale = 17;

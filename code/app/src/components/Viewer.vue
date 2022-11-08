@@ -822,7 +822,7 @@ export default class Viewer extends Vue {
   ) {
     this.w.loadObjModel(
       null,
-      "open-red-rose/red-white-rose.obj",
+      "open-red-rose/red-white-rose.obj.data",
       "open-red-rose/texture_map_white_red.jpg",
       (object: any) => {
         const scale = 17;
