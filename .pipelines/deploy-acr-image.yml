@@ -66,3 +66,10 @@ stages:
         path: '$(Pipeline.Workspace)/a/results'
         artifactName: 'results'
         artifactType: 'pipeline'
+    - task: Docker@2
+      displayName: Push image
+      inputs:
+        command: push
+        repository: $(imageRepository)
+        tags: |
+          $(tag)
