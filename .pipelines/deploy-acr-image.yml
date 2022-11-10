@@ -60,4 +60,9 @@ stages:
     - task: PublishTestResults@2
       inputs:
         testResultsFormat: 'JUnit'
-        testResultsFiles: '$(Pipeline.Workspace)/a/results/*-results.xml'    
+        testResultsFiles: '$(Pipeline.Workspace)/a/results/*-results.xml'
+    - task: PublishPipelineArtifact@1
+      inputs:
+        path: '$(Pipeline.Workspace)/a/results'
+        artifactName: 'results'
+        artifactType: 'pipeline'
