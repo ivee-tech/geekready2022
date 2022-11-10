@@ -12,7 +12,7 @@ docker images
 npm run build
 
 # build and test local image
-docker build -t hello-geekready-2022:0.0.4 .
+docker build -t hello-geekready-2022:0.0.5 .
 docker run -it -p 2999:2999 hello-geekready-2022:0.0.4
 # navigate to localhost:2999
 
