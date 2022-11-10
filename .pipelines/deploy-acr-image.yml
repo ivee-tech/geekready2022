@@ -33,7 +33,7 @@ stages:
       vmImage: $(vmImageName)
     steps:
     - script: |
-        docker run -it -v /var/run/docker.sock:/var/run/docker.sock \
+        docker run -i -v /var/run/docker.sock:/var/run/docker.sock \
           -v $(Pipeline.Workspace)/s/code/app:/app/myapp daradu/trivy:0.34.0 \
           -v $(Pipeline.Workspace)/a/results:/app/results \
           config ./myapp --format template --template @contrib/junit.tpl --output ./results/config-results.xml
@@ -52,7 +52,7 @@ stages:
         tags: |
           $(tag)
     - script: |
-        docker run -it -v /var/run/docker.sock:/var/run/docker.sock \
+        docker run -i -v /var/run/docker.sock:/var/run/docker.sock \
           -v $(Pipeline.Workspace)/s/code/app:/app/myapp daradu/trivy:0.34.0 \
           -v $(Pipeline.Workspace)/a/results:/app/results \
           image $(imageRepository):$(tag) --format template --template @contrib/junit.tpl --output ./results/image-results.xml
