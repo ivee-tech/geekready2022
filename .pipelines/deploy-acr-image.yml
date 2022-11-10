@@ -57,7 +57,7 @@ stages:
            -v $(Pipeline.Workspace)/a/results:/app/results
           image $(imageRepository):$(tag) --format template --template @contrib/junit.tpl --output ./results/image-results.xml
       displayName: Scan image
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/*-results.xml'    
+    - task: PublishTestResults@2
+      inputs:
+        testResultsFormat: 'JUnit'
+        testResultsFiles: '**/*-results.xml'    
