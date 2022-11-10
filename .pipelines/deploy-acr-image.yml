@@ -55,8 +55,9 @@ stages:
         docker run -i -v /var/run/docker.sock:/var/run/docker.sock \
           -v $(Pipeline.Workspace)/a/results:/app/results \
            daradu/trivy:0.34.0 image $(containerRegistry)/$(imageRepository):$(tag) --format template --template @contrib/junit.tpl --output ./results/image-results.xml
+        ls $(Pipeline.Workspace)/a/results
       displayName: Scan image
     - task: PublishTestResults@2
       inputs:
         testResultsFormat: 'JUnit'
-        testResultsFiles: '**/*-results.xml'    
+        testResultsFiles: '$(Pipeline.Workspace)/a/results/*-results.xml'    
