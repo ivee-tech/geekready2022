@@ -53,9 +53,8 @@ stages:
           $(tag)
     - script: |
         docker run -i -v /var/run/docker.sock:/var/run/docker.sock \
-          -v $(Pipeline.Workspace)/s/code/app:/app/myapp \
           -v $(Pipeline.Workspace)/a/results:/app/results \
-           daradu/trivy:0.34.0 image $(imageRepository):$(tag) --format template --template @contrib/junit.tpl --output ./results/image-results.xml
+           daradu/trivy:0.34.0 image $(containerRegistry)/$(imageRepository):$(tag) --format template --template @contrib/junit.tpl --output ./results/image-results.xml
       displayName: Scan image
     - task: PublishTestResults@2
       inputs:
