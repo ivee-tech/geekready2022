@@ -29,25 +29,25 @@ stages:
                 containerRegistry: '$(containerRegistry)'
                 imageRepository: '$(imageRepository)'
                 imageTag: '$(imageTag)'
-  - stage: deploy_test
-    displayName: 'Deploy in test env'
-    dependsOn: deploy_dev
-    variables: 
-    - group: aks-deploy-test
-    jobs:
-    - deployment: Deploy
-      displayName: Deploy
-      pool:
-        vmImage: $(vmImageName)
-      # environment: 'geekready2022-test' # create env before use
-      strategy:
-        runOnce:
-          deploy:
-            steps:
-            - template: deploy-aks-app.steps.yml
-              parameters:
-                dockerRegistryServiceConnection: '$(dockerRegistryServiceConnection)'
-                imagePullSecret: '$(imagePullSecret)'
-                containerRegistry: '$(containerRegistry)'
-                imageRepository: '$(imageRepository)'
-                imageTag: '$(imageTag)'
+  # - stage: deploy_test
+  #   displayName: 'Deploy in test env'
+  #   dependsOn: deploy_dev
+  #   variables: 
+  #   - group: aks-deploy-test
+  #   jobs:
+  #   - deployment: Deploy
+  #     displayName: Deploy
+  #     pool:
+  #       vmImage: $(vmImageName)
+  #     environment: 'geekready2022-test'
+  #     strategy:
+  #       runOnce:
+  #         deploy:
+  #           steps:
+  #           - template: deploy-aks-app.steps.yml
+  #             parameters:
+  #               dockerRegistryServiceConnection: '$(dockerRegistryServiceConnection)'
+  #               imagePullSecret: '$(imagePullSecret)'
+  #               containerRegistry: '$(containerRegistry)'
+  #               imageRepository: '$(imageRepository)'
+  #               imageTag: '$(imageTag)'
