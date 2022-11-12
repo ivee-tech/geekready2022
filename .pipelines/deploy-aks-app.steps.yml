@@ -25,7 +25,7 @@ steps:
 
 - task: Tokenizer@0
   inputs:
-    sourceFilesPattern: '$(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-*.yml'
+    sourceFilesPattern: '$(Build.SourcesDirectory)/code/app/.k8s/pipeline/rose-app-*.yml'
     tokenDataSource: 'environmentVariables'
 
 - task: KubernetesManifest@0
@@ -33,9 +33,9 @@ steps:
   inputs:
     action: deploy
     manifests: |
-      $(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-dep.yml
-      $(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-svc.yml
-      $(Build.SourcesDirectory)/src/rose/k8s/pipeline/rose-app-hpa-cpu.yml
+      $(Build.SourcesDirectory)/code/app/.k8s/pipeline/rose-app-dep.yml
+      $(Build.SourcesDirectory)/code/app/.k8s/pipeline/rose-app-svc.yml
+      $(Build.SourcesDirectory)/code/app/.k8s/pipeline/rose-app-hpa-cpu.yml
     imagePullSecrets: |
       ${{ parameters.imagePullSecret }}
     containers: |
