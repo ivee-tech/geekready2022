@@ -7,6 +7,7 @@ resources:
 variables:
   vmImageName: 'ubuntu-latest'
   dockerRegistryServiceConnection: zzacr
+  kubernetesServiceConnection: 'geekready2022-dev-zz-dev-aks-geekready2022-1668222307916'
 
 stages:
   - stage: deploy_dev
@@ -30,6 +31,7 @@ stages:
                 containerRegistry: '$(containerRegistry)'
                 imageRepository: '$(imageRepository)'
                 imageTag: '$(imageTag)'
+                kubernetesServiceConnection: '$(kubernetesServiceConnection)'
   # - stage: deploy_test
   #   displayName: 'Deploy in test env'
   #   dependsOn: deploy_dev

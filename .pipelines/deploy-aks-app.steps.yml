@@ -10,6 +10,8 @@ parameters:
   type: string
 - name: containerRegistry
   type: string
+- name: kubernetesServiceConnection
+  type: string
 
 steps:
 - checkout: self
@@ -19,6 +21,7 @@ steps:
     action: createSecret
     secretName: '${{ parameters.imagePullSecret }}'
     dockerRegistryEndpoint: '${{ parameters.dockerRegistryServiceConnection }}'
+    kubernetesServiceConnection: '${{ parameters.kubernetesServiceConnection }}'
 
 - task: Tokenizer@0
   inputs:
@@ -37,3 +40,4 @@ steps:
       ${{ parameters.imagePullSecret }}
     containers: |
       ${{ parameters.containerRegistry }}/${{ parameters.imageRepository }}:${{ parameters.imageTag }}
+    kubernetesServiceConnection: '${{ parameters.kubernetesServiceConnection }}'
