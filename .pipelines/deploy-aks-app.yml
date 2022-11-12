@@ -39,7 +39,7 @@ stages:
       displayName: Deploy
       pool:
         vmImage: $(vmImageName)
-      environment: 'geekready2022-test'
+      # environment: 'geekready2022-test' # create env before use
       strategy:
         runOnce:
           deploy:
