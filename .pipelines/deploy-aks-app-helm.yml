@@ -13,7 +13,7 @@ steps:
 - task: HelmDeploy@0
   inputs:
     connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: 'Visual Studio Enterprise Subscription(62755989-1bb3-4d7b-8131-13e79f4bdc5f)'
+    azureSubscriptionEndpoint: 'VSE'
     azureResourceGroup: 'zz-dev'
     kubernetesCluster: 'zz-dev-aks'
     namespace: 'geekready2021'

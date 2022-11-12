@@ -17,7 +17,7 @@ stages:
       displayName: Deploy
       pool:
         vmImage: $(vmImageName)
-      environment: 'iveetechgeekready2021-dev.geekready2021'
+      environment: 'geekready2022-dev'
       strategy:
         runOnce:
           deploy:
@@ -39,7 +39,7 @@ stages:
       displayName: Deploy
       pool:
         vmImage: $(vmImageName)
-      environment: 'iveetechgeekready2021-test.geekready2021'
+      environment: 'geekready2022-test'
       strategy:
         runOnce:
           deploy:

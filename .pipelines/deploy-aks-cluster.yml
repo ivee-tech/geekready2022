@@ -10,8 +10,8 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Visual Studio Enterprise Subscription(62755989-1bb3-4d7b-8131-13e79f4bdc5f)'
-    subscriptionId: '62755989-1bb3-4d7b-8131-13e79f4bdc5f'
+    azureResourceManagerConnection: 'VSE'
+    subscriptionId: '***'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'zz-test'
     location: 'Australia Central'
