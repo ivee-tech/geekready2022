@@ -6,6 +6,7 @@ resources:
 
 variables:
   vmImageName: 'ubuntu-latest'
+  dockerRegistryServiceConnection: zzacr
 
 stages:
   - stage: deploy_dev
