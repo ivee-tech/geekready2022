@@ -51,15 +51,21 @@ az aks get-credentials -n $aksName -g $resourceGroupName
 $ns='geekready2022'
 # kubectl create namespace $ns
 kubectl apply -f rose-app-dep.yml -n $ns
-# deploy v0.0.1
+# deploy v0.0.1 - not working
 kubectl apply -f rose-app-dep-001.yml -n $ns
 # kubectl delete deployment rose-app-dep -n $ns
-# deploy LoadBalancer, point to v0.0.1
+# deploy LoadBalancer, point to v0.0.6
 kubectl apply -f rose-app-svc.yml -n $ns
 # kubectl delete svc rose-app-svc -n $ns
 
+# required for ingress
 kubectl apply -f rose-app-int.yml -n $ns
 # kubectl delete svc rose-app-int -n $ns
+
+# navigate to
+# ingress: https://zipzapp.tech/rose-app/#/
+# LoadBalancer: http://4.196.227.68:2999/#/
+
 
 # deploy HPA
 kubectl apply -f rose-app-hpa-cpu.yml -n $ns

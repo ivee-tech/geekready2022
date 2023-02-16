@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rose-app
-          image: zzacr.azurecr.io/geekready2022/hello-geekready-2022:0.0.3
+          image: zzacr.azurecr.io/geekready2022/hello-geekready-2022:0.0.6
           ports:
             - containerPort: 2999
               protocol: TCP
