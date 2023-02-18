@@ -1,6 +1,6 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/', // '/rose-app',
+    publicPath: '/rose-app', // '/rose-app', // '/'
     devServer: {
         disableHostCheck: true,
         // allowedHosts: ["all"],
